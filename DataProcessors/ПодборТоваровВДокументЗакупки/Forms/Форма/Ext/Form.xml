@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -489,12 +489,12 @@
 															</RowsPicture>
 															<CommandSet>
 																<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																<ExcludedCommand>Tree</ExcludedCommand>
-																<ExcludedCommand>List</ExcludedCommand>
+																<ExcludedCommand>LevelDown</ExcludedCommand>
 																<ExcludedCommand>LevelUp</ExcludedCommand>
+																<ExcludedCommand>List</ExcludedCommand>
 																<ExcludedCommand>ListSettings</ExcludedCommand>
 																<ExcludedCommand>MoveItem</ExcludedCommand>
-																<ExcludedCommand>LevelDown</ExcludedCommand>
+																<ExcludedCommand>Tree</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -792,15 +792,15 @@
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</RowsPicture>
 															<CommandSet>
+																<ExcludedCommand>Change</ExcludedCommand>
+																<ExcludedCommand>Choose</ExcludedCommand>
 																<ExcludedCommand>Copy</ExcludedCommand>
 																<ExcludedCommand>Create</ExcludedCommand>
-																<ExcludedCommand>ListSettings</ExcludedCommand>
-																<ExcludedCommand>Refresh</ExcludedCommand>
-																<ExcludedCommand>OutputList</ExcludedCommand>
-																<ExcludedCommand>Choose</ExcludedCommand>
-																<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																<ExcludedCommand>Change</ExcludedCommand>
 																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>ListSettings</ExcludedCommand>
+																<ExcludedCommand>OutputList</ExcludedCommand>
+																<ExcludedCommand>Refresh</ExcludedCommand>
+																<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -1114,15 +1114,15 @@
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</RowsPicture>
 															<CommandSet>
-																<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																<ExcludedCommand>Tree</ExcludedCommand>
-																<ExcludedCommand>List</ExcludedCommand>
-																<ExcludedCommand>LevelUp</ExcludedCommand>
-																<ExcludedCommand>ListSettings</ExcludedCommand>
-																<ExcludedCommand>MoveItem</ExcludedCommand>
 																<ExcludedCommand>CancelSearch</ExcludedCommand>
 																<ExcludedCommand>Find</ExcludedCommand>
+																<ExcludedCommand>HierarchicalList</ExcludedCommand>
 																<ExcludedCommand>LevelDown</ExcludedCommand>
+																<ExcludedCommand>LevelUp</ExcludedCommand>
+																<ExcludedCommand>List</ExcludedCommand>
+																<ExcludedCommand>ListSettings</ExcludedCommand>
+																<ExcludedCommand>MoveItem</ExcludedCommand>
+																<ExcludedCommand>Tree</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -1453,21 +1453,21 @@
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</RowsPicture>
 															<CommandSet>
+																<ExcludedCommand>CancelSearch</ExcludedCommand>
+																<ExcludedCommand>Change</ExcludedCommand>
+																<ExcludedCommand>Choose</ExcludedCommand>
 																<ExcludedCommand>Copy</ExcludedCommand>
 																<ExcludedCommand>Create</ExcludedCommand>
+																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+																<ExcludedCommand>Find</ExcludedCommand>
+																<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 																<ExcludedCommand>ListSettings</ExcludedCommand>
 																<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-																<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-																<ExcludedCommand>Refresh</ExcludedCommand>
-																<ExcludedCommand>CancelSearch</ExcludedCommand>
-																<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 																<ExcludedCommand>OutputList</ExcludedCommand>
-																<ExcludedCommand>Choose</ExcludedCommand>
+																<ExcludedCommand>Refresh</ExcludedCommand>
 																<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
 																<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																<ExcludedCommand>Change</ExcludedCommand>
-																<ExcludedCommand>Find</ExcludedCommand>
-																<ExcludedCommand>Delete</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -1854,24 +1854,24 @@
 															<DataPath>ИерархияНоменклатуры</DataPath>
 															<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
 															<CommandSet>
-																<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																<ExcludedCommand>Tree</ExcludedCommand>
+																<ExcludedCommand>CancelSearch</ExcludedCommand>
+																<ExcludedCommand>Change</ExcludedCommand>
+																<ExcludedCommand>Choose</ExcludedCommand>
 																<ExcludedCommand>Copy</ExcludedCommand>
-																<ExcludedCommand>List</ExcludedCommand>
-																<ExcludedCommand>LevelUp</ExcludedCommand>
+																<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 																<ExcludedCommand>Create</ExcludedCommand>
+																<ExcludedCommand>CreateFolder</ExcludedCommand>
+																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>Find</ExcludedCommand>
+																<ExcludedCommand>HierarchicalList</ExcludedCommand>
+																<ExcludedCommand>LevelDown</ExcludedCommand>
+																<ExcludedCommand>LevelUp</ExcludedCommand>
+																<ExcludedCommand>List</ExcludedCommand>
 																<ExcludedCommand>ListSettings</ExcludedCommand>
 																<ExcludedCommand>MoveItem</ExcludedCommand>
-																<ExcludedCommand>CancelSearch</ExcludedCommand>
 																<ExcludedCommand>OutputList</ExcludedCommand>
-																<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-																<ExcludedCommand>Choose</ExcludedCommand>
 																<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																<ExcludedCommand>Change</ExcludedCommand>
-																<ExcludedCommand>Find</ExcludedCommand>
-																<ExcludedCommand>CreateFolder</ExcludedCommand>
-																<ExcludedCommand>LevelDown</ExcludedCommand>
-																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>Tree</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -1970,22 +1970,22 @@
 															<DataPath>ВидыНоменклатуры</DataPath>
 															<RowPictureDataPath>ВидыНоменклатуры.DefaultPicture</RowPictureDataPath>
 															<CommandSet>
+																<ExcludedCommand>CancelSearch</ExcludedCommand>
+																<ExcludedCommand>Choose</ExcludedCommand>
+																<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+																<ExcludedCommand>Find</ExcludedCommand>
+																<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 																<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																<ExcludedCommand>Tree</ExcludedCommand>
 																<ExcludedCommand>List</ExcludedCommand>
 																<ExcludedCommand>ListSettings</ExcludedCommand>
 																<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-																<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-																<ExcludedCommand>Refresh</ExcludedCommand>
-																<ExcludedCommand>CancelSearch</ExcludedCommand>
-																<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 																<ExcludedCommand>OutputList</ExcludedCommand>
-																<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-																<ExcludedCommand>Choose</ExcludedCommand>
+																<ExcludedCommand>Refresh</ExcludedCommand>
 																<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-																<ExcludedCommand>Find</ExcludedCommand>
 																<ExcludedCommand>SearchHistory</ExcludedCommand>
-																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>Tree</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -2115,21 +2115,21 @@
 															<InitialTreeView>ExpandAllLevels</InitialTreeView>
 															<DataPath>ДеревоОтборов</DataPath>
 															<CommandSet>
-																<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																<ExcludedCommand>Tree</ExcludedCommand>
+																<ExcludedCommand>Add</ExcludedCommand>
+																<ExcludedCommand>Change</ExcludedCommand>
 																<ExcludedCommand>Copy</ExcludedCommand>
-																<ExcludedCommand>List</ExcludedCommand>
-																<ExcludedCommand>SortListAsc</ExcludedCommand>
-																<ExcludedCommand>MoveUp</ExcludedCommand>
-																<ExcludedCommand>OutputList</ExcludedCommand>
-																<ExcludedCommand>SelectAll</ExcludedCommand>
-																<ExcludedCommand>SortListDesc</ExcludedCommand>
 																<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 																<ExcludedCommand>Delete</ExcludedCommand>
 																<ExcludedCommand>EndEdit</ExcludedCommand>
-																<ExcludedCommand>Add</ExcludedCommand>
-																<ExcludedCommand>Change</ExcludedCommand>
+																<ExcludedCommand>HierarchicalList</ExcludedCommand>
+																<ExcludedCommand>List</ExcludedCommand>
 																<ExcludedCommand>MoveDown</ExcludedCommand>
+																<ExcludedCommand>MoveUp</ExcludedCommand>
+																<ExcludedCommand>OutputList</ExcludedCommand>
+																<ExcludedCommand>SelectAll</ExcludedCommand>
+																<ExcludedCommand>SortListAsc</ExcludedCommand>
+																<ExcludedCommand>SortListDesc</ExcludedCommand>
+																<ExcludedCommand>Tree</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -2247,20 +2247,20 @@
 															<DataPath>СписокКачества</DataPath>
 															<RowPictureDataPath>СписокКачества.Picture</RowPictureDataPath>
 															<CommandSet>
-																<ExcludedCommand>Copy</ExcludedCommand>
+																<ExcludedCommand>Add</ExcludedCommand>
+																<ExcludedCommand>Change</ExcludedCommand>
 																<ExcludedCommand>CheckAll</ExcludedCommand>
-																<ExcludedCommand>SortListAsc</ExcludedCommand>
-																<ExcludedCommand>MoveUp</ExcludedCommand>
-																<ExcludedCommand>UncheckAll</ExcludedCommand>
-																<ExcludedCommand>SelectAll</ExcludedCommand>
-																<ExcludedCommand>SortListDesc</ExcludedCommand>
-																<ExcludedCommand>Pickup</ExcludedCommand>
+																<ExcludedCommand>Copy</ExcludedCommand>
 																<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 																<ExcludedCommand>Delete</ExcludedCommand>
 																<ExcludedCommand>EndEdit</ExcludedCommand>
-																<ExcludedCommand>Add</ExcludedCommand>
-																<ExcludedCommand>Change</ExcludedCommand>
 																<ExcludedCommand>MoveDown</ExcludedCommand>
+																<ExcludedCommand>MoveUp</ExcludedCommand>
+																<ExcludedCommand>Pickup</ExcludedCommand>
+																<ExcludedCommand>SelectAll</ExcludedCommand>
+																<ExcludedCommand>SortListAsc</ExcludedCommand>
+																<ExcludedCommand>SortListDesc</ExcludedCommand>
+																<ExcludedCommand>UncheckAll</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -2550,26 +2550,25 @@
 															<SearchOnInput>Use</SearchOnInput>
 															<EnableStartDrag>true</EnableStartDrag>
 															<DataPath>СписокНоменклатураПоставщика</DataPath>
-															<RowPictureDataPath>24/62</RowPictureDataPath>
 															<RowsPicture>
 																<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</RowsPicture>
 															<CommandSet>
-																<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																<ExcludedCommand>Tree</ExcludedCommand>
 																<ExcludedCommand>Copy</ExcludedCommand>
-																<ExcludedCommand>List</ExcludedCommand>
-																<ExcludedCommand>LevelUp</ExcludedCommand>
 																<ExcludedCommand>Create</ExcludedCommand>
+																<ExcludedCommand>CreateFolder</ExcludedCommand>
+																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>HierarchicalList</ExcludedCommand>
+																<ExcludedCommand>LevelDown</ExcludedCommand>
+																<ExcludedCommand>LevelUp</ExcludedCommand>
+																<ExcludedCommand>List</ExcludedCommand>
 																<ExcludedCommand>ListSettings</ExcludedCommand>
 																<ExcludedCommand>MoveItem</ExcludedCommand>
-																<ExcludedCommand>Refresh</ExcludedCommand>
 																<ExcludedCommand>OutputList</ExcludedCommand>
+																<ExcludedCommand>Refresh</ExcludedCommand>
 																<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																<ExcludedCommand>CreateFolder</ExcludedCommand>
-																<ExcludedCommand>LevelDown</ExcludedCommand>
-																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>Tree</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -2707,7 +2706,6 @@
 																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1049"/>
 																</LabelField>
 																<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="855">
-																	<DataPath>24/27/304</DataPath>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2824,28 +2822,27 @@
 															<SearchOnInput>DontUse</SearchOnInput>
 															<EnableStartDrag>true</EnableStartDrag>
 															<DataPath>СписокНоменклатураПоставщика</DataPath>
-															<RowPictureDataPath>24/62</RowPictureDataPath>
 															<RowsPicture>
 																<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</RowsPicture>
 															<CommandSet>
-																<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																<ExcludedCommand>Tree</ExcludedCommand>
+																<ExcludedCommand>CancelSearch</ExcludedCommand>
 																<ExcludedCommand>Copy</ExcludedCommand>
-																<ExcludedCommand>List</ExcludedCommand>
-																<ExcludedCommand>LevelUp</ExcludedCommand>
 																<ExcludedCommand>Create</ExcludedCommand>
+																<ExcludedCommand>CreateFolder</ExcludedCommand>
+																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>Find</ExcludedCommand>
+																<ExcludedCommand>HierarchicalList</ExcludedCommand>
+																<ExcludedCommand>LevelDown</ExcludedCommand>
+																<ExcludedCommand>LevelUp</ExcludedCommand>
+																<ExcludedCommand>List</ExcludedCommand>
 																<ExcludedCommand>ListSettings</ExcludedCommand>
 																<ExcludedCommand>MoveItem</ExcludedCommand>
-																<ExcludedCommand>Refresh</ExcludedCommand>
-																<ExcludedCommand>CancelSearch</ExcludedCommand>
 																<ExcludedCommand>OutputList</ExcludedCommand>
+																<ExcludedCommand>Refresh</ExcludedCommand>
 																<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																<ExcludedCommand>Find</ExcludedCommand>
-																<ExcludedCommand>CreateFolder</ExcludedCommand>
-																<ExcludedCommand>LevelDown</ExcludedCommand>
-																<ExcludedCommand>Delete</ExcludedCommand>
+																<ExcludedCommand>Tree</ExcludedCommand>
 															</CommandSet>
 															<SearchStringLocation>None</SearchStringLocation>
 															<ViewStatusLocation>None</ViewStatusLocation>
@@ -2982,7 +2979,6 @@
 																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1068"/>
 																</LabelField>
 																<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="427">
-																	<DataPath>24/27/304</DataPath>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -3168,24 +3164,24 @@
 													<DataPath>ИерархияНоменклатурыПоставщика</DataPath>
 													<RowPictureDataPath>ИерархияНоменклатурыПоставщика.DefaultPicture</RowPictureDataPath>
 													<CommandSet>
-														<ExcludedCommand>HierarchicalList</ExcludedCommand>
-														<ExcludedCommand>Tree</ExcludedCommand>
+														<ExcludedCommand>CancelSearch</ExcludedCommand>
+														<ExcludedCommand>Change</ExcludedCommand>
+														<ExcludedCommand>Choose</ExcludedCommand>
 														<ExcludedCommand>Copy</ExcludedCommand>
-														<ExcludedCommand>List</ExcludedCommand>
-														<ExcludedCommand>LevelUp</ExcludedCommand>
+														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 														<ExcludedCommand>Create</ExcludedCommand>
+														<ExcludedCommand>CreateFolder</ExcludedCommand>
+														<ExcludedCommand>Delete</ExcludedCommand>
+														<ExcludedCommand>Find</ExcludedCommand>
+														<ExcludedCommand>HierarchicalList</ExcludedCommand>
+														<ExcludedCommand>LevelDown</ExcludedCommand>
+														<ExcludedCommand>LevelUp</ExcludedCommand>
+														<ExcludedCommand>List</ExcludedCommand>
 														<ExcludedCommand>ListSettings</ExcludedCommand>
 														<ExcludedCommand>MoveItem</ExcludedCommand>
-														<ExcludedCommand>CancelSearch</ExcludedCommand>
 														<ExcludedCommand>OutputList</ExcludedCommand>
-														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-														<ExcludedCommand>Choose</ExcludedCommand>
 														<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-														<ExcludedCommand>Change</ExcludedCommand>
-														<ExcludedCommand>Find</ExcludedCommand>
-														<ExcludedCommand>CreateFolder</ExcludedCommand>
-														<ExcludedCommand>LevelDown</ExcludedCommand>
-														<ExcludedCommand>Delete</ExcludedCommand>
+														<ExcludedCommand>Tree</ExcludedCommand>
 													</CommandSet>
 													<SearchStringLocation>None</SearchStringLocation>
 													<ViewStatusLocation>None</ViewStatusLocation>
@@ -3416,8 +3412,8 @@
 							<EnableDrag>true</EnableDrag>
 							<DataPath>Объект.Корзина</DataPath>
 							<CommandSet>
-								<ExcludedCommand>Copy</ExcludedCommand>
 								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
 							</CommandSet>
 							<SearchStringLocation>None</SearchStringLocation>
 							<ViewStatusLocation>None</ViewStatusLocation>
@@ -3664,23 +3660,19 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>СписокНоменклатура.ЭтоУслуга</Field>
-				<Field>СписокНоменклатура.ЭтоТовар</Field>
-				<Field>СписокНоменклатура.ЭтоГруппа</Field>
-				<Field>СписокНоменклатура.ХарактеристикиИспользуются</Field>
-				<Field>СписокНоменклатура.ТипНоменклатуры</Field>
-				<Field>СписокНоменклатура.Родитель</Field>
-				<Field>СписокНоменклатура.ПометкаУдаления</Field>
-				<Field>СписокНоменклатура.Ожидается</Field>
-				<Field>СписокНоменклатура.Номенклатура</Field>
-				<Field>СписокНоменклатура.Наименование</Field>
-				<Field>СписокНоменклатура.ИспользованиеХарактеристик</Field>
-				<Field>СписокНоменклатура.ВладелецХарактеристик</Field>
 				<Field>СписокНоменклатура.ВидНоменклатуры</Field>
-				<Field>11/74</Field>
-				<Field>11/72</Field>
-				<Field>11/71</Field>
-				<Field>11/2</Field>
+				<Field>СписокНоменклатура.ВладелецХарактеристик</Field>
+				<Field>СписокНоменклатура.ИспользованиеХарактеристик</Field>
+				<Field>СписокНоменклатура.Наименование</Field>
+				<Field>СписокНоменклатура.Номенклатура</Field>
+				<Field>СписокНоменклатура.Ожидается</Field>
+				<Field>СписокНоменклатура.ПометкаУдаления</Field>
+				<Field>СписокНоменклатура.Родитель</Field>
+				<Field>СписокНоменклатура.ТипНоменклатуры</Field>
+				<Field>СписокНоменклатура.ХарактеристикиИспользуются</Field>
+				<Field>СписокНоменклатура.ЭтоГруппа</Field>
+				<Field>СписокНоменклатура.ЭтоТовар</Field>
+				<Field>СписокНоменклатура.ЭтоУслуга</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -3742,17 +3734,13 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>СписокХарактеристики.ХарактеристикиИспользуются</Field>
-				<Field>СписокХарактеристики.Характеристика</Field>
-				<Field>СписокХарактеристики.ТипНоменклатуры</Field>
-				<Field>СписокХарактеристики.Ссылка</Field>
-				<Field>СписокХарактеристики.ПометкаУдаления</Field>
-				<Field>СписокХарактеристики.Номенклатура</Field>
 				<Field>СписокХарактеристики.ВладелецХарактеристик</Field>
-				<Field>12/46</Field>
-				<Field>12/31</Field>
-				<Field>12/29</Field>
-				<Field>12/2</Field>
+				<Field>СписокХарактеристики.Номенклатура</Field>
+				<Field>СписокХарактеристики.ПометкаУдаления</Field>
+				<Field>СписокХарактеристики.Ссылка</Field>
+				<Field>СписокХарактеристики.ТипНоменклатуры</Field>
+				<Field>СписокХарактеристики.Характеристика</Field>
+				<Field>СписокХарактеристики.ХарактеристикиИспользуются</Field>
 			</UseAlways>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьХарактеристикиНоменклатуры</Item>
@@ -3817,9 +3805,9 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>ИерархияНоменклатуры.Ref</Field>
-				<Field>ИерархияНоменклатуры.Parent</Field>
 				<Field>ИерархияНоменклатуры.Description</Field>
+				<Field>ИерархияНоменклатуры.Parent</Field>
+				<Field>ИерархияНоменклатуры.Ref</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
@@ -3853,8 +3841,8 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>ВидыНоменклатуры.Ref</Field>
 				<Field>ВидыНоменклатуры.IsFolder</Field>
+				<Field>ВидыНоменклатуры.Ref</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -3889,7 +3877,7 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>4/1</Field>
+				<Field>~СегментыНоменклатуры.СпособФормирования</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -4001,11 +3989,10 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>СписокНоменклатураПоставщика.ЭтоУслуга</Field>
-				<Field>СписокНоменклатураПоставщика.ЭтоТовар</Field>
-				<Field>СписокНоменклатураПоставщика.Родитель</Field>
 				<Field>СписокНоменклатураПоставщика.ПометкаУдаления</Field>
-				<Field>24/311</Field>
+				<Field>СписокНоменклатураПоставщика.Родитель</Field>
+				<Field>СписокНоменклатураПоставщика.ЭтоТовар</Field>
+				<Field>СписокНоменклатураПоставщика.ЭтоУслуга</Field>
 			</UseAlways>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьНоменклатуруПоставщиков</Item>
@@ -4903,9 +4890,9 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>ИерархияНоменклатурыПоставщика.Ref</Field>
-				<Field>ИерархияНоменклатурыПоставщика.Parent</Field>
 				<Field>ИерархияНоменклатурыПоставщика.Description</Field>
+				<Field>ИерархияНоменклатурыПоставщика.Parent</Field>
+				<Field>ИерархияНоменклатурыПоставщика.Ref</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
@@ -6009,7 +5996,7 @@
 			</Type>
 		</Parameter>
 	</Parameters>
-	<BaseForm version="2.3">
+	<BaseForm version="2.5">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -6496,12 +6483,12 @@
 																</RowsPicture>
 																<CommandSet>
 																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																	<ExcludedCommand>Tree</ExcludedCommand>
-																	<ExcludedCommand>List</ExcludedCommand>
+																	<ExcludedCommand>LevelDown</ExcludedCommand>
 																	<ExcludedCommand>LevelUp</ExcludedCommand>
+																	<ExcludedCommand>List</ExcludedCommand>
 																	<ExcludedCommand>ListSettings</ExcludedCommand>
 																	<ExcludedCommand>MoveItem</ExcludedCommand>
-																	<ExcludedCommand>LevelDown</ExcludedCommand>
+																	<ExcludedCommand>Tree</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -6799,15 +6786,15 @@
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</RowsPicture>
 																<CommandSet>
+																	<ExcludedCommand>Change</ExcludedCommand>
+																	<ExcludedCommand>Choose</ExcludedCommand>
 																	<ExcludedCommand>Copy</ExcludedCommand>
 																	<ExcludedCommand>Create</ExcludedCommand>
-																	<ExcludedCommand>ListSettings</ExcludedCommand>
-																	<ExcludedCommand>Refresh</ExcludedCommand>
-																	<ExcludedCommand>OutputList</ExcludedCommand>
-																	<ExcludedCommand>Choose</ExcludedCommand>
-																	<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																	<ExcludedCommand>Change</ExcludedCommand>
 																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>ListSettings</ExcludedCommand>
+																	<ExcludedCommand>OutputList</ExcludedCommand>
+																	<ExcludedCommand>Refresh</ExcludedCommand>
+																	<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -7121,15 +7108,15 @@
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</RowsPicture>
 																<CommandSet>
-																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																	<ExcludedCommand>Tree</ExcludedCommand>
-																	<ExcludedCommand>List</ExcludedCommand>
-																	<ExcludedCommand>LevelUp</ExcludedCommand>
-																	<ExcludedCommand>ListSettings</ExcludedCommand>
-																	<ExcludedCommand>MoveItem</ExcludedCommand>
 																	<ExcludedCommand>CancelSearch</ExcludedCommand>
 																	<ExcludedCommand>Find</ExcludedCommand>
+																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
 																	<ExcludedCommand>LevelDown</ExcludedCommand>
+																	<ExcludedCommand>LevelUp</ExcludedCommand>
+																	<ExcludedCommand>List</ExcludedCommand>
+																	<ExcludedCommand>ListSettings</ExcludedCommand>
+																	<ExcludedCommand>MoveItem</ExcludedCommand>
+																	<ExcludedCommand>Tree</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -7450,21 +7437,21 @@
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</RowsPicture>
 																<CommandSet>
+																	<ExcludedCommand>CancelSearch</ExcludedCommand>
+																	<ExcludedCommand>Change</ExcludedCommand>
+																	<ExcludedCommand>Choose</ExcludedCommand>
 																	<ExcludedCommand>Copy</ExcludedCommand>
 																	<ExcludedCommand>Create</ExcludedCommand>
+																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+																	<ExcludedCommand>Find</ExcludedCommand>
+																	<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 																	<ExcludedCommand>ListSettings</ExcludedCommand>
 																	<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-																	<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-																	<ExcludedCommand>Refresh</ExcludedCommand>
-																	<ExcludedCommand>CancelSearch</ExcludedCommand>
-																	<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 																	<ExcludedCommand>OutputList</ExcludedCommand>
-																	<ExcludedCommand>Choose</ExcludedCommand>
+																	<ExcludedCommand>Refresh</ExcludedCommand>
 																	<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
 																	<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																	<ExcludedCommand>Change</ExcludedCommand>
-																	<ExcludedCommand>Find</ExcludedCommand>
-																	<ExcludedCommand>Delete</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -7841,24 +7828,24 @@
 																<DataPath>ИерархияНоменклатуры</DataPath>
 																<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
 																<CommandSet>
-																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																	<ExcludedCommand>Tree</ExcludedCommand>
+																	<ExcludedCommand>CancelSearch</ExcludedCommand>
+																	<ExcludedCommand>Change</ExcludedCommand>
+																	<ExcludedCommand>Choose</ExcludedCommand>
 																	<ExcludedCommand>Copy</ExcludedCommand>
-																	<ExcludedCommand>List</ExcludedCommand>
-																	<ExcludedCommand>LevelUp</ExcludedCommand>
+																	<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 																	<ExcludedCommand>Create</ExcludedCommand>
+																	<ExcludedCommand>CreateFolder</ExcludedCommand>
+																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>Find</ExcludedCommand>
+																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
+																	<ExcludedCommand>LevelDown</ExcludedCommand>
+																	<ExcludedCommand>LevelUp</ExcludedCommand>
+																	<ExcludedCommand>List</ExcludedCommand>
 																	<ExcludedCommand>ListSettings</ExcludedCommand>
 																	<ExcludedCommand>MoveItem</ExcludedCommand>
-																	<ExcludedCommand>CancelSearch</ExcludedCommand>
 																	<ExcludedCommand>OutputList</ExcludedCommand>
-																	<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-																	<ExcludedCommand>Choose</ExcludedCommand>
 																	<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																	<ExcludedCommand>Change</ExcludedCommand>
-																	<ExcludedCommand>Find</ExcludedCommand>
-																	<ExcludedCommand>CreateFolder</ExcludedCommand>
-																	<ExcludedCommand>LevelDown</ExcludedCommand>
-																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>Tree</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -7954,22 +7941,22 @@
 																<DataPath>ВидыНоменклатуры</DataPath>
 																<RowPictureDataPath>ВидыНоменклатуры.DefaultPicture</RowPictureDataPath>
 																<CommandSet>
+																	<ExcludedCommand>CancelSearch</ExcludedCommand>
+																	<ExcludedCommand>Choose</ExcludedCommand>
+																	<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+																	<ExcludedCommand>Find</ExcludedCommand>
+																	<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																	<ExcludedCommand>Tree</ExcludedCommand>
 																	<ExcludedCommand>List</ExcludedCommand>
 																	<ExcludedCommand>ListSettings</ExcludedCommand>
 																	<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-																	<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-																	<ExcludedCommand>Refresh</ExcludedCommand>
-																	<ExcludedCommand>CancelSearch</ExcludedCommand>
-																	<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 																	<ExcludedCommand>OutputList</ExcludedCommand>
-																	<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-																	<ExcludedCommand>Choose</ExcludedCommand>
+																	<ExcludedCommand>Refresh</ExcludedCommand>
 																	<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-																	<ExcludedCommand>Find</ExcludedCommand>
 																	<ExcludedCommand>SearchHistory</ExcludedCommand>
-																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>Tree</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -8096,21 +8083,21 @@
 																<InitialTreeView>ExpandAllLevels</InitialTreeView>
 																<DataPath>ДеревоОтборов</DataPath>
 																<CommandSet>
-																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																	<ExcludedCommand>Tree</ExcludedCommand>
+																	<ExcludedCommand>Add</ExcludedCommand>
+																	<ExcludedCommand>Change</ExcludedCommand>
 																	<ExcludedCommand>Copy</ExcludedCommand>
-																	<ExcludedCommand>List</ExcludedCommand>
-																	<ExcludedCommand>SortListAsc</ExcludedCommand>
-																	<ExcludedCommand>MoveUp</ExcludedCommand>
-																	<ExcludedCommand>OutputList</ExcludedCommand>
-																	<ExcludedCommand>SelectAll</ExcludedCommand>
-																	<ExcludedCommand>SortListDesc</ExcludedCommand>
 																	<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 																	<ExcludedCommand>Delete</ExcludedCommand>
 																	<ExcludedCommand>EndEdit</ExcludedCommand>
-																	<ExcludedCommand>Add</ExcludedCommand>
-																	<ExcludedCommand>Change</ExcludedCommand>
+																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
+																	<ExcludedCommand>List</ExcludedCommand>
 																	<ExcludedCommand>MoveDown</ExcludedCommand>
+																	<ExcludedCommand>MoveUp</ExcludedCommand>
+																	<ExcludedCommand>OutputList</ExcludedCommand>
+																	<ExcludedCommand>SelectAll</ExcludedCommand>
+																	<ExcludedCommand>SortListAsc</ExcludedCommand>
+																	<ExcludedCommand>SortListDesc</ExcludedCommand>
+																	<ExcludedCommand>Tree</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -8228,20 +8215,20 @@
 																<DataPath>СписокКачества</DataPath>
 																<RowPictureDataPath>СписокКачества.Picture</RowPictureDataPath>
 																<CommandSet>
-																	<ExcludedCommand>Copy</ExcludedCommand>
+																	<ExcludedCommand>Add</ExcludedCommand>
+																	<ExcludedCommand>Change</ExcludedCommand>
 																	<ExcludedCommand>CheckAll</ExcludedCommand>
-																	<ExcludedCommand>SortListAsc</ExcludedCommand>
-																	<ExcludedCommand>MoveUp</ExcludedCommand>
-																	<ExcludedCommand>UncheckAll</ExcludedCommand>
-																	<ExcludedCommand>SelectAll</ExcludedCommand>
-																	<ExcludedCommand>SortListDesc</ExcludedCommand>
-																	<ExcludedCommand>Pickup</ExcludedCommand>
+																	<ExcludedCommand>Copy</ExcludedCommand>
 																	<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 																	<ExcludedCommand>Delete</ExcludedCommand>
 																	<ExcludedCommand>EndEdit</ExcludedCommand>
-																	<ExcludedCommand>Add</ExcludedCommand>
-																	<ExcludedCommand>Change</ExcludedCommand>
 																	<ExcludedCommand>MoveDown</ExcludedCommand>
+																	<ExcludedCommand>MoveUp</ExcludedCommand>
+																	<ExcludedCommand>Pickup</ExcludedCommand>
+																	<ExcludedCommand>SelectAll</ExcludedCommand>
+																	<ExcludedCommand>SortListAsc</ExcludedCommand>
+																	<ExcludedCommand>SortListDesc</ExcludedCommand>
+																	<ExcludedCommand>UncheckAll</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -8511,26 +8498,25 @@
 																<SearchOnInput>Use</SearchOnInput>
 																<EnableStartDrag>true</EnableStartDrag>
 																<DataPath>СписокНоменклатураПоставщика</DataPath>
-																<RowPictureDataPath>24/62</RowPictureDataPath>
 																<RowsPicture>
 																	<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</RowsPicture>
 																<CommandSet>
-																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																	<ExcludedCommand>Tree</ExcludedCommand>
 																	<ExcludedCommand>Copy</ExcludedCommand>
-																	<ExcludedCommand>List</ExcludedCommand>
-																	<ExcludedCommand>LevelUp</ExcludedCommand>
 																	<ExcludedCommand>Create</ExcludedCommand>
+																	<ExcludedCommand>CreateFolder</ExcludedCommand>
+																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
+																	<ExcludedCommand>LevelDown</ExcludedCommand>
+																	<ExcludedCommand>LevelUp</ExcludedCommand>
+																	<ExcludedCommand>List</ExcludedCommand>
 																	<ExcludedCommand>ListSettings</ExcludedCommand>
 																	<ExcludedCommand>MoveItem</ExcludedCommand>
-																	<ExcludedCommand>Refresh</ExcludedCommand>
 																	<ExcludedCommand>OutputList</ExcludedCommand>
+																	<ExcludedCommand>Refresh</ExcludedCommand>
 																	<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																	<ExcludedCommand>CreateFolder</ExcludedCommand>
-																	<ExcludedCommand>LevelDown</ExcludedCommand>
-																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>Tree</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -8668,7 +8654,6 @@
 																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1049"/>
 																	</LabelField>
 																	<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="855">
-																		<DataPath>24/27/304</DataPath>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8785,28 +8770,27 @@
 																<SearchOnInput>DontUse</SearchOnInput>
 																<EnableStartDrag>true</EnableStartDrag>
 																<DataPath>СписокНоменклатураПоставщика</DataPath>
-																<RowPictureDataPath>24/62</RowPictureDataPath>
 																<RowsPicture>
 																	<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</RowsPicture>
 																<CommandSet>
-																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
-																	<ExcludedCommand>Tree</ExcludedCommand>
+																	<ExcludedCommand>CancelSearch</ExcludedCommand>
 																	<ExcludedCommand>Copy</ExcludedCommand>
-																	<ExcludedCommand>List</ExcludedCommand>
-																	<ExcludedCommand>LevelUp</ExcludedCommand>
 																	<ExcludedCommand>Create</ExcludedCommand>
+																	<ExcludedCommand>CreateFolder</ExcludedCommand>
+																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>Find</ExcludedCommand>
+																	<ExcludedCommand>HierarchicalList</ExcludedCommand>
+																	<ExcludedCommand>LevelDown</ExcludedCommand>
+																	<ExcludedCommand>LevelUp</ExcludedCommand>
+																	<ExcludedCommand>List</ExcludedCommand>
 																	<ExcludedCommand>ListSettings</ExcludedCommand>
 																	<ExcludedCommand>MoveItem</ExcludedCommand>
-																	<ExcludedCommand>Refresh</ExcludedCommand>
-																	<ExcludedCommand>CancelSearch</ExcludedCommand>
 																	<ExcludedCommand>OutputList</ExcludedCommand>
+																	<ExcludedCommand>Refresh</ExcludedCommand>
 																	<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-																	<ExcludedCommand>Find</ExcludedCommand>
-																	<ExcludedCommand>CreateFolder</ExcludedCommand>
-																	<ExcludedCommand>LevelDown</ExcludedCommand>
-																	<ExcludedCommand>Delete</ExcludedCommand>
+																	<ExcludedCommand>Tree</ExcludedCommand>
 																</CommandSet>
 																<SearchStringLocation>None</SearchStringLocation>
 																<ViewStatusLocation>None</ViewStatusLocation>
@@ -8943,7 +8927,6 @@
 																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1068"/>
 																	</LabelField>
 																	<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="427">
-																		<DataPath>24/27/304</DataPath>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -9129,24 +9112,24 @@
 														<DataPath>ИерархияНоменклатурыПоставщика</DataPath>
 														<RowPictureDataPath>ИерархияНоменклатурыПоставщика.DefaultPicture</RowPictureDataPath>
 														<CommandSet>
-															<ExcludedCommand>HierarchicalList</ExcludedCommand>
-															<ExcludedCommand>Tree</ExcludedCommand>
+															<ExcludedCommand>CancelSearch</ExcludedCommand>
+															<ExcludedCommand>Change</ExcludedCommand>
+															<ExcludedCommand>Choose</ExcludedCommand>
 															<ExcludedCommand>Copy</ExcludedCommand>
-															<ExcludedCommand>List</ExcludedCommand>
-															<ExcludedCommand>LevelUp</ExcludedCommand>
+															<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 															<ExcludedCommand>Create</ExcludedCommand>
+															<ExcludedCommand>CreateFolder</ExcludedCommand>
+															<ExcludedCommand>Delete</ExcludedCommand>
+															<ExcludedCommand>Find</ExcludedCommand>
+															<ExcludedCommand>HierarchicalList</ExcludedCommand>
+															<ExcludedCommand>LevelDown</ExcludedCommand>
+															<ExcludedCommand>LevelUp</ExcludedCommand>
+															<ExcludedCommand>List</ExcludedCommand>
 															<ExcludedCommand>ListSettings</ExcludedCommand>
 															<ExcludedCommand>MoveItem</ExcludedCommand>
-															<ExcludedCommand>CancelSearch</ExcludedCommand>
 															<ExcludedCommand>OutputList</ExcludedCommand>
-															<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-															<ExcludedCommand>Choose</ExcludedCommand>
 															<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-															<ExcludedCommand>Change</ExcludedCommand>
-															<ExcludedCommand>Find</ExcludedCommand>
-															<ExcludedCommand>CreateFolder</ExcludedCommand>
-															<ExcludedCommand>LevelDown</ExcludedCommand>
-															<ExcludedCommand>Delete</ExcludedCommand>
+															<ExcludedCommand>Tree</ExcludedCommand>
 														</CommandSet>
 														<SearchStringLocation>None</SearchStringLocation>
 														<ViewStatusLocation>None</ViewStatusLocation>
@@ -9377,8 +9360,8 @@
 								<EnableDrag>true</EnableDrag>
 								<DataPath>Объект.Корзина</DataPath>
 								<CommandSet>
-									<ExcludedCommand>Copy</ExcludedCommand>
 									<ExcludedCommand>Add</ExcludedCommand>
+									<ExcludedCommand>Copy</ExcludedCommand>
 								</CommandSet>
 								<SearchStringLocation>None</SearchStringLocation>
 								<ViewStatusLocation>None</ViewStatusLocation>
@@ -9625,22 +9608,18 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>СписокНоменклатура.ЭтоУслуга</Field>
-					<Field>СписокНоменклатура.ЭтоТовар</Field>
-					<Field>СписокНоменклатура.ЭтоГруппа</Field>
-					<Field>СписокНоменклатура.ХарактеристикиИспользуются</Field>
-					<Field>СписокНоменклатура.ТипНоменклатуры</Field>
-					<Field>СписокНоменклатура.Родитель</Field>
-					<Field>СписокНоменклатура.ПометкаУдаления</Field>
-					<Field>СписокНоменклатура.Номенклатура</Field>
-					<Field>СписокНоменклатура.Наименование</Field>
-					<Field>СписокНоменклатура.ИспользованиеХарактеристик</Field>
-					<Field>СписокНоменклатура.ВладелецХарактеристик</Field>
 					<Field>СписокНоменклатура.ВидНоменклатуры</Field>
-					<Field>11/74</Field>
-					<Field>11/72</Field>
-					<Field>11/71</Field>
-					<Field>11/2</Field>
+					<Field>СписокНоменклатура.ВладелецХарактеристик</Field>
+					<Field>СписокНоменклатура.ИспользованиеХарактеристик</Field>
+					<Field>СписокНоменклатура.Наименование</Field>
+					<Field>СписокНоменклатура.Номенклатура</Field>
+					<Field>СписокНоменклатура.ПометкаУдаления</Field>
+					<Field>СписокНоменклатура.Родитель</Field>
+					<Field>СписокНоменклатура.ТипНоменклатуры</Field>
+					<Field>СписокНоменклатура.ХарактеристикиИспользуются</Field>
+					<Field>СписокНоменклатура.ЭтоГруппа</Field>
+					<Field>СписокНоменклатура.ЭтоТовар</Field>
+					<Field>СписокНоменклатура.ЭтоУслуга</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -9701,17 +9680,13 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>СписокХарактеристики.ХарактеристикиИспользуются</Field>
-					<Field>СписокХарактеристики.Характеристика</Field>
-					<Field>СписокХарактеристики.ТипНоменклатуры</Field>
-					<Field>СписокХарактеристики.Ссылка</Field>
-					<Field>СписокХарактеристики.ПометкаУдаления</Field>
-					<Field>СписокХарактеристики.Номенклатура</Field>
 					<Field>СписокХарактеристики.ВладелецХарактеристик</Field>
-					<Field>12/46</Field>
-					<Field>12/31</Field>
-					<Field>12/29</Field>
-					<Field>12/2</Field>
+					<Field>СписокХарактеристики.Номенклатура</Field>
+					<Field>СписокХарактеристики.ПометкаУдаления</Field>
+					<Field>СписокХарактеристики.Ссылка</Field>
+					<Field>СписокХарактеристики.ТипНоменклатуры</Field>
+					<Field>СписокХарактеристики.Характеристика</Field>
+					<Field>СписокХарактеристики.ХарактеристикиИспользуются</Field>
 				</UseAlways>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьХарактеристикиНоменклатуры</Item>
@@ -9776,9 +9751,9 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>ИерархияНоменклатуры.Ref</Field>
-					<Field>ИерархияНоменклатуры.Parent</Field>
 					<Field>ИерархияНоменклатуры.Description</Field>
+					<Field>ИерархияНоменклатуры.Parent</Field>
+					<Field>ИерархияНоменклатуры.Ref</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>false</ManualQuery>
@@ -9812,8 +9787,8 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>ВидыНоменклатуры.Ref</Field>
 					<Field>ВидыНоменклатуры.IsFolder</Field>
+					<Field>ВидыНоменклатуры.Ref</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -9848,7 +9823,7 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>4/1</Field>
+					<Field>~СегментыНоменклатуры.СпособФормирования</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -9960,11 +9935,10 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>СписокНоменклатураПоставщика.ЭтоУслуга</Field>
-					<Field>СписокНоменклатураПоставщика.ЭтоТовар</Field>
-					<Field>СписокНоменклатураПоставщика.Родитель</Field>
 					<Field>СписокНоменклатураПоставщика.ПометкаУдаления</Field>
-					<Field>24/311</Field>
+					<Field>СписокНоменклатураПоставщика.Родитель</Field>
+					<Field>СписокНоменклатураПоставщика.ЭтоТовар</Field>
+					<Field>СписокНоменклатураПоставщика.ЭтоУслуга</Field>
 				</UseAlways>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьНоменклатуруПоставщиков</Item>
@@ -10862,9 +10836,9 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>ИерархияНоменклатурыПоставщика.Ref</Field>
-					<Field>ИерархияНоменклатурыПоставщика.Parent</Field>
 					<Field>ИерархияНоменклатурыПоставщика.Description</Field>
+					<Field>ИерархияНоменклатурыПоставщика.Parent</Field>
+					<Field>ИерархияНоменклатурыПоставщика.Ref</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>false</ManualQuery>
