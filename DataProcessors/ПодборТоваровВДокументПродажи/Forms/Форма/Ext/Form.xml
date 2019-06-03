@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -304,6 +304,7 @@
 													<UseAlternationRowColor>true</UseAlternationRowColor>
 													<SearchOnInput>Use</SearchOnInput>
 													<EnableStartDrag>true</EnableStartDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>СписокНоменклатура</DataPath>
 													<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 													<RowsPicture>
@@ -603,6 +604,7 @@
 													<UseAlternationRowColor>true</UseAlternationRowColor>
 													<SearchOnInput>Use</SearchOnInput>
 													<EnableStartDrag>true</EnableStartDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>СписокХарактеристики</DataPath>
 													<RowPictureDataPath>СписокХарактеристики.ИндексКартинки</RowPictureDataPath>
 													<RowsPicture>
@@ -948,6 +950,7 @@
 													<UseAlternationRowColor>true</UseAlternationRowColor>
 													<SearchOnInput>DontUse</SearchOnInput>
 													<EnableStartDrag>true</EnableStartDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>СписокНоменклатура</DataPath>
 													<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 													<RowsPicture>
@@ -1299,6 +1302,7 @@
 													<UseAlternationRowColor>true</UseAlternationRowColor>
 													<SearchOnInput>DontUse</SearchOnInput>
 													<EnableStartDrag>true</EnableStartDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>СписокХарактеристики</DataPath>
 													<RowPictureDataPath>СписокХарактеристики.ИндексКартинки</RowPictureDataPath>
 													<RowsPicture>
@@ -1552,6 +1556,7 @@
 									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<InitialTreeView>ExpandAllLevels</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ОстаткиТоваров</DataPath>
 									<Title>
 										<v8:item>
@@ -1763,6 +1768,7 @@
 													<InitialTreeView>ExpandTopLevel</InitialTreeView>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>ИерархияНоменклатуры</DataPath>
 													<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
 													<Title>
@@ -1898,6 +1904,7 @@
 													<UseAlternationRowColor>true</UseAlternationRowColor>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>ВидыНоменклатуры</DataPath>
 													<RowPictureDataPath>ВидыНоменклатуры.DefaultPicture</RowPictureDataPath>
 													<Title>
@@ -2045,6 +2052,7 @@
 													<VerticalLines>false</VerticalLines>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<InitialTreeView>ExpandAllLevels</InitialTreeView>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>ДеревоОтборов</DataPath>
 													<Title>
 														<v8:item>
@@ -2153,6 +2161,7 @@
 													<ChangeRowSet>false</ChangeRowSet>
 													<ChangeRowOrder>false</ChangeRowOrder>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>ТаблицаНоменклатураПродаваемаяСовместноПредпосылка</DataPath>
 													<Title>
 														<v8:item>
@@ -2270,6 +2279,7 @@
 													<ChangeRowSet>false</ChangeRowSet>
 													<Header>false</Header>
 													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>СписокКачества</DataPath>
 													<RowPictureDataPath>СписокКачества.Picture</RowPictureDataPath>
 													<Title>
@@ -2532,6 +2542,7 @@
 							<SkipOnInput>false</SkipOnInput>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Корзина</DataPath>
 							<Title>
 								<v8:item>
@@ -2678,6 +2689,7 @@
 										<xr:Ref>CommonPicture.СостояниеНоменклатурыПродаваемойСовместно</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</ValuesPicture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КорзинаИндексСовместноПродаваемыеТоварыКонтекстноеМеню" id="631"/>
 									<ExtendedTooltip name="КорзинаИндексСовместноПродаваемыеТоварыExtendedTooltip" id="944"/>
 								</PictureField>
@@ -2716,6 +2728,7 @@
 										<xr:Ref>CommonPicture.Наборы</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</ValuesPicture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КорзинаИндексНабораКонтекстноеМеню" id="974"/>
 									<ExtendedTooltip name="КорзинаИндексНабораРасширеннаяПодсказка" id="975"/>
 								</PictureField>
@@ -5883,7 +5896,7 @@
 			</Type>
 		</Parameter>
 	</Parameters>
-	<BaseForm version="2.6">
+	<BaseForm version="2.7">
 		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
@@ -6186,6 +6199,7 @@
 														<UseAlternationRowColor>true</UseAlternationRowColor>
 														<SearchOnInput>Use</SearchOnInput>
 														<EnableStartDrag>true</EnableStartDrag>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>СписокНоменклатура</DataPath>
 														<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 														<RowsPicture>
@@ -6485,6 +6499,7 @@
 														<UseAlternationRowColor>true</UseAlternationRowColor>
 														<SearchOnInput>Use</SearchOnInput>
 														<EnableStartDrag>true</EnableStartDrag>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>СписокХарактеристики</DataPath>
 														<RowPictureDataPath>СписокХарактеристики.ИндексКартинки</RowPictureDataPath>
 														<RowsPicture>
@@ -6830,6 +6845,7 @@
 														<UseAlternationRowColor>true</UseAlternationRowColor>
 														<SearchOnInput>DontUse</SearchOnInput>
 														<EnableStartDrag>true</EnableStartDrag>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>СписокНоменклатура</DataPath>
 														<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 														<RowsPicture>
@@ -7171,6 +7187,7 @@
 														<UseAlternationRowColor>true</UseAlternationRowColor>
 														<SearchOnInput>DontUse</SearchOnInput>
 														<EnableStartDrag>true</EnableStartDrag>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>СписокХарактеристики</DataPath>
 														<RowPictureDataPath>СписокХарактеристики.ИндексКартинки</RowPictureDataPath>
 														<RowsPicture>
@@ -7424,6 +7441,7 @@
 										<UseAlternationRowColor>true</UseAlternationRowColor>
 										<InitialTreeView>ExpandAllLevels</InitialTreeView>
 										<EnableStartDrag>true</EnableStartDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>ОстаткиТоваров</DataPath>
 										<Title>
 											<v8:item>
@@ -7629,6 +7647,7 @@
 														<InitialTreeView>ExpandTopLevel</InitialTreeView>
 														<EnableStartDrag>true</EnableStartDrag>
 														<EnableDrag>true</EnableDrag>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>ИерархияНоменклатуры</DataPath>
 														<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
 														<Title>
@@ -7761,6 +7780,7 @@
 														<UseAlternationRowColor>true</UseAlternationRowColor>
 														<EnableStartDrag>true</EnableStartDrag>
 														<EnableDrag>true</EnableDrag>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>ВидыНоменклатуры</DataPath>
 														<RowPictureDataPath>ВидыНоменклатуры.DefaultPicture</RowPictureDataPath>
 														<Title>
@@ -7905,6 +7925,7 @@
 														<VerticalLines>false</VerticalLines>
 														<AutoInsertNewRow>true</AutoInsertNewRow>
 														<InitialTreeView>ExpandAllLevels</InitialTreeView>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>ДеревоОтборов</DataPath>
 														<Title>
 															<v8:item>
@@ -8013,6 +8034,7 @@
 														<ChangeRowSet>false</ChangeRowSet>
 														<ChangeRowOrder>false</ChangeRowOrder>
 														<AutoInsertNewRow>true</AutoInsertNewRow>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>ТаблицаНоменклатураПродаваемаяСовместноПредпосылка</DataPath>
 														<Title>
 															<v8:item>
@@ -8130,6 +8152,7 @@
 														<ChangeRowSet>false</ChangeRowSet>
 														<Header>false</Header>
 														<UseAlternationRowColor>true</UseAlternationRowColor>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>СписокКачества</DataPath>
 														<RowPictureDataPath>СписокКачества.Picture</RowPictureDataPath>
 														<Title>
@@ -8363,6 +8386,7 @@
 								<SkipOnInput>false</SkipOnInput>
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Объект.Корзина</DataPath>
 								<Title>
 									<v8:item>
@@ -8509,6 +8533,7 @@
 											<xr:Ref>CommonPicture.СостояниеНоменклатурыПродаваемойСовместно</xr:Ref>
 											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</ValuesPicture>
+										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КорзинаИндексСовместноПродаваемыеТоварыКонтекстноеМеню" id="631"/>
 										<ExtendedTooltip name="КорзинаИндексСовместноПродаваемыеТоварыExtendedTooltip" id="944"/>
 									</PictureField>
@@ -8547,6 +8572,7 @@
 											<xr:Ref>CommonPicture.Наборы</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</ValuesPicture>
+										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КорзинаИндексНабораКонтекстноеМеню" id="974"/>
 										<ExtendedTooltip name="КорзинаИндексНабораРасширеннаяПодсказка" id="975"/>
 									</PictureField>
