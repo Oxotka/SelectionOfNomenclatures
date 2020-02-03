@@ -1,25 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
-	<Enum uuid="8a1f4483-72f6-4c79-9226-7479c6ad2abd">
+	<DefinedType uuid="13466c2a-28a1-4e08-afcb-ced93a6d540e">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ТипыНалогообложенияНДС" category="Ref">
-				<xr:TypeId>688d6cea-f09c-4ce2-859f-0d3830ebbab4</xr:TypeId>
-				<xr:ValueId>7b2bf582-8980-4a64-b50b-0d9086998bcc</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ТипыНалогообложенияНДС" category="Manager">
-				<xr:TypeId>f7d8ad7e-dc1d-4cd4-967a-9c3f646ec646</xr:TypeId>
-				<xr:ValueId>bac275fa-ef8c-4480-9fe1-e97154f36b34</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ТипыНалогообложенияНДС" category="List">
-				<xr:TypeId>59babd7e-3270-45d3-96dd-19f0ff792074</xr:TypeId>
-				<xr:ValueId>ba0edd10-3d71-4502-9583-062c9e179285</xr:ValueId>
+			<xr:GeneratedType name="DefinedType.ДенежнаяСуммаНеотрицательная" category="DefinedType">
+				<xr:TypeId>b89b5838-d181-4bd4-9952-a7d795aacf9a</xr:TypeId>
+				<xr:ValueId>14aca1ef-0712-4944-baf1-2a703f3aed1e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТипыНалогообложенияНДС</Name>
+			<Name>ДенежнаяСуммаНеотрицательная</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>0b05e754-f64b-4976-b0f1-12c84b509997</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
-	</Enum>
+	</DefinedType>
 </MetaDataObject>

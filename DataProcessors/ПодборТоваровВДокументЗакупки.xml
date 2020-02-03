@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<DataProcessor uuid="46d9ead0-2baf-4bb6-a0f1-071efe239404">
 		<InternalInfo>
 			<xr:GeneratedType name="DataProcessorObject.ПодборТоваровВДокументЗакупки" category="Object">
@@ -13,12 +13,15 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ПодборТоваровВДокументЗакупки</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="28a1e210-8ca5-4eac-a445-3442a161cfba">
+				<InternalInfo/>
 				<Properties>
 					<Name>Партнер</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
@@ -26,8 +29,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="ee4787a7-4c59-4a70-98ad-4515f3d0c207">
+				<InternalInfo/>
 				<Properties>
 					<Name>ЦенаВключаетНДС</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -47,73 +52,139 @@
 				</InternalInfo>
 				<Properties>
 					<Name>Корзина</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="e05e9106-0abe-459b-9740-4a16935d682e">
+						<InternalInfo/>
 						<Properties>
 							<Name>Склад</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="1dd1d7c0-1f0f-4a55-96b4-f8e9d136aef9">
+						<InternalInfo/>
 						<Properties>
 							<Name>НоменклатураПоставщика</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.НоменклатураПоставщиков</v8:Type>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="9c6733c9-c6f9-4b2c-abea-0454b7a8f0d3">
+						<InternalInfo/>
 						<Properties>
 							<Name>ВидЦеныПоставщика</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ВидыЦенПоставщиков</v8:Type>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="7ead0262-6595-464b-837a-9ee61c17fa71">
+						<InternalInfo/>
 						<Properties>
 							<Name>Сумма</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="31c87754-cb69-4a01-9c45-37dcd8c3a0fa">
+						<InternalInfo/>
 						<Properties>
 							<Name>СуммаРучнойСкидки</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="913323df-90cd-461f-8af9-241de36a01dc">
+						<InternalInfo/>
 						<Properties>
 							<Name>ПроцентРучнойСкидки</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="6c6c0158-3eeb-4134-87d5-a657d8e4a544">
+						<InternalInfo/>
 						<Properties>
 							<Name>Номенклатура</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="8a884f8a-672d-4c86-a693-3ea04f256500">
+						<InternalInfo/>
 						<Properties>
 							<Name>Цена</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="44ddc426-4212-4207-8664-06b362d7adb7">
+						<InternalInfo/>
 						<Properties>
 							<Name>Характеристика</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="6d4170da-f733-48c9-aed9-0d8547487d6a">
+						<InternalInfo/>
 						<Properties>
 							<Name>КоличествоУпаковок</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="a4a92f95-fbe1-4ef2-ad89-522249282027">
+						<InternalInfo/>
 						<Properties>
 							<Name>Упаковка</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+							</Type>
 						</Properties>
 					</Attribute>
 				</ChildObjects>
