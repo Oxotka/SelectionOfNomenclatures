@@ -5,7 +5,8 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnCreateAtServer" callType="Override">ПодборТоваров_ПриСозданииНаСервереПосле</Event>
+		<Event name="OnCreateAtServer" callType="Before">Расш_ПриСозданииНаСервереПеред</Event>
+		<Event name="OnCreateAtServer" callType="After">ПодборТоваров_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаКоманднаяПанельФормы" id="657">
