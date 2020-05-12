@@ -121,7 +121,9 @@
 						</Page>
 					</ChildItems>
 				</Pages>
-				<LabelDecoration name="Декорация" id="384">
+				<LabelDecoration name="ДекорацияПодакцизныйТовар" id="1250">
+					<Visible>false</Visible>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<TextColor>style:ПоясняющийТекст</TextColor>
 					<Title formatted="false">
 						<v8:item>
@@ -130,8 +132,8 @@
 						</v8:item>
 					</Title>
 					<TitleHeight>1</TitleHeight>
-					<ContextMenu name="ДекорацияКонтекстноеМеню" id="385"/>
-					<ExtendedTooltip name="ДекорацияExtendedTooltip" id="937"/>
+					<ContextMenu name="ДекорацияПодакцизныйТоварКонтекстноеМеню" id="1253"/>
+					<ExtendedTooltip name="ДекорацияПодакцизныйТоварРасширеннаяПодсказка" id="1254"/>
 				</LabelDecoration>
 				<CommandBar name="ГруппаКоманднаяПанель" id="1214">
 					<Title>
@@ -326,7 +328,6 @@
 														<ExcludedCommand>LevelUp</ExcludedCommand>
 														<ExcludedCommand>List</ExcludedCommand>
 														<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-														<ExcludedCommand>MoveItem</ExcludedCommand>
 														<ExcludedCommand>OutputList</ExcludedCommand>
 														<ExcludedCommand>Refresh</ExcludedCommand>
 														<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
@@ -431,7 +432,7 @@
 																</Title>
 																<Picture>
 																	<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</Picture>
 																<Representation>Picture</Representation>
 																<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="1237"/>
@@ -511,7 +512,7 @@
 															<Format>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+																	<v8:content>ЧДЦ=2</v8:content>
 																</v8:item>
 															</Format>
 															<ContextMenu name="СписокСтандартныйПоискНоменклатураЦенаКонтекстноеМеню" id="547"/>
@@ -538,6 +539,11 @@
 															</Title>
 															<ContextMenu name="СписокСтандартныйПоискНоменклатураДоступноКонтекстноеМеню" id="587"/>
 															<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураДоступноExtendedTooltip" id="820"/>
+														</LabelField>
+														<LabelField name="СписокСтандартныйПоискНоменклатураОжидается" id="1255">
+															<DataPath>СписокНоменклатура.Ожидается</DataPath>
+															<ContextMenu name="СписокСтандартныйПоискНоменклатураОжидаетсяКонтекстноеМеню" id="1256"/>
+															<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураОжидаетсяРасширеннаяПодсказка" id="1257"/>
 														</LabelField>
 														<ColumnGroup name="СписокСтандартныйПоискНоменклатураУпаковкаЕдиницаИзмерения" id="566">
 															<Title>
@@ -621,17 +627,12 @@
 													</Title>
 													<CommandSet>
 														<ExcludedCommand>Change</ExcludedCommand>
-														<ExcludedCommand>Choose</ExcludedCommand>
-														<ExcludedCommand>Copy</ExcludedCommand>
-														<ExcludedCommand>Create</ExcludedCommand>
-														<ExcludedCommand>Delete</ExcludedCommand>
 														<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
 														<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 														<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
 														<ExcludedCommand>OutputList</ExcludedCommand>
 														<ExcludedCommand>Refresh</ExcludedCommand>
 														<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-														<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 													</CommandSet>
 													<AutoRefresh>true</AutoRefresh>
 													<AutoRefreshPeriod>60</AutoRefreshPeriod>
@@ -756,7 +757,7 @@
 															<Format>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+																	<v8:content>ЧДЦ=2</v8:content>
 																</v8:item>
 															</Format>
 															<ContextMenu name="СписокСтандартныйПоискХарактеристикиЦенаКонтекстноеМеню" id="555"/>
@@ -924,7 +925,7 @@
 																	</Title>
 																	<Picture>
 																		<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-																		<xr:LoadTransparent>true</xr:LoadTransparent>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
 																	</Picture>
 																	<Representation>Picture</Representation>
 																	<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="1241"/>
@@ -1116,7 +1117,7 @@
 															<Format>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+																	<v8:content>ЧДЦ=2</v8:content>
 																</v8:item>
 															</Format>
 															<ContextMenu name="СписокРасширенныйПоискНоменклатураЦенаКонтекстноеМеню" id="742"/>
@@ -1318,10 +1319,6 @@
 													<CommandSet>
 														<ExcludedCommand>CancelSearch</ExcludedCommand>
 														<ExcludedCommand>Change</ExcludedCommand>
-														<ExcludedCommand>Choose</ExcludedCommand>
-														<ExcludedCommand>Copy</ExcludedCommand>
-														<ExcludedCommand>Create</ExcludedCommand>
-														<ExcludedCommand>Delete</ExcludedCommand>
 														<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
 														<ExcludedCommand>Find</ExcludedCommand>
 														<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
@@ -1329,7 +1326,6 @@
 														<ExcludedCommand>OutputList</ExcludedCommand>
 														<ExcludedCommand>Refresh</ExcludedCommand>
 														<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-														<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 													</CommandSet>
 													<AutoRefresh>true</AutoRefresh>
 													<AutoRefreshPeriod>59</AutoRefreshPeriod>
@@ -1447,7 +1443,7 @@
 															<Format>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+																	<v8:content>ЧДЦ=2</v8:content>
 																</v8:item>
 															</Format>
 															<ContextMenu name="СписокРасширенныйПоискХарактеристикиЦенаКонтекстноеМеню" id="719"/>
@@ -1552,7 +1548,6 @@
 									<ReadOnly>true</ReadOnly>
 									<ChangeRowSet>false</ChangeRowSet>
 									<ChangeRowOrder>false</ChangeRowOrder>
-									<Height>1</Height>
 									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<InitialTreeView>ExpandAllLevels</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
@@ -1733,7 +1728,7 @@
 													<CommandName>Form.Command.ИзменитьВариантНавигации</CommandName>
 													<Picture>
 														<xr:Ref>CommonPicture.ПрочиеПользовательскиеНастройки</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
 													<ExtendedTooltip name="ИзменитьВариантНавигацииРасширеннаяПодсказка" id="1094"/>
 												</Button>
@@ -1780,7 +1775,6 @@
 													</Title>
 													<CommandSet>
 														<ExcludedCommand>CancelSearch</ExcludedCommand>
-														<ExcludedCommand>Choose</ExcludedCommand>
 														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 														<ExcludedCommand>Delete</ExcludedCommand>
 														<ExcludedCommand>Find</ExcludedCommand>
@@ -1916,7 +1910,6 @@
 													</Title>
 													<CommandSet>
 														<ExcludedCommand>CancelSearch</ExcludedCommand>
-														<ExcludedCommand>Choose</ExcludedCommand>
 														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 														<ExcludedCommand>Delete</ExcludedCommand>
 														<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
@@ -2283,7 +2276,6 @@
 													<UseAlternationRowColor>true</UseAlternationRowColor>
 													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>СписокКачества</DataPath>
-													<RowPictureDataPath>1000051/1000032</RowPictureDataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2692,7 +2684,6 @@
 											<ExtendedTooltip name="КорзинаНомерСтрокиExtendedTooltip" id="943"/>
 										</LabelField>
 										<PictureField name="КорзинаИндексСовместноПродаваемыеТовары" id="630">
-											<DataPath>Объект.Корзина.ИндексСовместноПродаваемыеТовары</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>None</TitleLocation>
 											<ToolTip>
@@ -2738,16 +2729,15 @@
 											<ExtendedTooltip name="КорзинаАртикулРасширеннаяПодсказка" id="1156"/>
 										</InputField>
 										<PictureField name="КорзинаИндексНабора" id="973">
-											<DataPath>Объект.Корзина.ИндексНабора</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<HeaderPicture>
 												<xr:Ref>CommonPicture.Набор</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</HeaderPicture>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.Наборы</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</ValuesPicture>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="КорзинаИндексНабораКонтекстноеМеню" id="974"/>
@@ -2984,205 +2974,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Columns>
-				<AdditionalColumns table="Объект.Корзина">
-					<Column name="ХарактеристикиИспользуются" id="1">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Характеристики используются</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:boolean</v8:Type>
-						</Type>
-						<FunctionalOptions>
-							<Item>FunctionalOption.ИспользоватьНаборы</Item>
-						</FunctionalOptions>
-					</Column>
-					<Column name="ИндексСовместноПродаваемыеТовары" id="2">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Индекс совместно продаваемые товары</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>10</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-						<FunctionalOptions>
-							<Item>FunctionalOption.ИспользоватьНаборы</Item>
-						</FunctionalOptions>
-					</Column>
-					<Column name="ИндексНабора" id="3">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Индекс набора</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>10</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-						<FunctionalOptions>
-							<Item>FunctionalOption.ИспользоватьНаборы</Item>
-						</FunctionalOptions>
-					</Column>
-					<Column name="СтатусУказанияСерий" id="4">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Статус указания серий</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>10</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="ТипНоменклатуры" id="5">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Тип номенклатуры</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
-						</Type>
-					</Column>
-					<Column name="СуммаАвтоматическойСкидки" id="6">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма автоматической скидки</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="ПроцентАвтоматическойСкидки" id="7">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Процент автоматической скидки</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>5</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="СуммаНДС" id="8">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма НДС</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="СуммаВзаиморасчетов" id="9">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма взаиморасчетов</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="СтавкаНДС" id="10">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Ставка НДС</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>5</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="СуммаСНДС" id="11">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сумма НДС</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>15</v8:Digits>
-								<v8:FractionDigits>2</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="ПроизводитсяВПроцессе" id="12">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Производится в процессе</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:boolean</v8:Type>
-						</Type>
-					</Column>
-					<Column name="ЗаказатьНаСклад" id="13">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Заказать на склад</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:boolean</v8:Type>
-						</Type>
-					</Column>
-				</AdditionalColumns>
+				<AdditionalColumns table="Объект.Корзина"/>
 			</Columns>
 		</Attribute>
 		<Attribute name="СписокНоменклатура" id="1000002">
@@ -3203,6 +2995,7 @@
 				<Field>СписокНоменклатура.ИспользованиеХарактеристик</Field>
 				<Field>СписокНоменклатура.Наименование</Field>
 				<Field>СписокНоменклатура.Номенклатура</Field>
+				<Field>СписокНоменклатура.Ожидается</Field>
 				<Field>СписокНоменклатура.ПометкаУдаления</Field>
 				<Field>СписокНоменклатура.Родитель</Field>
 				<Field>СписокНоменклатура.СодержитТовары</Field>
@@ -3538,6 +3331,7 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="Дата" id="1000019">
 			<Title>
@@ -4502,6 +4296,7 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="НоменклатураИсходногоКачества" id="1000052">
 			<Title>
@@ -4718,6 +4513,7 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="ИспользоватьСоглашенияСКлиентами" id="1000071">
 			<Title>
@@ -5592,7 +5388,7 @@
 			</ToolTip>
 			<Picture>
 				<xr:Ref>CommonPicture.Набор</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьНаборы</Item>
@@ -5739,9 +5535,6 @@
 					<v8:content>Отменить ручные скидки</v8:content>
 				</v8:item>
 			</ToolTip>
-			<FunctionalOptions>
-				<Item/>
-			</FunctionalOptions>
 			<Representation>TextPicture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -6081,7 +5874,8 @@
 							</Page>
 						</ChildItems>
 					</Pages>
-					<LabelDecoration name="Декорация" id="384">
+					<LabelDecoration name="ДекорацияПодакцизныйТовар" id="384">
+						<Visible>false</Visible>
 						<AutoMaxWidth>false</AutoMaxWidth>
 						<TextColor>style:ПоясняющийТекст</TextColor>
 						<Title formatted="false">
@@ -6091,8 +5885,8 @@
 							</v8:item>
 						</Title>
 						<TitleHeight>1</TitleHeight>
-						<ContextMenu name="ДекорацияКонтекстноеМеню" id="385"/>
-						<ExtendedTooltip name="ДекорацияExtendedTooltip" id="937"/>
+						<ContextMenu name="ДекорацияПодакцизныйТоварКонтекстноеМеню" id="385"/>
+						<ExtendedTooltip name="ДекорацияПодакцизныйТоварРасширеннаяПодсказка" id="937"/>
 					</LabelDecoration>
 					<CommandBar name="ГруппаКоманднаяПанель" id="668">
 						<Title>
@@ -6287,7 +6081,6 @@
 															<ExcludedCommand>LevelUp</ExcludedCommand>
 															<ExcludedCommand>List</ExcludedCommand>
 															<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-															<ExcludedCommand>MoveItem</ExcludedCommand>
 															<ExcludedCommand>OutputList</ExcludedCommand>
 															<ExcludedCommand>Refresh</ExcludedCommand>
 															<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
@@ -6352,7 +6145,7 @@
 																	<ChildItems>
 																		<Button name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюКопироватьВБуферОбмена" id="761">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.CopyToClipboard</CommandName>
+																			<CommandName>0:88078230-1f6b-415f-99e4-ad2ff73810cf</CommandName>
 																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip" id="811"/>
 																		</Button>
 																		<Button name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюИзменитьНоменклатуру" id="963">
@@ -6362,7 +6155,7 @@
 																		</Button>
 																		<Button name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюОбновить" id="759">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>162:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
+																			<CommandName>0:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
 																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюОбновитьExtendedTooltip" id="813"/>
 																		</Button>
 																	</ChildItems>
@@ -6392,7 +6185,7 @@
 																	</Title>
 																	<Picture>
 																		<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-																		<xr:LoadTransparent>true</xr:LoadTransparent>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
 																	</Picture>
 																	<Representation>Picture</Representation>
 																	<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="1075"/>
@@ -6469,7 +6262,7 @@
 																<Format>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+																		<v8:content>ЧДЦ=2</v8:content>
 																	</v8:item>
 																</Format>
 																<ContextMenu name="СписокСтандартныйПоискНоменклатураЦенаКонтекстноеМеню" id="547"/>
@@ -6579,17 +6372,12 @@
 														</Title>
 														<CommandSet>
 															<ExcludedCommand>Change</ExcludedCommand>
-															<ExcludedCommand>Choose</ExcludedCommand>
-															<ExcludedCommand>Copy</ExcludedCommand>
-															<ExcludedCommand>Create</ExcludedCommand>
-															<ExcludedCommand>Delete</ExcludedCommand>
 															<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
 															<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 															<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
 															<ExcludedCommand>OutputList</ExcludedCommand>
 															<ExcludedCommand>Refresh</ExcludedCommand>
 															<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-															<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 														</CommandSet>
 														<AutoRefresh>true</AutoRefresh>
 														<AutoRefreshPeriod>60</AutoRefreshPeriod>
@@ -6624,12 +6412,12 @@
 																	<ChildItems>
 																		<Button name="СписокСтандартныйПоискХарактеристикиКонтекстноеМенюКопироватьВБуферОбмена" id="769">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>Form.Item.СписокСтандартныйПоискХарактеристики.StandardCommand.CopyToClipboard</CommandName>
+																			<CommandName>0:88078230-1f6b-415f-99e4-ad2ff73810cf</CommandName>
 																			<ExtendedTooltip name="СписокСтандартныйПоискХарактеристикиКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip" id="834"/>
 																		</Button>
 																		<Button name="СписокСтандартныйПоискХарактеристикиКонтекстноеМенюОбновить" id="770">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>175:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
+																			<CommandName>0:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
 																			<ExtendedTooltip name="СписокСтандартныйПоискХарактеристикиКонтекстноеМенюОбновитьExtendedTooltip" id="835"/>
 																		</Button>
 																	</ChildItems>
@@ -6714,7 +6502,7 @@
 																<Format>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+																		<v8:content>ЧДЦ=2</v8:content>
 																	</v8:item>
 																</Format>
 																<ContextMenu name="СписокСтандартныйПоискХарактеристикиЦенаКонтекстноеМеню" id="555"/>
@@ -6846,7 +6634,7 @@
 																	</Button>
 																	<Button name="КоманднаяПанельПоискНоменклатураНастройкаСписка" id="1207">
 																		<Type>CommandBarButton</Type>
-																		<CommandName>Form.Item.СписокРасширенныйПоискНоменклатура.StandardCommand.ListSettings</CommandName>
+																		<CommandName>0:14559f7c-853c-42a4-9ea1-01546107747b</CommandName>
 																		<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 																		<ExtendedTooltip name="КоманднаяПанельПоискНоменклатураНастройкаСпискаРасширеннаяПодсказка" id="1208"/>
 																	</Button>
@@ -6882,7 +6670,7 @@
 																		</Title>
 																		<Picture>
 																			<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-																			<xr:LoadTransparent>true</xr:LoadTransparent>
+																			<xr:LoadTransparent>false</xr:LoadTransparent>
 																		</Picture>
 																		<Representation>Picture</Representation>
 																		<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="1081"/>
@@ -6992,7 +6780,7 @@
 																	<ChildItems>
 																		<Button name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюКопироватьВБуферОбмена" id="765">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>Form.Item.СписокРасширенныйПоискНоменклатура.StandardCommand.CopyToClipboard</CommandName>
+																			<CommandName>0:88078230-1f6b-415f-99e4-ad2ff73810cf</CommandName>
 																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip" id="858"/>
 																		</Button>
 																		<Button name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюИзменитьНоменклатуру" id="961">
@@ -7002,7 +6790,7 @@
 																		</Button>
 																		<Button name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюОбновить" id="764">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>Form.Item.СписокРасширенныйПоискНоменклатура.StandardCommand.Refresh</CommandName>
+																			<CommandName>0:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
 																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюОбновитьExtendedTooltip" id="860"/>
 																		</Button>
 																	</ChildItems>
@@ -7070,7 +6858,7 @@
 																<Format>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+																		<v8:content>ЧДЦ=2</v8:content>
 																	</v8:item>
 																</Format>
 																<ContextMenu name="СписокРасширенныйПоискНоменклатураЦенаКонтекстноеМеню" id="742"/>
@@ -7217,7 +7005,7 @@
 																	</Button>
 																	<Button name="КоманднаяПанельПоискХарактеристикиНастройкаСписка" id="1209">
 																		<Type>CommandBarButton</Type>
-																		<CommandName>Form.Item.СписокРасширенныйПоискХарактеристики.StandardCommand.ListSettings</CommandName>
+																		<CommandName>0:14559f7c-853c-42a4-9ea1-01546107747b</CommandName>
 																		<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 																		<ExtendedTooltip name="КоманднаяПанельПоискХарактеристикиНастройкаСпискаРасширеннаяПодсказка" id="1210"/>
 																	</Button>
@@ -7266,10 +7054,6 @@
 														<CommandSet>
 															<ExcludedCommand>CancelSearch</ExcludedCommand>
 															<ExcludedCommand>Change</ExcludedCommand>
-															<ExcludedCommand>Choose</ExcludedCommand>
-															<ExcludedCommand>Copy</ExcludedCommand>
-															<ExcludedCommand>Create</ExcludedCommand>
-															<ExcludedCommand>Delete</ExcludedCommand>
 															<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
 															<ExcludedCommand>Find</ExcludedCommand>
 															<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
@@ -7277,7 +7061,6 @@
 															<ExcludedCommand>OutputList</ExcludedCommand>
 															<ExcludedCommand>Refresh</ExcludedCommand>
 															<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-															<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 														</CommandSet>
 														<AutoRefresh>true</AutoRefresh>
 														<AutoRefreshPeriod>59</AutoRefreshPeriod>
@@ -7312,12 +7095,12 @@
 																	<ChildItems>
 																		<Button name="СписокРасширенныйПоискХарактеристикиКонтекстноеМенюКопироватьВБуферОбмена" id="772">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>Form.Item.СписокРасширенныйПоискХарактеристики.StandardCommand.CopyToClipboard</CommandName>
+																			<CommandName>0:88078230-1f6b-415f-99e4-ad2ff73810cf</CommandName>
 																			<ExtendedTooltip name="СписокРасширенныйПоискХарактеристикиКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip" id="882"/>
 																		</Button>
 																		<Button name="СписокРасширенныйПоискХарактеристикиКонтекстноеМенюОбновить" id="773">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>711:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
+																			<CommandName>0:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
 																			<ExtendedTooltip name="СписокРасширенныйПоискХарактеристикиКонтекстноеМенюОбновитьExtendedTooltip" id="883"/>
 																		</Button>
 																	</ChildItems>
@@ -7395,7 +7178,7 @@
 																<Format>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+																		<v8:content>ЧДЦ=2</v8:content>
 																	</v8:item>
 																</Format>
 																<ContextMenu name="СписокРасширенныйПоискХарактеристикиЦенаКонтекстноеМеню" id="719"/>
@@ -7500,7 +7283,6 @@
 										<ReadOnly>true</ReadOnly>
 										<ChangeRowSet>false</ChangeRowSet>
 										<ChangeRowOrder>false</ChangeRowOrder>
-										<Height>1</Height>
 										<UseAlternationRowColor>true</UseAlternationRowColor>
 										<InitialTreeView>ExpandAllLevels</InitialTreeView>
 										<EnableStartDrag>true</EnableStartDrag>
@@ -7641,7 +7423,7 @@
 														<ChildItems>
 															<Button name="СоздатьВидНоменклатуры" id="1166">
 																<Type>CommandBarButton</Type>
-																<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Create</CommandName>
+																<CommandName>0:0f8d6d98-2f8b-405a-b8b3-0538e9d95da5</CommandName>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -7652,7 +7434,7 @@
 															</Button>
 															<Button name="СоздатьГруппуВидовНоменклатуры" id="1168">
 																<Type>CommandBarButton</Type>
-																<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.CreateFolder</CommandName>
+																<CommandName>0:d82ca05c-2966-4d77-9a39-a1eea087bfa7</CommandName>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -7666,7 +7448,7 @@
 													<Button name="СоздатьГруппуНоменклатуры" id="1170">
 														<Type>CommandBarButton</Type>
 														<Representation>Picture</Representation>
-														<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.CreateFolder</CommandName>
+														<CommandName>0:d82ca05c-2966-4d77-9a39-a1eea087bfa7</CommandName>
 														<ExtendedTooltip name="СоздатьГруппуНоменклатурыРасширеннаяПодсказка" id="1171"/>
 													</Button>
 													<Button name="ИзменитьВариантНавигации" id="1093">
@@ -7675,7 +7457,7 @@
 														<CommandName>Form.Command.ИзменитьВариантНавигации</CommandName>
 														<Picture>
 															<xr:Ref>CommonPicture.ПрочиеПользовательскиеНастройки</xr:Ref>
-															<xr:LoadTransparent>true</xr:LoadTransparent>
+															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
 														<ExtendedTooltip name="ИзменитьВариантНавигацииРасширеннаяПодсказка" id="1094"/>
 													</Button>
@@ -7722,7 +7504,6 @@
 														</Title>
 														<CommandSet>
 															<ExcludedCommand>CancelSearch</ExcludedCommand>
-															<ExcludedCommand>Choose</ExcludedCommand>
 															<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 															<ExcludedCommand>Delete</ExcludedCommand>
 															<ExcludedCommand>Find</ExcludedCommand>
@@ -7754,22 +7535,22 @@
 															<ChildItems>
 																<Button name="ИерархияНоменклатурыКонтекстноеМенюСоздатьГруппу" id="1156">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.CreateFolder</CommandName>
+																	<CommandName>0:d82ca05c-2966-4d77-9a39-a1eea087bfa7</CommandName>
 																	<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюСоздатьГруппуExtendedTooltip" id="1157"/>
 																</Button>
 																<Button name="ИерархияНоменклатурыКонтекстноеМенюИзменить" id="1158">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.Change</CommandName>
+																	<CommandName>0:b41f5bbc-ba5d-4888-8cd1-db246a371418</CommandName>
 																	<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюИзменитьExtendedTooltip" id="1159"/>
 																</Button>
 																<Button name="ИерархияНоменклатурыКонтекстноеМенюСкопировать" id="1160">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.Copy</CommandName>
+																	<CommandName>0:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
 																	<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюСкопироватьExtendedTooltip" id="1161"/>
 																</Button>
 																<Button name="ИерархияНоменклатурыКонтекстноеМенюУстановитьПометкуУдаления" id="1162">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.SetDeletionMark</CommandName>
+																	<CommandName>0:a2f737a8-0114-4e86-a214-45e5c213fa65</CommandName>
 																	<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюУстановитьПометкуУдаленияExtendedTooltip" id="1163"/>
 																</Button>
 															</ChildItems>
@@ -7855,7 +7636,6 @@
 														</Title>
 														<CommandSet>
 															<ExcludedCommand>CancelSearch</ExcludedCommand>
-															<ExcludedCommand>Choose</ExcludedCommand>
 															<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 															<ExcludedCommand>Delete</ExcludedCommand>
 															<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
@@ -7889,7 +7669,7 @@
 															<ChildItems>
 																<Button name="ВидыНоменклатурыСоздать" id="1122">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Create</CommandName>
+																	<CommandName>0:0f8d6d98-2f8b-405a-b8b3-0538e9d95da5</CommandName>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -7900,7 +7680,7 @@
 																</Button>
 																<Button name="ВидыНоменклатурыСоздатьГруппу" id="1124">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.CreateFolder</CommandName>
+																	<CommandName>0:d82ca05c-2966-4d77-9a39-a1eea087bfa7</CommandName>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -7911,17 +7691,17 @@
 																</Button>
 																<Button name="ВидыНоменклатурыИзменить" id="1126">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Change</CommandName>
+																	<CommandName>0:b41f5bbc-ba5d-4888-8cd1-db246a371418</CommandName>
 																	<ExtendedTooltip name="ВидыНоменклатурыИзменитьРасширеннаяПодсказка" id="1127"/>
 																</Button>
 																<Button name="ВидыНоменклатурыСкопировать" id="1128">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Copy</CommandName>
+																	<CommandName>0:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
 																	<ExtendedTooltip name="ВидыНоменклатурыСкопироватьРасширеннаяПодсказка" id="1129"/>
 																</Button>
 																<Button name="ВидыНоменклатурыУстановитьПометкуУдаления" id="1130">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.SetDeletionMark</CommandName>
+																	<CommandName>0:a2f737a8-0114-4e86-a214-45e5c213fa65</CommandName>
 																	<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 																	<ExtendedTooltip name="ВидыНоменклатурыУстановитьПометкуУдаленияРасширеннаяПодсказка" id="1131"/>
 																</Button>
@@ -8219,7 +7999,6 @@
 														<UseAlternationRowColor>true</UseAlternationRowColor>
 														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>СписокКачества</DataPath>
-														<RowPictureDataPath>1000051/1000032</RowPictureDataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -8468,17 +8247,17 @@
 									<ChildItems>
 										<Button name="КорзинаКонтекстноеМенюСортироватьСписокПоВозрастанию" id="1180">
 											<Type>CommandBarButton</Type>
-											<CommandName>Form.Item.Корзина.StandardCommand.SortListAsc</CommandName>
+											<CommandName>0:2bbe4e12-06d2-409b-a972-eea585125d83</CommandName>
 											<ExtendedTooltip name="КорзинаКонтекстноеМенюСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="1181"/>
 										</Button>
 										<Button name="КорзинаКонтекстноеМенюСортироватьСписокПоУбыванию" id="1182">
 											<Type>CommandBarButton</Type>
-											<CommandName>Form.Item.Корзина.StandardCommand.SortListDesc</CommandName>
+											<CommandName>0:58b2a785-23f6-4b0e-a324-9a1323285595</CommandName>
 											<ExtendedTooltip name="КорзинаКонтекстноеМенюСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="1183"/>
 										</Button>
 										<Button name="КорзинаУдалить" id="375">
 											<Type>CommandBarButton</Type>
-											<CommandName>Form.Item.Корзина.StandardCommand.Delete</CommandName>
+											<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 											<ExtendedTooltip name="КорзинаУдалитьExtendedTooltip" id="939"/>
 										</Button>
 										<ButtonGroup name="ГруппаКорзинаКонтекстноеМенюЦены" id="1184">
@@ -8580,7 +8359,6 @@
 										<ExtendedTooltip name="КорзинаНомерСтрокиExtendedTooltip" id="943"/>
 									</LabelField>
 									<PictureField name="КорзинаИндексСовместноПродаваемыеТовары" id="630">
-										<DataPath>Объект.Корзина.ИндексСовместноПродаваемыеТовары</DataPath>
 										<ReadOnly>true</ReadOnly>
 										<TitleLocation>None</TitleLocation>
 										<ToolTip>
@@ -8626,16 +8404,15 @@
 										<ExtendedTooltip name="КорзинаАртикулРасширеннаяПодсказка" id="1206"/>
 									</InputField>
 									<PictureField name="КорзинаИндексНабора" id="973">
-										<DataPath>Объект.Корзина.ИндексНабора</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<EditMode>EnterOnInput</EditMode>
 										<HeaderPicture>
 											<xr:Ref>CommonPicture.Набор</xr:Ref>
-											<xr:LoadTransparent>true</xr:LoadTransparent>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</HeaderPicture>
 										<ValuesPicture>
 											<xr:Ref>CommonPicture.Наборы</xr:Ref>
-											<xr:LoadTransparent>true</xr:LoadTransparent>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</ValuesPicture>
 										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КорзинаИндексНабораКонтекстноеМеню" id="974"/>
@@ -8850,212 +8627,33 @@
 			</UsualGroup>
 		</ChildItems>
 		<Attributes>
+			<Attribute name="ТолькоВНаличииИзПараметров" id="1000064">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Только в наличии из параметров</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="НалогообложениеНДС" id="1000103">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Налогообложение НДС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:EnumRef.ТипыНалогообложенияНДС</v8:Type>
+				</Type>
+			</Attribute>
 			<Attribute name="Объект" id="1000001">
 				<Type>
 					<v8:Type>cfg:DataProcessorObject.ПодборТоваровВДокументПродажи</v8:Type>
 				</Type>
 				<MainAttribute>true</MainAttribute>
-				<Columns>
-					<AdditionalColumns table="Объект.Корзина">
-						<Column name="ХарактеристикиИспользуются" id="1">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Характеристики используются</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:boolean</v8:Type>
-							</Type>
-							<FunctionalOptions>
-								<Item>FunctionalOption.ИспользоватьНаборы</Item>
-							</FunctionalOptions>
-						</Column>
-						<Column name="ИндексСовместноПродаваемыеТовары" id="2">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Индекс совместно продаваемые товары</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-							<FunctionalOptions>
-								<Item>FunctionalOption.ИспользоватьНаборы</Item>
-							</FunctionalOptions>
-						</Column>
-						<Column name="ИндексНабора" id="3">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Индекс набора</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-							<FunctionalOptions>
-								<Item>FunctionalOption.ИспользоватьНаборы</Item>
-							</FunctionalOptions>
-						</Column>
-						<Column name="СтатусУказанияСерий" id="4">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Статус указания серий</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="ТипНоменклатуры" id="5">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Тип номенклатуры</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
-							</Type>
-						</Column>
-						<Column name="СуммаАвтоматическойСкидки" id="6">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Сумма автоматической скидки</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="ПроцентАвтоматическойСкидки" id="7">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Процент автоматической скидки</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>5</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="СуммаНДС" id="8">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Сумма НДС</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="СуммаВзаиморасчетов" id="9">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Сумма взаиморасчетов</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="СтавкаНДС" id="10">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Ставка НДС</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>5</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="СуммаСНДС" id="11">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Сумма НДС</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-						</Column>
-						<Column name="ПроизводитсяВПроцессе" id="12">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Производится в процессе</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:boolean</v8:Type>
-							</Type>
-						</Column>
-						<Column name="ЗаказатьНаСклад" id="13">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Заказать на склад</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:boolean</v8:Type>
-							</Type>
-						</Column>
-					</AdditionalColumns>
-				</Columns>
 			</Attribute>
 			<Attribute name="СписокНоменклатура" id="1000002">
 				<Title>
@@ -9410,6 +9008,7 @@
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
+				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
 			<Attribute name="Дата" id="1000019">
 				<Title>
@@ -10374,6 +9973,7 @@
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
+				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
 			<Attribute name="НоменклатураИсходногоКачества" id="1000052">
 				<Title>
@@ -10514,17 +10114,6 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТолькоВНаличииИзПараметров" id="1000064">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Только в наличии из параметров</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
 			<Attribute name="ИспользоватьНоменклатуруПродаваемуюСовместно" id="1000065">
 				<Title>
 					<v8:item>
@@ -10590,6 +10179,7 @@
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
+				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
 			<Attribute name="ИспользоватьСоглашенияСКлиентами" id="1000071">
 				<Title>
@@ -10986,17 +10576,6 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="НалогообложениеНДС" id="1000103">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Налогообложение НДС</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>cfg:EnumRef.ТипыНалогообложенияНДС</v8:Type>
-				</Type>
-			</Attribute>
 			<Attribute name="ВозвращатьМногооборотнуюТару" id="1000104">
 				<Title>
 					<v8:item>
@@ -11368,7 +10947,7 @@
 				</ToolTip>
 				<Picture>
 					<xr:Ref>CommonPicture.Набор</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьНаборы</Item>
@@ -11514,9 +11093,6 @@
 						<v8:content>Отменить ручные скидки</v8:content>
 					</v8:item>
 				</ToolTip>
-				<FunctionalOptions>
-					<Item/>
-				</FunctionalOptions>
 				<Representation>TextPicture</Representation>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
