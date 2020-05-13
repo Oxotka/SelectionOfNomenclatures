@@ -97,7 +97,7 @@
 			<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.TabularSection.Корзина.Attribute.КоличествоУпаковок" id="f2ec767f-7c28-4d59-9266-b3cdf474a5e7"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.Form.Форма" id="4f787d44-b51e-4637-9c65-880e974195f3" configVersion="817e882da9955789be5ea59f20f027817f3e568a"/>
-		<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.Form.Форма.Form" id="4f787d44-b51e-4637-9c65-880e974195f3.0" configVersion="c779f43455cb321c43f96a1e3cacc61678f7201c"/>
+		<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.Form.Форма.Form" id="4f787d44-b51e-4637-9c65-880e974195f3.0" configVersion="ec1bd999edd85ad2f2456e2a9ac3afaf76cff786"/>
 		<Metadata name="DefinedType.ДенежнаяСуммаЛюбогоЗнака" id="a0d7cdc0-33f3-4e50-8a0a-1749aa746f3d" configVersion="f1970ff3ce561e347b0c643b6450576eed83e348"/>
 		<Metadata name="DefinedType.ДенежнаяСуммаНеотрицательная" id="13466c2a-28a1-4e08-afcb-ced93a6d540e" configVersion="7f56e2df457f0da7e16488972da4d8c9bf8de7e5"/>
 		<Metadata name="Enum.ВариантыАнализаНоменклатурыПродаваемойСовместно" id="4684f4d7-de08-4307-86d6-f177b9c3b22e" configVersion="cb20fb8923ea2bd99379572f78ee782a377b80bd"/>

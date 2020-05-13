@@ -2950,20 +2950,38 @@
 						</Button>
 					</ChildItems>
 				</UsualGroup>
-				<PictureField name="КартинкаНоменклатуры" id="1247">
-					<DataPath>АдресКартинки</DataPath>
-					<TitleLocation>None</TitleLocation>
-					<Width>30</Width>
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<MaxWidth>30</MaxWidth>
-					<PictureSize>AutoSize</PictureSize>
-					<Hyperlink>true</Hyperlink>
-					<ContextMenu name="КартинкаНоменклатурыКонтекстноеМеню" id="1248"/>
-					<ExtendedTooltip name="КартинкаНоменклатурыРасширеннаяПодсказка" id="1249"/>
-					<Events>
-						<Event name="Click" callType="After">ПодборТоваров_КартинкаНоменклатурыНажатиеПосле</Event>
-					</Events>
-				</PictureField>
+				<UsualGroup name="ГруппаКартинка" id="1258">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>AlwaysHorizontal</Group>
+					<HorizontalAlign>Right</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКартинкаРасширеннаяПодсказка" id="1259"/>
+					<ChildItems>
+						<PictureField name="КартинкаНоменклатуры" id="1247">
+							<DataPath>АдресКартинки</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>None</TitleLocation>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<Width>30</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>30</MaxWidth>
+							<PictureSize>AutoSize</PictureSize>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="КартинкаНоменклатурыКонтекстноеМеню" id="1248"/>
+							<ExtendedTooltip name="КартинкаНоменклатурыРасширеннаяПодсказка" id="1249"/>
+							<Events>
+								<Event name="Click" callType="After">ПодборТоваров_КартинкаНоменклатурыНажатиеПосле</Event>
+							</Events>
+						</PictureField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
