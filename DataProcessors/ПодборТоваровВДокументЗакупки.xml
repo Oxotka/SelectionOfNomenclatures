@@ -67,17 +67,6 @@
 							</Type>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="1dd1d7c0-1f0f-4a55-96b4-f8e9d136aef9">
-						<InternalInfo/>
-						<Properties>
-							<Name>НоменклатураПоставщика</Name>
-							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>cfg:CatalogRef.НоменклатураПоставщиков</v8:Type>
-							</Type>
-						</Properties>
-					</Attribute>
 					<Attribute uuid="9c6733c9-c6f9-4b2c-abea-0454b7a8f0d3">
 						<InternalInfo/>
 						<Properties>
