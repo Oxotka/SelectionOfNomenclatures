@@ -183,11 +183,11 @@
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ФормаУстановитьТекущийЭлементПодобранныеТоварыExtendedTooltip" id="894"/>
 								</Button>
-								<Button name="ФормаУстановитьТекущийЭлементНоменклатураПоставщика" id="463">
+								<Button name="ФормаУстановитьТекущийЭлементНоменклатураПартнера" id="1519">
 									<Type>CommandBarButton</Type>
-									<CommandName>Form.Command.УстановитьТекущийЭлементНоменклатураПоставщика</CommandName>
+									<CommandName>0</CommandName>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-									<ExtendedTooltip name="ФормаУстановитьТекущийЭлементНоменклатураПоставщикаExtendedTooltip" id="895"/>
+									<ExtendedTooltip name="ФормаУстановитьТекущийЭлементНоменклатураПартнераРасширеннаяПодсказка" id="1521"/>
 								</Button>
 							</ChildItems>
 						</Popup>
@@ -836,7 +836,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>None</TitleLocation>
-																	<Width>1</Width>
 																	<Wrap>false</Wrap>
 																	<ClearButton>true</ClearButton>
 																	<ChoiceListButton>true</ChoiceListButton>
@@ -2312,7 +2311,7 @@
 								</UsualGroup>
 							</ChildItems>
 						</Page>
-						<Page name="СтраницаНоменклатураПоставщика" id="398">
+						<Page name="СтраницаНоменклатураПартнера" id="1508">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -2320,9 +2319,9 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
-							<ExtendedTooltip name="СтраницаНоменклатураПоставщикаExtendedTooltip" id="1032"/>
+							<ExtendedTooltip name="СтраницаНоменклатураПартнераРасширеннаяПодсказка" id="1522"/>
 							<ChildItems>
-								<UsualGroup name="ГруппаНайденныеТоварыПоставщика" id="671">
+								<UsualGroup name="ГруппаНайденныеТоварыПартнера" id="1375">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -2333,9 +2332,9 @@
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаНайденныеТоварыПоставщикаExtendedTooltip" id="1033"/>
+									<ExtendedTooltip name="ГруппаНайденныеТоварыПартнераРасширеннаяПодсказка" id="1523"/>
 									<ChildItems>
-										<Pages name="СтраницыСписковНоменклатураПоставщика" id="526">
+										<Pages name="СтраницыСписковНоменклатураПартнера" id="1514">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -2343,47 +2342,46 @@
 												</v8:item>
 											</Title>
 											<PagesRepresentation>None</PagesRepresentation>
-											<ExtendedTooltip name="СтраницыСписковНоменклатураПоставщикаExtendedTooltip" id="1034"/>
+											<ExtendedTooltip name="СтраницыСписковНоменклатураПартнераРасширеннаяПодсказка" id="1525"/>
 											<ChildItems>
-												<Page name="СтраницаСтандартныйПоискНоменклатураПоставщика" id="840">
+												<Page name="СтраницаСтандартныйПоискНоменклатураПартнера" id="1512">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Страница стандартный поиск номенклатура поставщика</v8:content>
+															<v8:content>Страница стандартный поиск номенклатура партнера</v8:content>
 														</v8:item>
 													</Title>
-													<ExtendedTooltip name="СтраницаСтандартныйПоискНоменклатураПоставщикаExtendedTooltip" id="1035"/>
+													<ExtendedTooltip name="СтраницаСтандартныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1526"/>
 													<ChildItems>
-														<CommandBar name="КоманднаяПанельСписокСтандартныйПоискНоменклатураПоставщика" id="765">
+														<CommandBar name="КоманднаяПанельСписокСтандартныйПоискНоменклатураПартнера" id="1400">
 															<Visible>false</Visible>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Командная панель список стандартный поиск номенклатура поставщика</v8:content>
+																	<v8:content>Командная панель список стандартный поиск номенклатура партнера</v8:content>
 																</v8:item>
 															</Title>
-															<ExtendedTooltip name="КоманднаяПанельСписокСтандартныйПоискНоменклатураПоставщикаExtendedTooltip" id="1036"/>
+															<ExtendedTooltip name="КоманднаяПанельСписокСтандартныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1528"/>
 															<ChildItems>
-																<Button name="НайтиСтандартныйПоискНоменклатураПоставщика" id="766">
+																<Button name="НайтиСтандартныйПоискНоменклатураПартнера" id="1411">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.СписокСтандартныйПоискНоменклатураПоставщика.StandardCommand.Find</CommandName>
-																	<ExtendedTooltip name="НайтиСтандартныйПоискНоменклатураПоставщикаExtendedTooltip" id="1037"/>
+																	<CommandName>0</CommandName>
+																	<ExtendedTooltip name="НайтиСтандартныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1541"/>
 																</Button>
-																<Button name="ОтменитьПоискНоменклатураПоставщика" id="767">
+																<Button name="ОтменитьПоискНоменклатураПартнера" id="1416">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.СписокСтандартныйПоискНоменклатураПоставщика.StandardCommand.CancelSearch</CommandName>
-																	<ExtendedTooltip name="ОтменитьПоискНоменклатураПоставщикаExtendedTooltip" id="1038"/>
+																	<CommandName>0</CommandName>
+																	<ExtendedTooltip name="ОтменитьПоискНоменклатураПартнераРасширеннаяПодсказка" id="1542"/>
 																</Button>
 															</ChildItems>
 														</CommandBar>
-														<Table name="СписокСтандартныйПоискНоменклатураПоставщика" id="842">
+														<Table name="СписокСтандартныйПоискНоменклатураПартнера" id="1464">
 															<Representation>List</Representation>
 															<SkipOnInput>false</SkipOnInput>
 															<UseAlternationRowColor>true</UseAlternationRowColor>
 															<SearchOnInput>Use</SearchOnInput>
 															<EnableStartDrag>true</EnableStartDrag>
 															<FileDragMode>AsFile</FileDragMode>
-															<DataPath>СписокНоменклатураПоставщика</DataPath>
 															<RowsPicture>
 																<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2394,16 +2392,6 @@
 																	<v8:content>Список стандартный поиск номенклатура поставщика</v8:content>
 																</v8:item>
 															</Title>
-															<CommandSet>
-																<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-																<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
-																<ExcludedCommand>ListSettings</ExcludedCommand>
-																<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-																<ExcludedCommand>OutputList</ExcludedCommand>
-																<ExcludedCommand>Refresh</ExcludedCommand>
-																<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-																<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
-															</CommandSet>
 															<AutoRefresh>false</AutoRefresh>
 															<AutoRefreshPeriod>60</AutoRefreshPeriod>
 															<Period>
@@ -2417,45 +2405,44 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
-															<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаКонтекстноеМеню" id="843">
+															<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераКонтекстноеМеню" id="1529">
 																<ChildItems>
-																	<Button name="СписокСтандартныйПоискНоменклатураПоставщикаКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="866">
+																	<Button name="СписокСтандартныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="1486">
 																		<Type>CommandBarButton</Type>
 																		<SkipOnInput>false</SkipOnInput>
 																		<CommandName>Form.Command.ЦеныНоменклатуры</CommandName>
-																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаКонтекстноеМенюПерейтиКЦенамНоменклатурыExtendedTooltip" id="1039"/>
+																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатурыРасширеннаяПодсказка" id="1556"/>
 																	</Button>
 																</ChildItems>
 															</ContextMenu>
-															<AutoCommandBar name="СписокСтандартныйПоискНоменклатураПоставщикаКоманднаяПанель" id="844"/>
-															<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаExtendedTooltip" id="1040"/>
-															<SearchStringAddition name="СписокСтандартныйПоискНоменклатураПоставщикаСтрокаПоиска" id="1182">
+															<AutoCommandBar name="СписокСтандартныйПоискНоменклатураПартнераКоманднаяПанель" id="1530"/>
+															<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1531"/>
+															<SearchStringAddition name="СписокСтандартныйПоискНоменклатураПартнераСтрокаПоиска" id="1532">
 																<AdditionSource>
-																	<Item>СписокСтандартныйПоискНоменклатураПоставщика</Item>
+																	<Item>СписокСтандартныйПоискНоменклатураПартнера</Item>
 																	<Type>SearchStringRepresentation</Type>
 																</AdditionSource>
-																<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаСтрокаПоискаКонтекстноеМеню" id="1183"/>
-																<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаСтрокаПоискаРасширеннаяПодсказка" id="1184"/>
+																<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераСтрокаПоискаКонтекстноеМеню" id="1533"/>
+																<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераСтрокаПоискаРасширеннаяПодсказка" id="1534"/>
 															</SearchStringAddition>
-															<ViewStatusAddition name="СписокСтандартныйПоискНоменклатураПоставщикаСостояниеПросмотра" id="1185">
+															<ViewStatusAddition name="СписокСтандартныйПоискНоменклатураПартнераСостояниеПросмотра" id="1535">
 																<AdditionSource>
-																	<Item>СписокСтандартныйПоискНоменклатураПоставщика</Item>
+																	<Item>СписокСтандартныйПоискНоменклатураПартнера</Item>
 																	<Type>ViewStatusRepresentation</Type>
 																</AdditionSource>
-																<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаСостояниеПросмотраКонтекстноеМеню" id="1186"/>
-																<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаСостояниеПросмотраРасширеннаяПодсказка" id="1187"/>
+																<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераСостояниеПросмотраКонтекстноеМеню" id="1536"/>
+																<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераСостояниеПросмотраРасширеннаяПодсказка" id="1537"/>
 															</ViewStatusAddition>
-															<SearchControlAddition name="СписокСтандартныйПоискНоменклатураПоставщикаУправлениеПоиском" id="1188">
+															<SearchControlAddition name="СписокСтандартныйПоискНоменклатураПартнераУправлениеПоиском" id="1538">
 																<AdditionSource>
-																	<Item>СписокСтандартныйПоискНоменклатураПоставщика</Item>
+																	<Item>СписокСтандартныйПоискНоменклатураПартнера</Item>
 																	<Type>SearchControl</Type>
 																</AdditionSource>
-																<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаУправлениеПоискомКонтекстноеМеню" id="1189"/>
-																<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаУправлениеПоискомРасширеннаяПодсказка" id="1190"/>
+																<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераУправлениеПоискомКонтекстноеМеню" id="1539"/>
+																<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераУправлениеПоискомРасширеннаяПодсказка" id="1540"/>
 															</SearchControlAddition>
 															<ChildItems>
-																<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаСсылка" id="845">
-																	<DataPath>~СписокНоменклатураПоставщика.Ссылка</DataPath>
+																<LabelField name="СписокСтандартныйПоискНоменклатураПартнераСсылка" id="1493">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2463,11 +2450,10 @@
 																		</v8:item>
 																	</Title>
 																	<Width>22</Width>
-																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаСсылкаКонтекстноеМеню" id="846"/>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаСсылкаExtendedTooltip" id="1041"/>
+																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераСсылкаКонтекстноеМеню" id="1543"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераСсылкаРасширеннаяПодсказка" id="1544"/>
 																</LabelField>
-																<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаКод" id="847">
-																	<DataPath>~СписокНоменклатураПоставщика.Код</DataPath>
+																<LabelField name="СписокСтандартныйПоискНоменклатураПартнераКод" id="1483">
 																	<Visible>false</Visible>
 																	<UserVisible>
 																		<xr:Common>false</xr:Common>
@@ -2479,10 +2465,10 @@
 																		</v8:item>
 																	</Title>
 																	<Width>10</Width>
-																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаКодКонтекстноеМеню" id="848"/>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаКодExtendedTooltip" id="1042"/>
+																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераКодКонтекстноеМеню" id="1545"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераКодРасширеннаяПодсказка" id="1546"/>
 																</LabelField>
-																<ColumnGroup name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатураПоставщика" id="857">
+																<ColumnGroup name="СписокСтандартныйПоискНоменклатураПартнераНоменклатураПартнера" id="1491">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2496,30 +2482,26 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Group>InCell</Group>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатураПоставщикаExtendedTooltip" id="1043"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераНоменклатураПартнераРасширеннаяПодсказка" id="1547"/>
 																	<ChildItems>
-																		<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатура" id="858">
-																			<DataPath>~СписокНоменклатураПоставщика.Номенклатура</DataPath>
+																		<LabelField name="СписокСтандартныйПоискНоменклатураПартнераНоменклатура" id="1488">
 																			<Width>16</Width>
-																			<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатураКонтекстноеМеню" id="859"/>
-																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатураExtendedTooltip" id="1044"/>
+																			<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераНоменклатураКонтекстноеМеню" id="1557"/>
+																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераНоменклатураРасширеннаяПодсказка" id="1558"/>
 																		</LabelField>
-																		<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаХарактеристика" id="860">
-																			<DataPath>~СписокНоменклатураПоставщика.Характеристика</DataPath>
+																		<LabelField name="СписокСтандартныйПоискНоменклатураПартнераХарактеристика" id="1502">
 																			<Width>16</Width>
-																			<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаХарактеристикаКонтекстноеМеню" id="861"/>
-																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаХарактеристикаExtendedTooltip" id="1045"/>
+																			<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераХарактеристикаКонтекстноеМеню" id="1559"/>
+																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераХарактеристикаРасширеннаяПодсказка" id="1560"/>
 																		</LabelField>
-																		<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаУпаковка" id="862">
-																			<DataPath>~СписокНоменклатураПоставщика.Упаковка</DataPath>
+																		<LabelField name="СписокСтандартныйПоискНоменклатураПартнераУпаковка" id="1499">
 																			<Width>9</Width>
-																			<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаУпаковкаКонтекстноеМеню" id="863"/>
-																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаУпаковкаExtendedTooltip" id="1046"/>
+																			<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераУпаковкаКонтекстноеМеню" id="1561"/>
+																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераУпаковкаРасширеннаяПодсказка" id="1562"/>
 																		</LabelField>
 																	</ChildItems>
 																</ColumnGroup>
-																<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаАртикул" id="849">
-																	<DataPath>~СписокНоменклатураПоставщика.Артикул</DataPath>
+																<LabelField name="СписокСтандартныйПоискНоменклатураПартнераАртикул" id="1477">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2528,21 +2510,20 @@
 																	</Title>
 																	<Width>10</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
-																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаАртикулКонтекстноеМеню" id="850"/>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаАртикулExtendedTooltip" id="1047"/>
+																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераАртикулКонтекстноеМеню" id="1548"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераАртикулРасширеннаяПодсказка" id="1549"/>
 																</LabelField>
-																<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаЦена" id="853">
-																	<DataPath>~СписокНоменклатураПоставщика.Цена</DataPath>
+																<LabelField name="СписокСтандартныйПоискНоменклатураПартнераЦена" id="1505">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Цена</v8:content>
 																		</v8:item>
 																	</Title>
-																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаЦенаКонтекстноеМеню" id="854"/>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1049"/>
+																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераЦенаКонтекстноеМеню" id="1550"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераЦенаРасширеннаяПодсказка" id="1551"/>
 																</LabelField>
-																<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="855">
+																<LabelField name="СписокСтандартныйПоискНоменклатураПартнераЕдиницаИзмерения" id="1480">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2551,45 +2532,43 @@
 																	</Title>
 																	<Width>4</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
-																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмеренияКонтекстноеМеню" id="856"/>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмеренияExtendedTooltip" id="1050"/>
+																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераЕдиницаИзмеренияКонтекстноеМеню" id="1552"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераЕдиницаИзмеренияРасширеннаяПодсказка" id="1553"/>
 																</LabelField>
-																<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаСтавкаНДС" id="864">
-																	<DataPath>~СписокНоменклатураПоставщика.СтавкаНДС</DataPath>
+																<LabelField name="СписокСтандартныйПоискНоменклатураПартнераСтавкаНДС" id="1496">
 																	<UserVisible>
 																		<xr:Common>false</xr:Common>
 																	</UserVisible>
 																	<Width>9</Width>
-																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаСтавкаНДСКонтекстноеМеню" id="865"/>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаСтавкаНДСExtendedTooltip" id="1051"/>
+																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераСтавкаНДСКонтекстноеМеню" id="1554"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераСтавкаНДСРасширеннаяПодсказка" id="1555"/>
 																</LabelField>
 															</ChildItems>
 														</Table>
 													</ChildItems>
 												</Page>
-												<Page name="СтраницаРасширенныйПоискНоменклатураПоставщика" id="841">
+												<Page name="СтраницаРасширенныйПоискНоменклатураПартнера" id="1510">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Страница расширенный поиск номенклатура поставщика</v8:content>
+															<v8:content>Страница расширенный поиск номенклатура партнера</v8:content>
 														</v8:item>
 													</Title>
-													<ExtendedTooltip name="СтраницаРасширенныйПоискНоменклатураПоставщикаExtendedTooltip" id="1052"/>
+													<ExtendedTooltip name="СтраницаРасширенныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1527"/>
 													<ChildItems>
-														<UsualGroup name="РасширенныйПоискНоменклатураПоставщика" id="763">
+														<UsualGroup name="РасширенныйПоискНоменклатураПартнера" id="1418">
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Расширенный поиск номенклатура поставщика</v8:content>
+																	<v8:content>Расширенный поиск номенклатура партнера</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
-															<ExtendedTooltip name="РасширенныйПоискНоменклатураПоставщикаExtendedTooltip" id="1053"/>
+															<ExtendedTooltip name="РасширенныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1563"/>
 															<ChildItems>
-																<InputField name="СтрокаПоискаНоменклатураПоставщика" id="587">
-																	<DataPath>СтрокаПоискаНоменклатураПоставщика</DataPath>
+																<InputField name="СтрокаПоискаНоменклатураПартнера" id="1516">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2602,38 +2581,37 @@
 																	<Wrap>false</Wrap>
 																	<ClearButton>true</ClearButton>
 																	<ChoiceListButton>true</ChoiceListButton>
-																	<ContextMenu name="СтрокаПоискаНоменклатураПоставщикаКонтекстноеМеню" id="588"/>
-																	<ExtendedTooltip name="СтрокаПоискаНоменклатураПоставщикаExtendedTooltip" id="1054"/>
+																	<ContextMenu name="СтрокаПоискаНоменклатураПартнераКонтекстноеМеню" id="1576"/>
+																	<ExtendedTooltip name="СтрокаПоискаНоменклатураПартнераРасширеннаяПодсказка" id="1577"/>
 																</InputField>
-																<CommandBar name="КоманднаяПанельПоискНоменклатураПоставщика" id="589">
+																<CommandBar name="КоманднаяПанельПоискНоменклатураПартнера" id="1398">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Командная панель поиск номенклатура поставщика</v8:content>
+																			<v8:content>Командная панель поиск номенклатура партнера</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Width>3</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
-																	<ExtendedTooltip name="КоманднаяПанельПоискНоменклатураПоставщикаExtendedTooltip" id="1055"/>
+																	<ExtendedTooltip name="КоманднаяПанельПоискНоменклатураПартнераРасширеннаяПодсказка" id="1578"/>
 																	<ChildItems>
-																		<Button name="НайтиРасширенныйПоискНоменклатураПоставщика" id="595">
+																		<Button name="НайтиРасширенныйПоискНоменклатураПартнера" id="1409">
 																			<Type>CommandBarButton</Type>
 																			<Representation>Picture</Representation>
 																			<CommandName>Form.Command.Найти</CommandName>
-																			<ExtendedTooltip name="НайтиРасширенныйПоискНоменклатураПоставщикаExtendedTooltip" id="1056"/>
+																			<ExtendedTooltip name="НайтиРасширенныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1581"/>
 																		</Button>
 																	</ChildItems>
 																</CommandBar>
-																<CheckBoxField name="НайтиНоменклатуруПоставщикаПоТочномуСоответствию" id="664">
-																	<DataPath>НайтиНоменклатуруПоставщикаПоТочномуСоответствию</DataPath>
+																<CheckBoxField name="НайтиНоменклатуруПартнераПоТочномуСоответствию" id="1406">
 																	<TitleLocation>Right</TitleLocation>
 																	<CheckBoxType>Auto</CheckBoxType>
-																	<ContextMenu name="НайтиНоменклатуруПоставщикаПоТочномуСоответствиюКонтекстноеМеню" id="665"/>
-																	<ExtendedTooltip name="НайтиНоменклатуруПоставщикаПоТочномуСоответствиюExtendedTooltip" id="1057"/>
+																	<ContextMenu name="НайтиНоменклатуруПартнераПоТочномуСоответствиюКонтекстноеМеню" id="1579"/>
+																	<ExtendedTooltip name="НайтиНоменклатуруПартнераПоТочномуСоответствиюРасширеннаяПодсказка" id="1580"/>
 																</CheckBoxField>
 															</ChildItems>
 														</UsualGroup>
-														<Table name="СписокРасширенныйПоискНоменклатураПоставщика" id="399">
+														<Table name="СписокРасширенныйПоискНоменклатураПартнера" id="1420">
 															<Representation>List</Representation>
 															<CommandBarLocation>None</CommandBarLocation>
 															<SkipOnInput>false</SkipOnInput>
@@ -2641,7 +2619,6 @@
 															<SearchOnInput>DontUse</SearchOnInput>
 															<EnableStartDrag>true</EnableStartDrag>
 															<FileDragMode>AsFile</FileDragMode>
-															<DataPath>СписокНоменклатураПоставщика</DataPath>
 															<RowsPicture>
 																<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2652,13 +2629,6 @@
 																	<v8:content>Список расширенный поиск номенклатура поставщика</v8:content>
 																</v8:item>
 															</Title>
-															<CommandSet>
-																<ExcludedCommand>CancelSearch</ExcludedCommand>
-																<ExcludedCommand>Find</ExcludedCommand>
-																<ExcludedCommand>ListSettings</ExcludedCommand>
-																<ExcludedCommand>OutputList</ExcludedCommand>
-																<ExcludedCommand>Refresh</ExcludedCommand>
-															</CommandSet>
 															<AutoRefresh>false</AutoRefresh>
 															<AutoRefreshPeriod>60</AutoRefreshPeriod>
 															<Period>
@@ -2672,45 +2642,44 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
-															<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаКонтекстноеМеню" id="400">
+															<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераКонтекстноеМеню" id="1564">
 																<ChildItems>
-																	<Button name="СписокРасширенныйПоискНоменклатураПоставщикаКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="430">
+																	<Button name="СписокРасширенныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="1444">
 																		<Type>CommandBarButton</Type>
 																		<SkipOnInput>false</SkipOnInput>
 																		<CommandName>Form.Command.ЦеныНоменклатуры</CommandName>
-																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаКонтекстноеМенюПерейтиКЦенамНоменклатурыExtendedTooltip" id="1058"/>
+																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатурыРасширеннаяПодсказка" id="1595"/>
 																	</Button>
 																</ChildItems>
 															</ContextMenu>
-															<AutoCommandBar name="СписокРасширенныйПоискНоменклатураПоставщикаКоманднаяПанель" id="401"/>
-															<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаExtendedTooltip" id="1059"/>
-															<SearchStringAddition name="СписокРасширенныйПоискНоменклатураПоставщикаСтрокаПоиска" id="1191">
+															<AutoCommandBar name="СписокРасширенныйПоискНоменклатураПартнераКоманднаяПанель" id="1565"/>
+															<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1566"/>
+															<SearchStringAddition name="СписокРасширенныйПоискНоменклатураПартнераСтрокаПоиска" id="1567">
 																<AdditionSource>
-																	<Item>СписокРасширенныйПоискНоменклатураПоставщика</Item>
+																	<Item>СписокРасширенныйПоискНоменклатураПартнера</Item>
 																	<Type>SearchStringRepresentation</Type>
 																</AdditionSource>
-																<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаСтрокаПоискаКонтекстноеМеню" id="1192"/>
-																<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаСтрокаПоискаРасширеннаяПодсказка" id="1193"/>
+																<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераСтрокаПоискаКонтекстноеМеню" id="1568"/>
+																<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераСтрокаПоискаРасширеннаяПодсказка" id="1569"/>
 															</SearchStringAddition>
-															<ViewStatusAddition name="СписокРасширенныйПоискНоменклатураПоставщикаСостояниеПросмотра" id="1194">
+															<ViewStatusAddition name="СписокРасширенныйПоискНоменклатураПартнераСостояниеПросмотра" id="1570">
 																<AdditionSource>
-																	<Item>СписокРасширенныйПоискНоменклатураПоставщика</Item>
+																	<Item>СписокРасширенныйПоискНоменклатураПартнера</Item>
 																	<Type>ViewStatusRepresentation</Type>
 																</AdditionSource>
-																<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаСостояниеПросмотраКонтекстноеМеню" id="1195"/>
-																<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаСостояниеПросмотраРасширеннаяПодсказка" id="1196"/>
+																<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераСостояниеПросмотраКонтекстноеМеню" id="1571"/>
+																<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераСостояниеПросмотраРасширеннаяПодсказка" id="1572"/>
 															</ViewStatusAddition>
-															<SearchControlAddition name="СписокРасширенныйПоискНоменклатураПоставщикаУправлениеПоиском" id="1197">
+															<SearchControlAddition name="СписокРасширенныйПоискНоменклатураПартнераУправлениеПоиском" id="1573">
 																<AdditionSource>
-																	<Item>СписокРасширенныйПоискНоменклатураПоставщика</Item>
+																	<Item>СписокРасширенныйПоискНоменклатураПартнера</Item>
 																	<Type>SearchControl</Type>
 																</AdditionSource>
-																<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаУправлениеПоискомКонтекстноеМеню" id="1198"/>
-																<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаУправлениеПоискомРасширеннаяПодсказка" id="1199"/>
+																<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераУправлениеПоискомКонтекстноеМеню" id="1574"/>
+																<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераУправлениеПоискомРасширеннаяПодсказка" id="1575"/>
 															</SearchControlAddition>
 															<ChildItems>
-																<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаСсылка" id="409">
-																	<DataPath>~СписокНоменклатураПоставщика.Ссылка</DataPath>
+																<LabelField name="СписокРасширенныйПоискНоменклатураПартнераСсылка" id="1449">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2718,11 +2687,10 @@
 																		</v8:item>
 																	</Title>
 																	<Width>22</Width>
-																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаСсылкаКонтекстноеМеню" id="410"/>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаСсылкаExtendedTooltip" id="1060"/>
+																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераСсылкаКонтекстноеМеню" id="1582"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераСсылкаРасширеннаяПодсказка" id="1583"/>
 																</LabelField>
-																<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаКод" id="744">
-																	<DataPath>~СписокНоменклатураПоставщика.Код</DataPath>
+																<LabelField name="СписокРасширенныйПоискНоменклатураПартнераКод" id="1441">
 																	<UserVisible>
 																		<xr:Common>false</xr:Common>
 																	</UserVisible>
@@ -2733,10 +2701,10 @@
 																		</v8:item>
 																	</Title>
 																	<Width>10</Width>
-																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаКодКонтекстноеМеню" id="745"/>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаКодExtendedTooltip" id="1061"/>
+																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераКодКонтекстноеМеню" id="1584"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераКодРасширеннаяПодсказка" id="1585"/>
 																</LabelField>
-																<ColumnGroup name="СписокРасширенныйПоискНоменклатураПоставщикаГруппаНоменклатураПоставщика" id="406">
+																<ColumnGroup name="СписокРасширенныйПоискНоменклатураПартнераГруппаНоменклатураПартнера" id="1436">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2750,30 +2718,26 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Group>InCell</Group>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаГруппаНоменклатураПоставщикаExtendedTooltip" id="1062"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераГруппаНоменклатураПартнераРасширеннаяПодсказка" id="1586"/>
 																	<ChildItems>
-																		<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаНоменклатура" id="411">
-																			<DataPath>~СписокНоменклатураПоставщика.Номенклатура</DataPath>
+																		<LabelField name="СписокРасширенныйПоискНоменклатураПартнераНоменклатура" id="1446">
 																			<Width>16</Width>
-																			<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаНоменклатураКонтекстноеМеню" id="412"/>
-																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаНоменклатураExtendedTooltip" id="1063"/>
+																			<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераНоменклатураКонтекстноеМеню" id="1596"/>
+																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераНоменклатураРасширеннаяПодсказка" id="1597"/>
 																		</LabelField>
-																		<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаХарактеристика" id="413">
-																			<DataPath>~СписокНоменклатураПоставщика.Характеристика</DataPath>
+																		<LabelField name="СписокРасширенныйПоискНоменклатураПартнераХарактеристика" id="1458">
 																			<Width>16</Width>
-																			<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаХарактеристикаКонтекстноеМеню" id="414"/>
-																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаХарактеристикаExtendedTooltip" id="1064"/>
+																			<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераХарактеристикаКонтекстноеМеню" id="1598"/>
+																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераХарактеристикаРасширеннаяПодсказка" id="1599"/>
 																		</LabelField>
-																		<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаУпаковка" id="415">
-																			<DataPath>~СписокНоменклатураПоставщика.Упаковка</DataPath>
+																		<LabelField name="СписокРасширенныйПоискНоменклатураПартнераУпаковка" id="1455">
 																			<Width>9</Width>
-																			<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаУпаковкаКонтекстноеМеню" id="416"/>
-																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаУпаковкаExtendedTooltip" id="1065"/>
+																			<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераУпаковкаКонтекстноеМеню" id="1600"/>
+																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераУпаковкаРасширеннаяПодсказка" id="1601"/>
 																		</LabelField>
 																	</ChildItems>
 																</ColumnGroup>
-																<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаАртикул" id="407">
-																	<DataPath>~СписокНоменклатураПоставщика.Артикул</DataPath>
+																<LabelField name="СписокРасширенныйПоискНоменклатураПартнераАртикул" id="1433">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2782,21 +2746,20 @@
 																	</Title>
 																	<Width>10</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
-																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаАртикулКонтекстноеМеню" id="408"/>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаАртикулExtendedTooltip" id="1066"/>
+																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераАртикулКонтекстноеМеню" id="1587"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераАртикулРасширеннаяПодсказка" id="1588"/>
 																</LabelField>
-																<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаЦена" id="697">
-																	<DataPath>~СписокНоменклатураПоставщика.Цена</DataPath>
+																<LabelField name="СписокРасширенныйПоискНоменклатураПартнераЦена" id="1461">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Цена</v8:content>
 																		</v8:item>
 																	</Title>
-																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаЦенаКонтекстноеМеню" id="698"/>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1068"/>
+																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераЦенаКонтекстноеМеню" id="1589"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераЦенаРасширеннаяПодсказка" id="1590"/>
 																</LabelField>
-																<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="427">
+																<LabelField name="СписокРасширенныйПоискНоменклатураПартнераЕдиницаИзмерения" id="1438">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2805,17 +2768,16 @@
 																	</Title>
 																	<Width>4</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
-																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмеренияКонтекстноеМеню" id="428"/>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмеренияExtendedTooltip" id="1069"/>
+																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераЕдиницаИзмеренияКонтекстноеМеню" id="1591"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераЕдиницаИзмеренияРасширеннаяПодсказка" id="1592"/>
 																</LabelField>
-																<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаСтавкаНДС" id="423">
-																	<DataPath>~СписокНоменклатураПоставщика.СтавкаНДС</DataPath>
+																<LabelField name="СписокРасширенныйПоискНоменклатураПартнераСтавкаНДС" id="1452">
 																	<UserVisible>
 																		<xr:Common>false</xr:Common>
 																	</UserVisible>
 																	<Width>9</Width>
-																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаСтавкаНДСКонтекстноеМеню" id="424"/>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаСтавкаНДСExtendedTooltip" id="1070"/>
+																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераСтавкаНДСКонтекстноеМеню" id="1593"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераСтавкаНДСРасширеннаяПодсказка" id="1594"/>
 																</LabelField>
 															</ChildItems>
 														</Table>
@@ -2844,7 +2806,6 @@
 											<ReadOnly>true</ReadOnly>
 											<ChangeRowSet>false</ChangeRowSet>
 											<ChangeRowOrder>false</ChangeRowOrder>
-											<Height>1</Height>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -2908,20 +2869,26 @@
 										</Table>
 									</ChildItems>
 								</UsualGroup>
-								<UsualGroup name="НавигацияНоменклатураПоставщика" id="672">
+								<UsualGroup name="НавигацияНоменклатураПартнера" id="1404">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Навигация</v8:content>
 										</v8:item>
 									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Навигация номенклатура партнера</v8:content>
+										</v8:item>
+									</ToolTip>
 									<Width>35</Width>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="НавигацияНоменклатураПоставщикаExtendedTooltip" id="1076"/>
+									<ExtendedTooltip name="НавигацияНоменклатураПартнераРасширеннаяПодсказка" id="1524"/>
 									<ChildItems>
-										<UsualGroup name="ГруппаФильтрНоменклатурыПоставщика" id="673">
+										<UsualGroup name="ГруппаФильтрНоменклатурыПартнера" id="1377">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -2931,18 +2898,17 @@
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="ГруппаФильтрНоменклатурыПоставщикаExtendedTooltip" id="1077"/>
+											<ExtendedTooltip name="ГруппаФильтрНоменклатурыПартнераРасширеннаяПодсказка" id="1602"/>
 											<ChildItems>
-												<CheckBoxField name="ИспользоватьФильтрНоменклатурыПоставщика" id="674">
-													<DataPath>ИспользоватьФильтрНоменклатураПоставщика</DataPath>
+												<CheckBoxField name="ИспользоватьФильтрНоменклатурыПартнера" id="1395">
 													<TitleLocation>Right</TitleLocation>
 													<CheckBoxType>Auto</CheckBoxType>
-													<ContextMenu name="ИспользоватьФильтрНоменклатурыПоставщикаКонтекстноеМеню" id="675"/>
-													<ExtendedTooltip name="ИспользоватьФильтрНоменклатурыПоставщикаExtendedTooltip" id="1078"/>
+													<ContextMenu name="ИспользоватьФильтрНоменклатурыПартнераКонтекстноеМеню" id="1604"/>
+													<ExtendedTooltip name="ИспользоватьФильтрНоменклатурыПартнераРасширеннаяПодсказка" id="1605"/>
 												</CheckBoxField>
 											</ChildItems>
 										</UsualGroup>
-										<UsualGroup name="НавигацияИерархияНоменклатурыПоставщика" id="679">
+										<UsualGroup name="НавигацияИерархияНоменклатурыПартнера" id="1402">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -2958,9 +2924,9 @@
 											<Group>Vertical</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="НавигацияИерархияНоменклатурыПоставщикаExtendedTooltip" id="1079"/>
+											<ExtendedTooltip name="НавигацияИерархияНоменклатурыПартнераРасширеннаяПодсказка" id="1603"/>
 											<ChildItems>
-												<Table name="ИерархияНоменклатурыПоставщика" id="680">
+												<Table name="ИерархияНоменклатурыПартнера" id="1379">
 													<Representation>Tree</Representation>
 													<CommandBarLocation>None</CommandBarLocation>
 													<SkipOnInput>false</SkipOnInput>
@@ -2972,20 +2938,12 @@
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
 													<FileDragMode>AsFile</FileDragMode>
-													<DataPath>ИерархияНоменклатурыПоставщика</DataPath>
-													<RowPictureDataPath>ИерархияНоменклатурыПоставщика.DefaultPicture</RowPictureDataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Иерархия номенклатуры поставщика</v8:content>
 														</v8:item>
 													</Title>
-													<CommandSet>
-														<ExcludedCommand>CancelSearch</ExcludedCommand>
-														<ExcludedCommand>Find</ExcludedCommand>
-														<ExcludedCommand>ListSettings</ExcludedCommand>
-														<ExcludedCommand>OutputList</ExcludedCommand>
-													</CommandSet>
 													<AutoRefresh>false</AutoRefresh>
 													<AutoRefreshPeriod>60</AutoRefreshPeriod>
 													<Period>
@@ -2999,38 +2957,37 @@
 													<ShowRoot>true</ShowRoot>
 													<AllowRootChoice>true</AllowRootChoice>
 													<UpdateOnDataChange>Auto</UpdateOnDataChange>
-													<ContextMenu name="ИерархияНоменклатурыПоставщикаКонтекстноеМеню" id="681"/>
-													<AutoCommandBar name="ИерархияНоменклатурыПоставщикаКоманднаяПанель" id="682"/>
-													<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаExtendedTooltip" id="1080"/>
-													<SearchStringAddition name="ИерархияНоменклатурыПоставщикаСтрокаПоиска" id="1209">
+													<ContextMenu name="ИерархияНоменклатурыПартнераКонтекстноеМеню" id="1606"/>
+													<AutoCommandBar name="ИерархияНоменклатурыПартнераКоманднаяПанель" id="1607"/>
+													<ExtendedTooltip name="ИерархияНоменклатурыПартнераРасширеннаяПодсказка" id="1608"/>
+													<SearchStringAddition name="ИерархияНоменклатурыПартнераСтрокаПоиска" id="1609">
 														<AdditionSource>
-															<Item>ИерархияНоменклатурыПоставщика</Item>
+															<Item>ИерархияНоменклатурыПартнера</Item>
 															<Type>SearchStringRepresentation</Type>
 														</AdditionSource>
-														<ContextMenu name="ИерархияНоменклатурыПоставщикаСтрокаПоискаКонтекстноеМеню" id="1210"/>
-														<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаСтрокаПоискаРасширеннаяПодсказка" id="1211"/>
+														<ContextMenu name="ИерархияНоменклатурыПартнераСтрокаПоискаКонтекстноеМеню" id="1610"/>
+														<ExtendedTooltip name="ИерархияНоменклатурыПартнераСтрокаПоискаРасширеннаяПодсказка" id="1611"/>
 													</SearchStringAddition>
-													<ViewStatusAddition name="ИерархияНоменклатурыПоставщикаСостояниеПросмотра" id="1212">
+													<ViewStatusAddition name="ИерархияНоменклатурыПартнераСостояниеПросмотра" id="1612">
 														<AdditionSource>
-															<Item>ИерархияНоменклатурыПоставщика</Item>
+															<Item>ИерархияНоменклатурыПартнера</Item>
 															<Type>ViewStatusRepresentation</Type>
 														</AdditionSource>
-														<ContextMenu name="ИерархияНоменклатурыПоставщикаСостояниеПросмотраКонтекстноеМеню" id="1213"/>
-														<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаСостояниеПросмотраРасширеннаяПодсказка" id="1214"/>
+														<ContextMenu name="ИерархияНоменклатурыПартнераСостояниеПросмотраКонтекстноеМеню" id="1613"/>
+														<ExtendedTooltip name="ИерархияНоменклатурыПартнераСостояниеПросмотраРасширеннаяПодсказка" id="1614"/>
 													</ViewStatusAddition>
-													<SearchControlAddition name="ИерархияНоменклатурыПоставщикаУправлениеПоиском" id="1215">
+													<SearchControlAddition name="ИерархияНоменклатурыПартнераУправлениеПоиском" id="1615">
 														<AdditionSource>
-															<Item>ИерархияНоменклатурыПоставщика</Item>
+															<Item>ИерархияНоменклатурыПартнера</Item>
 															<Type>SearchControl</Type>
 														</AdditionSource>
-														<ContextMenu name="ИерархияНоменклатурыПоставщикаУправлениеПоискомКонтекстноеМеню" id="1216"/>
-														<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаУправлениеПоискомРасширеннаяПодсказка" id="1217"/>
+														<ContextMenu name="ИерархияНоменклатурыПартнераУправлениеПоискомКонтекстноеМеню" id="1616"/>
+														<ExtendedTooltip name="ИерархияНоменклатурыПартнераУправлениеПоискомРасширеннаяПодсказка" id="1617"/>
 													</SearchControlAddition>
 													<ChildItems>
-														<LabelField name="ИерархияНоменклатурыПоставщикаНаименование" id="683">
-															<DataPath>~ИерархияНоменклатурыПоставщика.Description</DataPath>
-															<ContextMenu name="ИерархияНоменклатурыПоставщикаНаименованиеКонтекстноеМеню" id="684"/>
-															<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаНаименованиеExtendedTooltip" id="1081"/>
+														<LabelField name="ИерархияНоменклатурыПартнераНаименование" id="1392">
+															<ContextMenu name="ИерархияНоменклатурыПартнераНаименованиеКонтекстноеМеню" id="1618"/>
+															<ExtendedTooltip name="ИерархияНоменклатурыПартнераНаименованиеРасширеннаяПодсказка" id="1619"/>
 														</LabelField>
 													</ChildItems>
 												</Table>
@@ -3258,8 +3215,14 @@
 											<ContextMenu name="КорзинаНоменклатураТипНоменклатурыКонтекстноеМеню" id="741"/>
 											<ExtendedTooltip name="КорзинаНоменклатураТипНоменклатурыExtendedTooltip" id="1095"/>
 										</LabelField>
-										<InputField name="НоменклатураПоставщика" id="392">
-											<DataPath>1000001/0:f2b59838-c698-4747-b883-002e5ec128cf/0:1dd1d7c0-1f0f-4a55-96b4-f8e9d136aef9</DataPath>
+										<InputField name="НоменклатураПартнера" id="1413">
+											<DataPath>Объект.Корзина.НоменклатураПартнера</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Номенклатура поставщика</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>16</Width>
 											<DropListButton>true</DropListButton>
@@ -3271,8 +3234,8 @@
 												</xr:Link>
 											</ChoiceParameterLinks>
 											<ChoiceListButton>true</ChoiceListButton>
-											<ContextMenu name="НоменклатураПоставщикаКонтекстноеМеню" id="393"/>
-											<ExtendedTooltip name="НоменклатураПоставщикаExtendedTooltip" id="1096"/>
+											<ContextMenu name="НоменклатураПартнераКонтекстноеМеню" id="1620"/>
+											<ExtendedTooltip name="НоменклатураПартнераРасширеннаяПодсказка" id="1621"/>
 										</InputField>
 										<InputField name="КорзинаНоменклатура" id="376">
 											<DataPath>Объект.Корзина.Номенклатура</DataPath>
@@ -3779,9 +3742,6 @@
 				<Field>~СписокНоменклатураПоставщика.ЭтоТовар</Field>
 				<Field>~СписокНоменклатураПоставщика.ЭтоУслуга</Field>
 			</UseAlways>
-			<FunctionalOptions>
-				<Item>8488dc0d-f19a-453e-8e93-89685761cdc2</Item>
-			</FunctionalOptions>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
@@ -4703,7 +4663,11 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeId>72bcac30-053b-482a-beda-295b50992ff6</v8:TypeId>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 		<Attribute name="ОтборЦенаОтПоставщика" id="1000054">
@@ -6101,11 +6065,11 @@
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="ФормаУстановитьТекущийЭлементПодобранныеТоварыExtendedTooltip" id="894"/>
 									</Button>
-									<Button name="ФормаУстановитьТекущийЭлементНоменклатураПоставщика" id="463">
+									<Button name="ФормаУстановитьТекущийЭлементНоменклатураПартнера" id="463">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.УстановитьТекущийЭлементНоменклатураПоставщика</CommandName>
+										<CommandName>0</CommandName>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-										<ExtendedTooltip name="ФормаУстановитьТекущийЭлементНоменклатураПоставщикаExtendedTooltip" id="895"/>
+										<ExtendedTooltip name="ФормаУстановитьТекущийЭлементНоменклатураПартнераРасширеннаяПодсказка" id="895"/>
 									</Button>
 								</ChildItems>
 							</Popup>
@@ -6292,17 +6256,17 @@
 																			<ChildItems>
 																				<Button name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюИзменить" id="872">
 																					<Type>CommandBarButton</Type>
-																					<CommandName>0:b41f5bbc-ba5d-4888-8cd1-db246a371418</CommandName>
+																					<CommandName>0</CommandName>
 																					<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюИзменитьExtendedTooltip" id="916"/>
 																				</Button>
 																				<Button name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюКопироватьВБуферОбмена" id="873">
 																					<Type>CommandBarButton</Type>
-																					<CommandName>0:88078230-1f6b-415f-99e4-ad2ff73810cf</CommandName>
+																					<CommandName>0</CommandName>
 																					<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip" id="917"/>
 																				</Button>
 																				<Button name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюОбновить" id="798">
 																					<Type>CommandBarButton</Type>
-																					<CommandName>0:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
+																					<CommandName>0</CommandName>
 																					<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюОбновитьExtendedTooltip" id="918"/>
 																				</Button>
 																			</ChildItems>
@@ -6566,7 +6530,7 @@
 																		</ButtonGroup>
 																		<Button name="СписокСтандартныйПоискХарактеристикиКонтекстноеМенюОбновить" id="819">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
+																			<CommandName>0</CommandName>
 																			<ExtendedTooltip name="СписокСтандартныйПоискХарактеристикиКонтекстноеМенюОбновитьExtendedTooltip" id="939"/>
 																		</Button>
 																	</ChildItems>
@@ -6748,7 +6712,6 @@
 																			</v8:item>
 																		</Title>
 																		<TitleLocation>None</TitleLocation>
-																		<Width>1</Width>
 																		<Wrap>false</Wrap>
 																		<ClearButton>true</ClearButton>
 																		<ChoiceListButton>true</ChoiceListButton>
@@ -6922,17 +6885,17 @@
 																			<ChildItems>
 																				<Button name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюКопироватьВБуферОбмена" id="877">
 																					<Type>CommandBarButton</Type>
-																					<CommandName>0:88078230-1f6b-415f-99e4-ad2ff73810cf</CommandName>
+																					<CommandName>0</CommandName>
 																					<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip" id="962"/>
 																				</Button>
 																				<Button name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюИзменить" id="878">
 																					<Type>CommandBarButton</Type>
-																					<CommandName>0:b41f5bbc-ba5d-4888-8cd1-db246a371418</CommandName>
+																					<CommandName>0</CommandName>
 																					<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюИзменитьExtendedTooltip" id="963"/>
 																				</Button>
 																				<Button name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюОбновить" id="456">
 																					<Type>CommandBarButton</Type>
-																					<CommandName>0:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
+																					<CommandName>0</CommandName>
 																					<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураКонтекстноеМенюОбновитьExtendedTooltip" id="964"/>
 																				</Button>
 																			</ChildItems>
@@ -7228,7 +7191,7 @@
 																		</ButtonGroup>
 																		<Button name="СписокРасширенныйПоискХарактеристикиКонтекстноеМенюОбновить" id="457">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:403bc6e6-b98e-4181-9f43-9c75cbbf82cf</CommandName>
+																			<CommandName>0</CommandName>
 																			<ExtendedTooltip name="СписокРасширенныйПоискХарактеристикиКонтекстноеМенюОбновитьExtendedTooltip" id="986"/>
 																		</Button>
 																	</ChildItems>
@@ -7529,7 +7492,7 @@
 																<ChildItems>
 																	<Button name="СоздатьВидНоменклатуры" id="1338">
 																		<Type>CommandBarButton</Type>
-																		<CommandName>0:0f8d6d98-2f8b-405a-b8b3-0538e9d95da5</CommandName>
+																		<CommandName>0</CommandName>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -7540,7 +7503,7 @@
 																	</Button>
 																	<Button name="СоздатьГруппуВидовНоменклатуры" id="1340">
 																		<Type>CommandBarButton</Type>
-																		<CommandName>0:d82ca05c-2966-4d77-9a39-a1eea087bfa7</CommandName>
+																		<CommandName>0</CommandName>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -7554,7 +7517,7 @@
 															<Button name="СоздатьГруппуНоменклатуры" id="1342">
 																<Type>CommandBarButton</Type>
 																<Representation>Picture</Representation>
-																<CommandName>0:d82ca05c-2966-4d77-9a39-a1eea087bfa7</CommandName>
+																<CommandName>0</CommandName>
 																<ExtendedTooltip name="СоздатьГруппуНоменклатурыРасширеннаяПодсказка" id="1343"/>
 															</Button>
 															<Button name="ИзменитьВариантНавигации" id="1246">
@@ -7641,22 +7604,22 @@
 																	<ChildItems>
 																		<Button name="ИерархияНоменклатурыКонтекстноеМенюСоздатьГруппу" id="1328">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:d82ca05c-2966-4d77-9a39-a1eea087bfa7</CommandName>
+																			<CommandName>0</CommandName>
 																			<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюСоздатьГруппуExtendedTooltip" id="1329"/>
 																		</Button>
 																		<Button name="ИерархияНоменклатурыКонтекстноеМенюИзменить" id="1330">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:b41f5bbc-ba5d-4888-8cd1-db246a371418</CommandName>
+																			<CommandName>0</CommandName>
 																			<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюИзменитьExtendedTooltip" id="1331"/>
 																		</Button>
 																		<Button name="ИерархияНоменклатурыКонтекстноеМенюСкопировать" id="1332">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
+																			<CommandName>0</CommandName>
 																			<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюСкопироватьExtendedTooltip" id="1333"/>
 																		</Button>
 																		<Button name="ИерархияНоменклатурыКонтекстноеМенюУстановитьПометкуУдаления" id="1334">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:a2f737a8-0114-4e86-a214-45e5c213fa65</CommandName>
+																			<CommandName>0</CommandName>
 																			<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюУстановитьПометкуУдаленияExtendedTooltip" id="1335"/>
 																		</Button>
 																	</ChildItems>
@@ -7775,7 +7738,7 @@
 																	<ChildItems>
 																		<Button name="ВидыНоменклатурыСоздать" id="1275">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:0f8d6d98-2f8b-405a-b8b3-0538e9d95da5</CommandName>
+																			<CommandName>0</CommandName>
 																			<Title>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
@@ -7786,7 +7749,7 @@
 																		</Button>
 																		<Button name="ВидыНоменклатурыСоздатьГруппу" id="1277">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:d82ca05c-2966-4d77-9a39-a1eea087bfa7</CommandName>
+																			<CommandName>0</CommandName>
 																			<Title>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
@@ -7797,17 +7760,17 @@
 																		</Button>
 																		<Button name="ВидыНоменклатурыИзменить" id="1279">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:b41f5bbc-ba5d-4888-8cd1-db246a371418</CommandName>
+																			<CommandName>0</CommandName>
 																			<ExtendedTooltip name="ВидыНоменклатурыИзменитьРасширеннаяПодсказка" id="1280"/>
 																		</Button>
 																		<Button name="ВидыНоменклатурыСкопировать" id="1281">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
+																			<CommandName>0</CommandName>
 																			<ExtendedTooltip name="ВидыНоменклатурыСкопироватьРасширеннаяПодсказка" id="1282"/>
 																		</Button>
 																		<Button name="ВидыНоменклатурыУстановитьПометкуУдаления" id="1283">
 																			<Type>CommandBarButton</Type>
-																			<CommandName>0:a2f737a8-0114-4e86-a214-45e5c213fa65</CommandName>
+																			<CommandName>0</CommandName>
 																			<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 																			<ExtendedTooltip name="ВидыНоменклатурыУстановитьПометкуУдаленияРасширеннаяПодсказка" id="1284"/>
 																		</Button>
@@ -8182,7 +8145,7 @@
 									</UsualGroup>
 								</ChildItems>
 							</Page>
-							<Page name="СтраницаНоменклатураПоставщика" id="398">
+							<Page name="СтраницаНоменклатураПартнера" id="398">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -8190,9 +8153,9 @@
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
-								<ExtendedTooltip name="СтраницаНоменклатураПоставщикаExtendedTooltip" id="1032"/>
+								<ExtendedTooltip name="СтраницаНоменклатураПартнераРасширеннаяПодсказка" id="1032"/>
 								<ChildItems>
-									<UsualGroup name="ГруппаНайденныеТоварыПоставщика" id="671">
+									<UsualGroup name="ГруппаНайденныеТоварыПартнера" id="671">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -8203,9 +8166,9 @@
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
-										<ExtendedTooltip name="ГруппаНайденныеТоварыПоставщикаExtendedTooltip" id="1033"/>
+										<ExtendedTooltip name="ГруппаНайденныеТоварыПартнераРасширеннаяПодсказка" id="1033"/>
 										<ChildItems>
-											<Pages name="СтраницыСписковНоменклатураПоставщика" id="526">
+											<Pages name="СтраницыСписковНоменклатураПартнера" id="526">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8213,47 +8176,46 @@
 													</v8:item>
 												</Title>
 												<PagesRepresentation>None</PagesRepresentation>
-												<ExtendedTooltip name="СтраницыСписковНоменклатураПоставщикаExtendedTooltip" id="1034"/>
+												<ExtendedTooltip name="СтраницыСписковНоменклатураПартнераРасширеннаяПодсказка" id="1034"/>
 												<ChildItems>
-													<Page name="СтраницаСтандартныйПоискНоменклатураПоставщика" id="840">
+													<Page name="СтраницаСтандартныйПоискНоменклатураПартнера" id="840">
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Страница стандартный поиск номенклатура поставщика</v8:content>
+																<v8:content>Страница стандартный поиск номенклатура партнера</v8:content>
 															</v8:item>
 														</Title>
-														<ExtendedTooltip name="СтраницаСтандартныйПоискНоменклатураПоставщикаExtendedTooltip" id="1035"/>
+														<ExtendedTooltip name="СтраницаСтандартныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1035"/>
 														<ChildItems>
-															<CommandBar name="КоманднаяПанельСписокСтандартныйПоискНоменклатураПоставщика" id="765">
+															<CommandBar name="КоманднаяПанельСписокСтандартныйПоискНоменклатураПартнера" id="765">
 																<Visible>false</Visible>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>Командная панель список стандартный поиск номенклатура поставщика</v8:content>
+																		<v8:content>Командная панель список стандартный поиск номенклатура партнера</v8:content>
 																	</v8:item>
 																</Title>
-																<ExtendedTooltip name="КоманднаяПанельСписокСтандартныйПоискНоменклатураПоставщикаExtendedTooltip" id="1036"/>
+																<ExtendedTooltip name="КоманднаяПанельСписокСтандартныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1036"/>
 																<ChildItems>
-																	<Button name="НайтиСтандартныйПоискНоменклатураПоставщика" id="766">
+																	<Button name="НайтиСтандартныйПоискНоменклатураПартнера" id="766">
 																		<Type>CommandBarButton</Type>
-																		<CommandName>0:c0519548-2a9a-44de-a25e-faf01e089d4d</CommandName>
-																		<ExtendedTooltip name="НайтиСтандартныйПоискНоменклатураПоставщикаExtendedTooltip" id="1037"/>
+																		<CommandName>0</CommandName>
+																		<ExtendedTooltip name="НайтиСтандартныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1037"/>
 																	</Button>
-																	<Button name="ОтменитьПоискНоменклатураПоставщика" id="767">
+																	<Button name="ОтменитьПоискНоменклатураПартнера" id="767">
 																		<Type>CommandBarButton</Type>
-																		<CommandName>0:44ad3ec9-f3c2-4913-9224-5f9fb6418743</CommandName>
-																		<ExtendedTooltip name="ОтменитьПоискНоменклатураПоставщикаExtendedTooltip" id="1038"/>
+																		<CommandName>0</CommandName>
+																		<ExtendedTooltip name="ОтменитьПоискНоменклатураПартнераРасширеннаяПодсказка" id="1038"/>
 																	</Button>
 																</ChildItems>
 															</CommandBar>
-															<Table name="СписокСтандартныйПоискНоменклатураПоставщика" id="842">
+															<Table name="СписокСтандартныйПоискНоменклатураПартнера" id="842">
 																<Representation>List</Representation>
 																<SkipOnInput>false</SkipOnInput>
 																<UseAlternationRowColor>true</UseAlternationRowColor>
 																<SearchOnInput>Use</SearchOnInput>
 																<EnableStartDrag>true</EnableStartDrag>
 																<FileDragMode>AsFile</FileDragMode>
-																<DataPath>СписокНоменклатураПоставщика</DataPath>
 																<RowsPicture>
 																	<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -8264,16 +8226,6 @@
 																		<v8:content>Список стандартный поиск номенклатура поставщика</v8:content>
 																	</v8:item>
 																</Title>
-																<CommandSet>
-																	<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-																	<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
-																	<ExcludedCommand>ListSettings</ExcludedCommand>
-																	<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-																	<ExcludedCommand>OutputList</ExcludedCommand>
-																	<ExcludedCommand>Refresh</ExcludedCommand>
-																	<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-																	<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
-																</CommandSet>
 																<AutoRefresh>false</AutoRefresh>
 																<AutoRefreshPeriod>60</AutoRefreshPeriod>
 																<Period>
@@ -8287,45 +8239,44 @@
 																<ShowRoot>true</ShowRoot>
 																<AllowRootChoice>false</AllowRootChoice>
 																<UpdateOnDataChange>Auto</UpdateOnDataChange>
-																<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаКонтекстноеМеню" id="843">
+																<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераКонтекстноеМеню" id="843">
 																	<ChildItems>
-																		<Button name="СписокСтандартныйПоискНоменклатураПоставщикаКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="866">
+																		<Button name="СписокСтандартныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="866">
 																			<Type>CommandBarButton</Type>
 																			<SkipOnInput>false</SkipOnInput>
 																			<CommandName>Form.Command.ЦеныНоменклатуры</CommandName>
-																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаКонтекстноеМенюПерейтиКЦенамНоменклатурыExtendedTooltip" id="1039"/>
+																			<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатурыРасширеннаяПодсказка" id="1039"/>
 																		</Button>
 																	</ChildItems>
 																</ContextMenu>
-																<AutoCommandBar name="СписокСтандартныйПоискНоменклатураПоставщикаКоманднаяПанель" id="844"/>
-																<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаExtendedTooltip" id="1040"/>
-																<SearchStringAddition name="СписокСтандартныйПоискНоменклатураПоставщикаСтрокаПоиска" id="1182">
+																<AutoCommandBar name="СписокСтандартныйПоискНоменклатураПартнераКоманднаяПанель" id="844"/>
+																<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1040"/>
+																<SearchStringAddition name="СписокСтандартныйПоискНоменклатураПартнераСтрокаПоиска" id="1182">
 																	<AdditionSource>
-																		<Item>СписокСтандартныйПоискНоменклатураПоставщика</Item>
+																		<Item>СписокСтандартныйПоискНоменклатураПартнера</Item>
 																		<Type>SearchStringRepresentation</Type>
 																	</AdditionSource>
-																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаСтрокаПоискаКонтекстноеМеню" id="1183"/>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаСтрокаПоискаРасширеннаяПодсказка" id="1184"/>
+																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераСтрокаПоискаКонтекстноеМеню" id="1183"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераСтрокаПоискаРасширеннаяПодсказка" id="1184"/>
 																</SearchStringAddition>
-																<ViewStatusAddition name="СписокСтандартныйПоискНоменклатураПоставщикаСостояниеПросмотра" id="1185">
+																<ViewStatusAddition name="СписокСтандартныйПоискНоменклатураПартнераСостояниеПросмотра" id="1185">
 																	<AdditionSource>
-																		<Item>СписокСтандартныйПоискНоменклатураПоставщика</Item>
+																		<Item>СписокСтандартныйПоискНоменклатураПартнера</Item>
 																		<Type>ViewStatusRepresentation</Type>
 																	</AdditionSource>
-																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаСостояниеПросмотраКонтекстноеМеню" id="1186"/>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаСостояниеПросмотраРасширеннаяПодсказка" id="1187"/>
+																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераСостояниеПросмотраКонтекстноеМеню" id="1186"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераСостояниеПросмотраРасширеннаяПодсказка" id="1187"/>
 																</ViewStatusAddition>
-																<SearchControlAddition name="СписокСтандартныйПоискНоменклатураПоставщикаУправлениеПоиском" id="1188">
+																<SearchControlAddition name="СписокСтандартныйПоискНоменклатураПартнераУправлениеПоиском" id="1188">
 																	<AdditionSource>
-																		<Item>СписокСтандартныйПоискНоменклатураПоставщика</Item>
+																		<Item>СписокСтандартныйПоискНоменклатураПартнера</Item>
 																		<Type>SearchControl</Type>
 																	</AdditionSource>
-																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаУправлениеПоискомКонтекстноеМеню" id="1189"/>
-																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаУправлениеПоискомРасширеннаяПодсказка" id="1190"/>
+																	<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераУправлениеПоискомКонтекстноеМеню" id="1189"/>
+																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераУправлениеПоискомРасширеннаяПодсказка" id="1190"/>
 																</SearchControlAddition>
 																<ChildItems>
-																	<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаСсылка" id="845">
-																		<DataPath>~СписокНоменклатураПоставщика.Ссылка</DataPath>
+																	<LabelField name="СписокСтандартныйПоискНоменклатураПартнераСсылка" id="845">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8333,11 +8284,10 @@
 																			</v8:item>
 																		</Title>
 																		<Width>22</Width>
-																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаСсылкаКонтекстноеМеню" id="846"/>
-																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаСсылкаExtendedTooltip" id="1041"/>
+																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераСсылкаКонтекстноеМеню" id="846"/>
+																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераСсылкаРасширеннаяПодсказка" id="1041"/>
 																	</LabelField>
-																	<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаКод" id="847">
-																		<DataPath>~СписокНоменклатураПоставщика.Код</DataPath>
+																	<LabelField name="СписокСтандартныйПоискНоменклатураПартнераКод" id="847">
 																		<Visible>false</Visible>
 																		<UserVisible>
 																			<xr:Common>false</xr:Common>
@@ -8349,10 +8299,10 @@
 																			</v8:item>
 																		</Title>
 																		<Width>10</Width>
-																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаКодКонтекстноеМеню" id="848"/>
-																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаКодExtendedTooltip" id="1042"/>
+																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераКодКонтекстноеМеню" id="848"/>
+																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераКодРасширеннаяПодсказка" id="1042"/>
 																	</LabelField>
-																	<ColumnGroup name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатураПоставщика" id="857">
+																	<ColumnGroup name="СписокСтандартныйПоискНоменклатураПартнераНоменклатураПартнера" id="857">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8366,30 +8316,26 @@
 																			</v8:item>
 																		</ToolTip>
 																		<Group>InCell</Group>
-																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатураПоставщикаExtendedTooltip" id="1043"/>
+																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераНоменклатураПартнераРасширеннаяПодсказка" id="1043"/>
 																		<ChildItems>
-																			<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатура" id="858">
-																				<DataPath>~СписокНоменклатураПоставщика.Номенклатура</DataPath>
+																			<LabelField name="СписокСтандартныйПоискНоменклатураПартнераНоменклатура" id="858">
 																				<Width>16</Width>
-																				<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатураКонтекстноеМеню" id="859"/>
-																				<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаНоменклатураExtendedTooltip" id="1044"/>
+																				<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераНоменклатураКонтекстноеМеню" id="859"/>
+																				<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераНоменклатураРасширеннаяПодсказка" id="1044"/>
 																			</LabelField>
-																			<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаХарактеристика" id="860">
-																				<DataPath>~СписокНоменклатураПоставщика.Характеристика</DataPath>
+																			<LabelField name="СписокСтандартныйПоискНоменклатураПартнераХарактеристика" id="860">
 																				<Width>16</Width>
-																				<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаХарактеристикаКонтекстноеМеню" id="861"/>
-																				<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаХарактеристикаExtendedTooltip" id="1045"/>
+																				<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераХарактеристикаКонтекстноеМеню" id="861"/>
+																				<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераХарактеристикаРасширеннаяПодсказка" id="1045"/>
 																			</LabelField>
-																			<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаУпаковка" id="862">
-																				<DataPath>~СписокНоменклатураПоставщика.Упаковка</DataPath>
+																			<LabelField name="СписокСтандартныйПоискНоменклатураПартнераУпаковка" id="862">
 																				<Width>9</Width>
-																				<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаУпаковкаКонтекстноеМеню" id="863"/>
-																				<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаУпаковкаExtendedTooltip" id="1046"/>
+																				<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераУпаковкаКонтекстноеМеню" id="863"/>
+																				<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераУпаковкаРасширеннаяПодсказка" id="1046"/>
 																			</LabelField>
 																		</ChildItems>
 																	</ColumnGroup>
-																	<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаАртикул" id="849">
-																		<DataPath>~СписокНоменклатураПоставщика.Артикул</DataPath>
+																	<LabelField name="СписокСтандартныйПоискНоменклатураПартнераАртикул" id="849">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8398,21 +8344,20 @@
 																		</Title>
 																		<Width>10</Width>
 																		<HorizontalStretch>false</HorizontalStretch>
-																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаАртикулКонтекстноеМеню" id="850"/>
-																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаАртикулExtendedTooltip" id="1047"/>
+																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераАртикулКонтекстноеМеню" id="850"/>
+																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераАртикулРасширеннаяПодсказка" id="1047"/>
 																	</LabelField>
-																	<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаЦена" id="853">
-																		<DataPath>~СписокНоменклатураПоставщика.Цена</DataPath>
+																	<LabelField name="СписокСтандартныйПоискНоменклатураПартнераЦена" id="853">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Цена</v8:content>
 																			</v8:item>
 																		</Title>
-																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаЦенаКонтекстноеМеню" id="854"/>
-																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1049"/>
+																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераЦенаКонтекстноеМеню" id="854"/>
+																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераЦенаРасширеннаяПодсказка" id="1049"/>
 																	</LabelField>
-																	<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="855">
+																	<LabelField name="СписокСтандартныйПоискНоменклатураПартнераЕдиницаИзмерения" id="855">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8421,45 +8366,43 @@
 																		</Title>
 																		<Width>4</Width>
 																		<HorizontalStretch>false</HorizontalStretch>
-																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмеренияКонтекстноеМеню" id="856"/>
-																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмеренияExtendedTooltip" id="1050"/>
+																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераЕдиницаИзмеренияКонтекстноеМеню" id="856"/>
+																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераЕдиницаИзмеренияРасширеннаяПодсказка" id="1050"/>
 																	</LabelField>
-																	<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаСтавкаНДС" id="864">
-																		<DataPath>~СписокНоменклатураПоставщика.СтавкаНДС</DataPath>
+																	<LabelField name="СписокСтандартныйПоискНоменклатураПартнераСтавкаНДС" id="864">
 																		<UserVisible>
 																			<xr:Common>false</xr:Common>
 																		</UserVisible>
 																		<Width>9</Width>
-																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПоставщикаСтавкаНДСКонтекстноеМеню" id="865"/>
-																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаСтавкаНДСExtendedTooltip" id="1051"/>
+																		<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераСтавкаНДСКонтекстноеМеню" id="865"/>
+																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПартнераСтавкаНДСРасширеннаяПодсказка" id="1051"/>
 																	</LabelField>
 																</ChildItems>
 															</Table>
 														</ChildItems>
 													</Page>
-													<Page name="СтраницаРасширенныйПоискНоменклатураПоставщика" id="841">
+													<Page name="СтраницаРасширенныйПоискНоменклатураПартнера" id="841">
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Страница расширенный поиск номенклатура поставщика</v8:content>
+																<v8:content>Страница расширенный поиск номенклатура партнера</v8:content>
 															</v8:item>
 														</Title>
-														<ExtendedTooltip name="СтраницаРасширенныйПоискНоменклатураПоставщикаExtendedTooltip" id="1052"/>
+														<ExtendedTooltip name="СтраницаРасширенныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1052"/>
 														<ChildItems>
-															<UsualGroup name="РасширенныйПоискНоменклатураПоставщика" id="763">
+															<UsualGroup name="РасширенныйПоискНоменклатураПартнера" id="763">
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>Расширенный поиск номенклатура поставщика</v8:content>
+																		<v8:content>Расширенный поиск номенклатура партнера</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Horizontal</Group>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
-																<ExtendedTooltip name="РасширенныйПоискНоменклатураПоставщикаExtendedTooltip" id="1053"/>
+																<ExtendedTooltip name="РасширенныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1053"/>
 																<ChildItems>
-																	<InputField name="СтрокаПоискаНоменклатураПоставщика" id="587">
-																		<DataPath>СтрокаПоискаНоменклатураПоставщика</DataPath>
+																	<InputField name="СтрокаПоискаНоменклатураПартнера" id="587">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8472,38 +8415,37 @@
 																		<Wrap>false</Wrap>
 																		<ClearButton>true</ClearButton>
 																		<ChoiceListButton>true</ChoiceListButton>
-																		<ContextMenu name="СтрокаПоискаНоменклатураПоставщикаКонтекстноеМеню" id="588"/>
-																		<ExtendedTooltip name="СтрокаПоискаНоменклатураПоставщикаExtendedTooltip" id="1054"/>
+																		<ContextMenu name="СтрокаПоискаНоменклатураПартнераКонтекстноеМеню" id="588"/>
+																		<ExtendedTooltip name="СтрокаПоискаНоменклатураПартнераРасширеннаяПодсказка" id="1054"/>
 																	</InputField>
-																	<CommandBar name="КоманднаяПанельПоискНоменклатураПоставщика" id="589">
+																	<CommandBar name="КоманднаяПанельПоискНоменклатураПартнера" id="589">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Командная панель поиск номенклатура поставщика</v8:content>
+																				<v8:content>Командная панель поиск номенклатура партнера</v8:content>
 																			</v8:item>
 																		</Title>
 																		<Width>3</Width>
 																		<HorizontalStretch>false</HorizontalStretch>
-																		<ExtendedTooltip name="КоманднаяПанельПоискНоменклатураПоставщикаExtendedTooltip" id="1055"/>
+																		<ExtendedTooltip name="КоманднаяПанельПоискНоменклатураПартнераРасширеннаяПодсказка" id="1055"/>
 																		<ChildItems>
-																			<Button name="НайтиРасширенныйПоискНоменклатураПоставщика" id="595">
+																			<Button name="НайтиРасширенныйПоискНоменклатураПартнера" id="595">
 																				<Type>CommandBarButton</Type>
 																				<Representation>Picture</Representation>
 																				<CommandName>Form.Command.Найти</CommandName>
-																				<ExtendedTooltip name="НайтиРасширенныйПоискНоменклатураПоставщикаExtendedTooltip" id="1056"/>
+																				<ExtendedTooltip name="НайтиРасширенныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1056"/>
 																			</Button>
 																		</ChildItems>
 																	</CommandBar>
-																	<CheckBoxField name="НайтиНоменклатуруПоставщикаПоТочномуСоответствию" id="664">
-																		<DataPath>НайтиНоменклатуруПоставщикаПоТочномуСоответствию</DataPath>
+																	<CheckBoxField name="НайтиНоменклатуруПартнераПоТочномуСоответствию" id="664">
 																		<TitleLocation>Right</TitleLocation>
 																		<CheckBoxType>Auto</CheckBoxType>
-																		<ContextMenu name="НайтиНоменклатуруПоставщикаПоТочномуСоответствиюКонтекстноеМеню" id="665"/>
-																		<ExtendedTooltip name="НайтиНоменклатуруПоставщикаПоТочномуСоответствиюExtendedTooltip" id="1057"/>
+																		<ContextMenu name="НайтиНоменклатуруПартнераПоТочномуСоответствиюКонтекстноеМеню" id="665"/>
+																		<ExtendedTooltip name="НайтиНоменклатуруПартнераПоТочномуСоответствиюРасширеннаяПодсказка" id="1057"/>
 																	</CheckBoxField>
 																</ChildItems>
 															</UsualGroup>
-															<Table name="СписокРасширенныйПоискНоменклатураПоставщика" id="399">
+															<Table name="СписокРасширенныйПоискНоменклатураПартнера" id="399">
 																<Representation>List</Representation>
 																<CommandBarLocation>None</CommandBarLocation>
 																<SkipOnInput>false</SkipOnInput>
@@ -8511,7 +8453,6 @@
 																<SearchOnInput>DontUse</SearchOnInput>
 																<EnableStartDrag>true</EnableStartDrag>
 																<FileDragMode>AsFile</FileDragMode>
-																<DataPath>СписокНоменклатураПоставщика</DataPath>
 																<RowsPicture>
 																	<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -8522,13 +8463,6 @@
 																		<v8:content>Список расширенный поиск номенклатура поставщика</v8:content>
 																	</v8:item>
 																</Title>
-																<CommandSet>
-																	<ExcludedCommand>CancelSearch</ExcludedCommand>
-																	<ExcludedCommand>Find</ExcludedCommand>
-																	<ExcludedCommand>ListSettings</ExcludedCommand>
-																	<ExcludedCommand>OutputList</ExcludedCommand>
-																	<ExcludedCommand>Refresh</ExcludedCommand>
-																</CommandSet>
 																<AutoRefresh>false</AutoRefresh>
 																<AutoRefreshPeriod>60</AutoRefreshPeriod>
 																<Period>
@@ -8542,45 +8476,44 @@
 																<ShowRoot>true</ShowRoot>
 																<AllowRootChoice>false</AllowRootChoice>
 																<UpdateOnDataChange>Auto</UpdateOnDataChange>
-																<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаКонтекстноеМеню" id="400">
+																<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераКонтекстноеМеню" id="400">
 																	<ChildItems>
-																		<Button name="СписокРасширенныйПоискНоменклатураПоставщикаКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="430">
+																		<Button name="СписокРасширенныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="430">
 																			<Type>CommandBarButton</Type>
 																			<SkipOnInput>false</SkipOnInput>
 																			<CommandName>Form.Command.ЦеныНоменклатуры</CommandName>
-																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаКонтекстноеМенюПерейтиКЦенамНоменклатурыExtendedTooltip" id="1058"/>
+																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатурыРасширеннаяПодсказка" id="1058"/>
 																		</Button>
 																	</ChildItems>
 																</ContextMenu>
-																<AutoCommandBar name="СписокРасширенныйПоискНоменклатураПоставщикаКоманднаяПанель" id="401"/>
-																<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаExtendedTooltip" id="1059"/>
-																<SearchStringAddition name="СписокРасширенныйПоискНоменклатураПоставщикаСтрокаПоиска" id="1191">
+																<AutoCommandBar name="СписокРасширенныйПоискНоменклатураПартнераКоманднаяПанель" id="401"/>
+																<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1059"/>
+																<SearchStringAddition name="СписокРасширенныйПоискНоменклатураПартнераСтрокаПоиска" id="1191">
 																	<AdditionSource>
-																		<Item>СписокРасширенныйПоискНоменклатураПоставщика</Item>
+																		<Item>СписокРасширенныйПоискНоменклатураПартнера</Item>
 																		<Type>SearchStringRepresentation</Type>
 																	</AdditionSource>
-																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаСтрокаПоискаКонтекстноеМеню" id="1192"/>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаСтрокаПоискаРасширеннаяПодсказка" id="1193"/>
+																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераСтрокаПоискаКонтекстноеМеню" id="1192"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераСтрокаПоискаРасширеннаяПодсказка" id="1193"/>
 																</SearchStringAddition>
-																<ViewStatusAddition name="СписокРасширенныйПоискНоменклатураПоставщикаСостояниеПросмотра" id="1194">
+																<ViewStatusAddition name="СписокРасширенныйПоискНоменклатураПартнераСостояниеПросмотра" id="1194">
 																	<AdditionSource>
-																		<Item>СписокРасширенныйПоискНоменклатураПоставщика</Item>
+																		<Item>СписокРасширенныйПоискНоменклатураПартнера</Item>
 																		<Type>ViewStatusRepresentation</Type>
 																	</AdditionSource>
-																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаСостояниеПросмотраКонтекстноеМеню" id="1195"/>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаСостояниеПросмотраРасширеннаяПодсказка" id="1196"/>
+																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераСостояниеПросмотраКонтекстноеМеню" id="1195"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераСостояниеПросмотраРасширеннаяПодсказка" id="1196"/>
 																</ViewStatusAddition>
-																<SearchControlAddition name="СписокРасширенныйПоискНоменклатураПоставщикаУправлениеПоиском" id="1197">
+																<SearchControlAddition name="СписокРасширенныйПоискНоменклатураПартнераУправлениеПоиском" id="1197">
 																	<AdditionSource>
-																		<Item>СписокРасширенныйПоискНоменклатураПоставщика</Item>
+																		<Item>СписокРасширенныйПоискНоменклатураПартнера</Item>
 																		<Type>SearchControl</Type>
 																	</AdditionSource>
-																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаУправлениеПоискомКонтекстноеМеню" id="1198"/>
-																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаУправлениеПоискомРасширеннаяПодсказка" id="1199"/>
+																	<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераУправлениеПоискомКонтекстноеМеню" id="1198"/>
+																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераУправлениеПоискомРасширеннаяПодсказка" id="1199"/>
 																</SearchControlAddition>
 																<ChildItems>
-																	<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаСсылка" id="409">
-																		<DataPath>~СписокНоменклатураПоставщика.Ссылка</DataPath>
+																	<LabelField name="СписокРасширенныйПоискНоменклатураПартнераСсылка" id="409">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8588,11 +8521,10 @@
 																			</v8:item>
 																		</Title>
 																		<Width>22</Width>
-																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаСсылкаКонтекстноеМеню" id="410"/>
-																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаСсылкаExtendedTooltip" id="1060"/>
+																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераСсылкаКонтекстноеМеню" id="410"/>
+																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераСсылкаРасширеннаяПодсказка" id="1060"/>
 																	</LabelField>
-																	<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаКод" id="744">
-																		<DataPath>~СписокНоменклатураПоставщика.Код</DataPath>
+																	<LabelField name="СписокРасширенныйПоискНоменклатураПартнераКод" id="744">
 																		<UserVisible>
 																			<xr:Common>false</xr:Common>
 																		</UserVisible>
@@ -8603,10 +8535,10 @@
 																			</v8:item>
 																		</Title>
 																		<Width>10</Width>
-																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаКодКонтекстноеМеню" id="745"/>
-																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаКодExtendedTooltip" id="1061"/>
+																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераКодКонтекстноеМеню" id="745"/>
+																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераКодРасширеннаяПодсказка" id="1061"/>
 																	</LabelField>
-																	<ColumnGroup name="СписокРасширенныйПоискНоменклатураПоставщикаГруппаНоменклатураПоставщика" id="406">
+																	<ColumnGroup name="СписокРасширенныйПоискНоменклатураПартнераГруппаНоменклатураПартнера" id="406">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8620,30 +8552,26 @@
 																			</v8:item>
 																		</ToolTip>
 																		<Group>InCell</Group>
-																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаГруппаНоменклатураПоставщикаExtendedTooltip" id="1062"/>
+																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераГруппаНоменклатураПартнераРасширеннаяПодсказка" id="1062"/>
 																		<ChildItems>
-																			<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаНоменклатура" id="411">
-																				<DataPath>~СписокНоменклатураПоставщика.Номенклатура</DataPath>
+																			<LabelField name="СписокРасширенныйПоискНоменклатураПартнераНоменклатура" id="411">
 																				<Width>16</Width>
-																				<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаНоменклатураКонтекстноеМеню" id="412"/>
-																				<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаНоменклатураExtendedTooltip" id="1063"/>
+																				<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераНоменклатураКонтекстноеМеню" id="412"/>
+																				<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераНоменклатураРасширеннаяПодсказка" id="1063"/>
 																			</LabelField>
-																			<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаХарактеристика" id="413">
-																				<DataPath>~СписокНоменклатураПоставщика.Характеристика</DataPath>
+																			<LabelField name="СписокРасширенныйПоискНоменклатураПартнераХарактеристика" id="413">
 																				<Width>16</Width>
-																				<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаХарактеристикаКонтекстноеМеню" id="414"/>
-																				<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаХарактеристикаExtendedTooltip" id="1064"/>
+																				<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераХарактеристикаКонтекстноеМеню" id="414"/>
+																				<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераХарактеристикаРасширеннаяПодсказка" id="1064"/>
 																			</LabelField>
-																			<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаУпаковка" id="415">
-																				<DataPath>~СписокНоменклатураПоставщика.Упаковка</DataPath>
+																			<LabelField name="СписокРасширенныйПоискНоменклатураПартнераУпаковка" id="415">
 																				<Width>9</Width>
-																				<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаУпаковкаКонтекстноеМеню" id="416"/>
-																				<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаУпаковкаExtendedTooltip" id="1065"/>
+																				<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераУпаковкаКонтекстноеМеню" id="416"/>
+																				<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераУпаковкаРасширеннаяПодсказка" id="1065"/>
 																			</LabelField>
 																		</ChildItems>
 																	</ColumnGroup>
-																	<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаАртикул" id="407">
-																		<DataPath>~СписокНоменклатураПоставщика.Артикул</DataPath>
+																	<LabelField name="СписокРасширенныйПоискНоменклатураПартнераАртикул" id="407">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8652,21 +8580,20 @@
 																		</Title>
 																		<Width>10</Width>
 																		<HorizontalStretch>false</HorizontalStretch>
-																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаАртикулКонтекстноеМеню" id="408"/>
-																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаАртикулExtendedTooltip" id="1066"/>
+																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераАртикулКонтекстноеМеню" id="408"/>
+																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераАртикулРасширеннаяПодсказка" id="1066"/>
 																	</LabelField>
-																	<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаЦена" id="697">
-																		<DataPath>~СписокНоменклатураПоставщика.Цена</DataPath>
+																	<LabelField name="СписокРасширенныйПоискНоменклатураПартнераЦена" id="697">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Цена</v8:content>
 																			</v8:item>
 																		</Title>
-																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаЦенаКонтекстноеМеню" id="698"/>
-																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1068"/>
+																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераЦенаКонтекстноеМеню" id="698"/>
+																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераЦенаРасширеннаяПодсказка" id="1068"/>
 																	</LabelField>
-																	<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="427">
+																	<LabelField name="СписокРасширенныйПоискНоменклатураПартнераЕдиницаИзмерения" id="427">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8675,17 +8602,16 @@
 																		</Title>
 																		<Width>4</Width>
 																		<HorizontalStretch>false</HorizontalStretch>
-																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмеренияКонтекстноеМеню" id="428"/>
-																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмеренияExtendedTooltip" id="1069"/>
+																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераЕдиницаИзмеренияКонтекстноеМеню" id="428"/>
+																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераЕдиницаИзмеренияРасширеннаяПодсказка" id="1069"/>
 																	</LabelField>
-																	<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаСтавкаНДС" id="423">
-																		<DataPath>~СписокНоменклатураПоставщика.СтавкаНДС</DataPath>
+																	<LabelField name="СписокРасширенныйПоискНоменклатураПартнераСтавкаНДС" id="423">
 																		<UserVisible>
 																			<xr:Common>false</xr:Common>
 																		</UserVisible>
 																		<Width>9</Width>
-																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПоставщикаСтавкаНДСКонтекстноеМеню" id="424"/>
-																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаСтавкаНДСExtendedTooltip" id="1070"/>
+																		<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераСтавкаНДСКонтекстноеМеню" id="424"/>
+																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПартнераСтавкаНДСРасширеннаяПодсказка" id="1070"/>
 																	</LabelField>
 																</ChildItems>
 															</Table>
@@ -8714,7 +8640,6 @@
 												<ReadOnly>true</ReadOnly>
 												<ChangeRowSet>false</ChangeRowSet>
 												<ChangeRowOrder>false</ChangeRowOrder>
-												<Height>1</Height>
 												<AutoInsertNewRow>true</AutoInsertNewRow>
 												<EnableStartDrag>true</EnableStartDrag>
 												<EnableDrag>true</EnableDrag>
@@ -8778,20 +8703,26 @@
 											</Table>
 										</ChildItems>
 									</UsualGroup>
-									<UsualGroup name="НавигацияНоменклатураПоставщика" id="672">
+									<UsualGroup name="НавигацияНоменклатураПартнера" id="672">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Навигация</v8:content>
 											</v8:item>
 										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Навигация номенклатура партнера</v8:content>
+											</v8:item>
+										</ToolTip>
 										<Width>35</Width>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
-										<ExtendedTooltip name="НавигацияНоменклатураПоставщикаExtendedTooltip" id="1076"/>
+										<ExtendedTooltip name="НавигацияНоменклатураПартнераРасширеннаяПодсказка" id="1076"/>
 										<ChildItems>
-											<UsualGroup name="ГруппаФильтрНоменклатурыПоставщика" id="673">
+											<UsualGroup name="ГруппаФильтрНоменклатурыПартнера" id="673">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8801,18 +8732,17 @@
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
-												<ExtendedTooltip name="ГруппаФильтрНоменклатурыПоставщикаExtendedTooltip" id="1077"/>
+												<ExtendedTooltip name="ГруппаФильтрНоменклатурыПартнераРасширеннаяПодсказка" id="1077"/>
 												<ChildItems>
-													<CheckBoxField name="ИспользоватьФильтрНоменклатурыПоставщика" id="674">
-														<DataPath>ИспользоватьФильтрНоменклатураПоставщика</DataPath>
+													<CheckBoxField name="ИспользоватьФильтрНоменклатурыПартнера" id="674">
 														<TitleLocation>Right</TitleLocation>
 														<CheckBoxType>Auto</CheckBoxType>
-														<ContextMenu name="ИспользоватьФильтрНоменклатурыПоставщикаКонтекстноеМеню" id="675"/>
-														<ExtendedTooltip name="ИспользоватьФильтрНоменклатурыПоставщикаExtendedTooltip" id="1078"/>
+														<ContextMenu name="ИспользоватьФильтрНоменклатурыПартнераКонтекстноеМеню" id="675"/>
+														<ExtendedTooltip name="ИспользоватьФильтрНоменклатурыПартнераРасширеннаяПодсказка" id="1078"/>
 													</CheckBoxField>
 												</ChildItems>
 											</UsualGroup>
-											<UsualGroup name="НавигацияИерархияНоменклатурыПоставщика" id="679">
+											<UsualGroup name="НавигацияИерархияНоменклатурыПартнера" id="679">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8828,9 +8758,9 @@
 												<Group>Vertical</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
-												<ExtendedTooltip name="НавигацияИерархияНоменклатурыПоставщикаExtendedTooltip" id="1079"/>
+												<ExtendedTooltip name="НавигацияИерархияНоменклатурыПартнераРасширеннаяПодсказка" id="1079"/>
 												<ChildItems>
-													<Table name="ИерархияНоменклатурыПоставщика" id="680">
+													<Table name="ИерархияНоменклатурыПартнера" id="680">
 														<Representation>Tree</Representation>
 														<CommandBarLocation>None</CommandBarLocation>
 														<SkipOnInput>false</SkipOnInput>
@@ -8842,20 +8772,12 @@
 														<EnableStartDrag>true</EnableStartDrag>
 														<EnableDrag>true</EnableDrag>
 														<FileDragMode>AsFile</FileDragMode>
-														<DataPath>ИерархияНоменклатурыПоставщика</DataPath>
-														<RowPictureDataPath>ИерархияНоменклатурыПоставщика.DefaultPicture</RowPictureDataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Иерархия номенклатуры поставщика</v8:content>
 															</v8:item>
 														</Title>
-														<CommandSet>
-															<ExcludedCommand>CancelSearch</ExcludedCommand>
-															<ExcludedCommand>Find</ExcludedCommand>
-															<ExcludedCommand>ListSettings</ExcludedCommand>
-															<ExcludedCommand>OutputList</ExcludedCommand>
-														</CommandSet>
 														<AutoRefresh>false</AutoRefresh>
 														<AutoRefreshPeriod>60</AutoRefreshPeriod>
 														<Period>
@@ -8869,38 +8791,37 @@
 														<ShowRoot>true</ShowRoot>
 														<AllowRootChoice>true</AllowRootChoice>
 														<UpdateOnDataChange>Auto</UpdateOnDataChange>
-														<ContextMenu name="ИерархияНоменклатурыПоставщикаКонтекстноеМеню" id="681"/>
-														<AutoCommandBar name="ИерархияНоменклатурыПоставщикаКоманднаяПанель" id="682"/>
-														<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаExtendedTooltip" id="1080"/>
-														<SearchStringAddition name="ИерархияНоменклатурыПоставщикаСтрокаПоиска" id="1209">
+														<ContextMenu name="ИерархияНоменклатурыПартнераКонтекстноеМеню" id="681"/>
+														<AutoCommandBar name="ИерархияНоменклатурыПартнераКоманднаяПанель" id="682"/>
+														<ExtendedTooltip name="ИерархияНоменклатурыПартнераРасширеннаяПодсказка" id="1080"/>
+														<SearchStringAddition name="ИерархияНоменклатурыПартнераСтрокаПоиска" id="1209">
 															<AdditionSource>
-																<Item>ИерархияНоменклатурыПоставщика</Item>
+																<Item>ИерархияНоменклатурыПартнера</Item>
 																<Type>SearchStringRepresentation</Type>
 															</AdditionSource>
-															<ContextMenu name="ИерархияНоменклатурыПоставщикаСтрокаПоискаКонтекстноеМеню" id="1210"/>
-															<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаСтрокаПоискаРасширеннаяПодсказка" id="1211"/>
+															<ContextMenu name="ИерархияНоменклатурыПартнераСтрокаПоискаКонтекстноеМеню" id="1210"/>
+															<ExtendedTooltip name="ИерархияНоменклатурыПартнераСтрокаПоискаРасширеннаяПодсказка" id="1211"/>
 														</SearchStringAddition>
-														<ViewStatusAddition name="ИерархияНоменклатурыПоставщикаСостояниеПросмотра" id="1212">
+														<ViewStatusAddition name="ИерархияНоменклатурыПартнераСостояниеПросмотра" id="1212">
 															<AdditionSource>
-																<Item>ИерархияНоменклатурыПоставщика</Item>
+																<Item>ИерархияНоменклатурыПартнера</Item>
 																<Type>ViewStatusRepresentation</Type>
 															</AdditionSource>
-															<ContextMenu name="ИерархияНоменклатурыПоставщикаСостояниеПросмотраКонтекстноеМеню" id="1213"/>
-															<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаСостояниеПросмотраРасширеннаяПодсказка" id="1214"/>
+															<ContextMenu name="ИерархияНоменклатурыПартнераСостояниеПросмотраКонтекстноеМеню" id="1213"/>
+															<ExtendedTooltip name="ИерархияНоменклатурыПартнераСостояниеПросмотраРасширеннаяПодсказка" id="1214"/>
 														</ViewStatusAddition>
-														<SearchControlAddition name="ИерархияНоменклатурыПоставщикаУправлениеПоиском" id="1215">
+														<SearchControlAddition name="ИерархияНоменклатурыПартнераУправлениеПоиском" id="1215">
 															<AdditionSource>
-																<Item>ИерархияНоменклатурыПоставщика</Item>
+																<Item>ИерархияНоменклатурыПартнера</Item>
 																<Type>SearchControl</Type>
 															</AdditionSource>
-															<ContextMenu name="ИерархияНоменклатурыПоставщикаУправлениеПоискомКонтекстноеМеню" id="1216"/>
-															<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаУправлениеПоискомРасширеннаяПодсказка" id="1217"/>
+															<ContextMenu name="ИерархияНоменклатурыПартнераУправлениеПоискомКонтекстноеМеню" id="1216"/>
+															<ExtendedTooltip name="ИерархияНоменклатурыПартнераУправлениеПоискомРасширеннаяПодсказка" id="1217"/>
 														</SearchControlAddition>
 														<ChildItems>
-															<LabelField name="ИерархияНоменклатурыПоставщикаНаименование" id="683">
-																<DataPath>~ИерархияНоменклатурыПоставщика.Description</DataPath>
-																<ContextMenu name="ИерархияНоменклатурыПоставщикаНаименованиеКонтекстноеМеню" id="684"/>
-																<ExtendedTooltip name="ИерархияНоменклатурыПоставщикаНаименованиеExtendedTooltip" id="1081"/>
+															<LabelField name="ИерархияНоменклатурыПартнераНаименование" id="683">
+																<ContextMenu name="ИерархияНоменклатурыПартнераНаименованиеКонтекстноеМеню" id="684"/>
+																<ExtendedTooltip name="ИерархияНоменклатурыПартнераНаименованиеРасширеннаяПодсказка" id="1081"/>
 															</LabelField>
 														</ChildItems>
 													</Table>
@@ -9115,8 +9036,14 @@
 										<ContextMenu name="КорзинаНоменклатураТипНоменклатурыКонтекстноеМеню" id="741"/>
 										<ExtendedTooltip name="КорзинаНоменклатураТипНоменклатурыExtendedTooltip" id="1095"/>
 									</LabelField>
-									<InputField name="НоменклатураПоставщика" id="392">
-										<DataPath>1000001/0:f2b59838-c698-4747-b883-002e5ec128cf/0:1dd1d7c0-1f0f-4a55-96b4-f8e9d136aef9</DataPath>
+									<InputField name="НоменклатураПартнера" id="392">
+										<DataPath>Объект.Корзина.НоменклатураПартнера</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Номенклатура поставщика</v8:content>
+											</v8:item>
+										</Title>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>16</Width>
 										<DropListButton>true</DropListButton>
@@ -9128,8 +9055,8 @@
 											</xr:Link>
 										</ChoiceParameterLinks>
 										<ChoiceListButton>true</ChoiceListButton>
-										<ContextMenu name="НоменклатураПоставщикаКонтекстноеМеню" id="393"/>
-										<ExtendedTooltip name="НоменклатураПоставщикаExtendedTooltip" id="1096"/>
+										<ContextMenu name="НоменклатураПартнераКонтекстноеМеню" id="393"/>
+										<ExtendedTooltip name="НоменклатураПартнераРасширеннаяПодсказка" id="1096"/>
 									</InputField>
 									<InputField name="КорзинаНоменклатура" id="376">
 										<DataPath>Объект.Корзина.Номенклатура</DataPath>
@@ -9265,6 +9192,221 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Только в наличии из параметров</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="СписокНоменклатураПоставщика" id="1000014">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Список номенклатура поставщика</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<UseAlways>
+					<Field>~СписокНоменклатураПоставщика.ПометкаУдаления</Field>
+					<Field>~СписокНоменклатураПоставщика.Родитель</Field>
+					<Field>~СписокНоменклатураПоставщика.Ссылка</Field>
+					<Field>~СписокНоменклатураПоставщика.ЭтоГруппа</Field>
+					<Field>~СписокНоменклатураПоставщика.ЭтоТовар</Field>
+					<Field>~СписокНоменклатураПоставщика.ЭтоУслуга</Field>
+				</UseAlways>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>true</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>ВЫБРАТЬ
+	0 КАК ИндексКартинки,
+	СправочникНоменклатураПоставщиков.Ссылка КАК Ссылка,
+	СправочникНоменклатураПоставщиков.ПометкаУдаления КАК ПометкаУдаления,
+	СправочникНоменклатураПоставщиков.Предопределенный КАК Предопределенный,
+	СправочникНоменклатураПоставщиков.Владелец КАК Владелец,
+	СправочникНоменклатураПоставщиков.Родитель КАК Родитель,
+	СправочникНоменклатураПоставщиков.ЭтоГруппа КАК ЭтоГруппа,
+	СправочникНоменклатураПоставщиков.Код КАК Код,
+	СправочникНоменклатураПоставщиков.Наименование КАК Наименование,
+	СправочникНоменклатураПоставщиков.Номенклатура КАК Номенклатура,
+	СправочникНоменклатураПоставщиков.Номенклатура.ТипНоменклатуры КАК ТипНоменклатуры,
+	СправочникНоменклатураПоставщиков.Номенклатура.ИспользованиеХарактеристик КАК ИспользованиеХарактеристик,
+	СправочникНоменклатураПоставщиков.Номенклатура.НаименованиеПолное КАК НаименованиеПолное,
+	СправочникНоменклатураПоставщиков.Характеристика КАК Характеристика,
+	СправочникНоменклатураПоставщиков.Упаковка КАК Упаковка,
+	СправочникНоменклатураПоставщиков.Артикул КАК Артикул,
+	СправочникНоменклатураПоставщиков.Номенклатура.СтавкаНДС КАК СтавкаНДС,
+	ЛОЖЬ КАК ЭтоТовар,
+	ЛОЖЬ КАК ЭтоУслуга,
+	0 КАК Цена,
+	ЗНАЧЕНИЕ(Справочник.ВидыЦенПоставщиков.ПустаяСсылка) КАК ВидЦеныПоставщика
+ИЗ
+	Справочник.НоменклатураПоставщиков КАК СправочникНоменклатураПоставщиков</QueryText>
+					<MainTable>1:81b5d8e8-3029-413d-b2a9-61c524fe0baa</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ЭтоГруппа</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							</dcsset:item>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+						</dcsset:conditionalAppearance>
+						<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+						<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+			<Attribute name="НавигацияПоНоменклатуреПоставщика" id="1000046">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Навигация по номенклатуре поставщика</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ИспользоватьФильтрНоменклатураПоставщика" id="1000051">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Фильтр по иерархии</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ИерархияНоменклатурыПоставщика" id="1000052">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Иерархия номенклатуры поставщика</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<UseAlways>
+					<Field>~ИерархияНоменклатурыПоставщика.Description</Field>
+					<Field>~ИерархияНоменклатурыПоставщика.Parent</Field>
+					<Field>~ИерархияНоменклатурыПоставщика.Ref</Field>
+				</UseAlways>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>false</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<MainTable>1:81b5d8e8-3029-413d-b2a9-61c524fe0baa</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">ЭтоГруппа</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+							</dcsset:item>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+						<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+						<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+			<Attribute name="ТекущаяИерархияНоменклатурыПоставщика" id="1000053">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текущая иерархия номенклатуры поставщика</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="ТекущаяСтрокаНоменклатурыПоставщика" id="1000060">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текущая строка номенклатуры поставщика</v8:content>
+					</v8:item>
+				</Title>
+				<Type/>
+			</Attribute>
+			<Attribute name="ИспользоватьНоменклатуруПоставщиков" id="1000068">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Использовать номенклатуру поставщиков</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="СтрокаПоискаНоменклатураПоставщика" id="1000072">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Строка поиска по номенклатуре поставщика</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="ПоискНоменклатурыПоставщикаНеУдачный" id="1000075">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск номенклатуры поставщика не удачный</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="НайтиНоменклатуруПоставщикаПоТочномуСоответствию" id="1000077">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>По точному соответствию</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ЕстьЦеныНоменклатурыПоставщиковВБудущем" id="1000085">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Есть цены номенклатуры поставщиков в будущем</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -9606,77 +9748,6 @@
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
-			</Attribute>
-			<Attribute name="СписокНоменклатураПоставщика" id="1000014">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Список номенклатура поставщика</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>cfg:DynamicList</v8:Type>
-				</Type>
-				<UseAlways>
-					<Field>~СписокНоменклатураПоставщика.ПометкаУдаления</Field>
-					<Field>~СписокНоменклатураПоставщика.Родитель</Field>
-					<Field>~СписокНоменклатураПоставщика.Ссылка</Field>
-					<Field>~СписокНоменклатураПоставщика.ЭтоГруппа</Field>
-					<Field>~СписокНоменклатураПоставщика.ЭтоТовар</Field>
-					<Field>~СписокНоменклатураПоставщика.ЭтоУслуга</Field>
-				</UseAlways>
-				<FunctionalOptions>
-					<Item>8488dc0d-f19a-453e-8e93-89685761cdc2</Item>
-				</FunctionalOptions>
-				<Settings xsi:type="DynamicList">
-					<ManualQuery>true</ManualQuery>
-					<DynamicDataRead>true</DynamicDataRead>
-					<QueryText>ВЫБРАТЬ
-	0 КАК ИндексКартинки,
-	СправочникНоменклатураПоставщиков.Ссылка КАК Ссылка,
-	СправочникНоменклатураПоставщиков.ПометкаУдаления КАК ПометкаУдаления,
-	СправочникНоменклатураПоставщиков.Предопределенный КАК Предопределенный,
-	СправочникНоменклатураПоставщиков.Владелец КАК Владелец,
-	СправочникНоменклатураПоставщиков.Родитель КАК Родитель,
-	СправочникНоменклатураПоставщиков.ЭтоГруппа КАК ЭтоГруппа,
-	СправочникНоменклатураПоставщиков.Код КАК Код,
-	СправочникНоменклатураПоставщиков.Наименование КАК Наименование,
-	СправочникНоменклатураПоставщиков.Номенклатура КАК Номенклатура,
-	СправочникНоменклатураПоставщиков.Номенклатура.ТипНоменклатуры КАК ТипНоменклатуры,
-	СправочникНоменклатураПоставщиков.Номенклатура.ИспользованиеХарактеристик КАК ИспользованиеХарактеристик,
-	СправочникНоменклатураПоставщиков.Номенклатура.НаименованиеПолное КАК НаименованиеПолное,
-	СправочникНоменклатураПоставщиков.Характеристика КАК Характеристика,
-	СправочникНоменклатураПоставщиков.Упаковка КАК Упаковка,
-	СправочникНоменклатураПоставщиков.Артикул КАК Артикул,
-	СправочникНоменклатураПоставщиков.Номенклатура.СтавкаНДС КАК СтавкаНДС,
-	ЛОЖЬ КАК ЭтоТовар,
-	ЛОЖЬ КАК ЭтоУслуга,
-	0 КАК Цена,
-	ЗНАЧЕНИЕ(Справочник.ВидыЦенПоставщиков.ПустаяСсылка) КАК ВидЦеныПоставщика
-ИЗ
-	Справочник.НоменклатураПоставщиков КАК СправочникНоменклатураПоставщиков</QueryText>
-					<MainTable>1:81b5d8e8-3029-413d-b2a9-61c524fe0baa</MainTable>
-					<ListSettings>
-						<dcsset:filter>
-							<dcsset:item xsi:type="dcsset:FilterItemComparison">
-								<dcsset:left xsi:type="dcscor:Field">ЭтоГруппа</dcsset:left>
-								<dcsset:comparisonType>Equal</dcsset:comparisonType>
-								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-							</dcsset:item>
-							<dcsset:viewMode>Normal</dcsset:viewMode>
-							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
-						</dcsset:filter>
-						<dcsset:order>
-							<dcsset:viewMode>Normal</dcsset:viewMode>
-							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
-						</dcsset:order>
-						<dcsset:conditionalAppearance>
-							<dcsset:viewMode>Normal</dcsset:viewMode>
-						</dcsset:conditionalAppearance>
-						<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-						<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
-					</ListSettings>
-				</Settings>
 			</Attribute>
 			<Attribute name="ПеренестиВДокумент" id="1000015">
 				<Title>
@@ -10429,17 +10500,6 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="НавигацияПоНоменклатуреПоставщика" id="1000046">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Навигация по номенклатуре поставщика</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
 			<Attribute name="КодОшибкиПоиска" id="1000047">
 				<Title>
 					<v8:item>
@@ -10486,70 +10546,6 @@
 						<v8:Length>0</v8:Length>
 						<v8:AllowedLength>Variable</v8:AllowedLength>
 					</v8:StringQualifiers>
-				</Type>
-			</Attribute>
-			<Attribute name="ИспользоватьФильтрНоменклатураПоставщика" id="1000051">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Фильтр по иерархии</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="ИерархияНоменклатурыПоставщика" id="1000052">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Иерархия номенклатуры поставщика</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>cfg:DynamicList</v8:Type>
-				</Type>
-				<UseAlways>
-					<Field>~ИерархияНоменклатурыПоставщика.Description</Field>
-					<Field>~ИерархияНоменклатурыПоставщика.Parent</Field>
-					<Field>~ИерархияНоменклатурыПоставщика.Ref</Field>
-				</UseAlways>
-				<Settings xsi:type="DynamicList">
-					<ManualQuery>false</ManualQuery>
-					<DynamicDataRead>true</DynamicDataRead>
-					<MainTable>1:81b5d8e8-3029-413d-b2a9-61c524fe0baa</MainTable>
-					<ListSettings>
-						<dcsset:filter>
-							<dcsset:item xsi:type="dcsset:FilterItemComparison">
-								<dcsset:left xsi:type="dcscor:Field">ЭтоГруппа</dcsset:left>
-								<dcsset:comparisonType>Equal</dcsset:comparisonType>
-								<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
-							</dcsset:item>
-							<dcsset:viewMode>Normal</dcsset:viewMode>
-							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
-						</dcsset:filter>
-						<dcsset:order>
-							<dcsset:viewMode>Normal</dcsset:viewMode>
-							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
-						</dcsset:order>
-						<dcsset:conditionalAppearance>
-							<dcsset:viewMode>Normal</dcsset:viewMode>
-							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
-						</dcsset:conditionalAppearance>
-						<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-						<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
-					</ListSettings>
-				</Settings>
-			</Attribute>
-			<Attribute name="ТекущаяИерархияНоменклатурыПоставщика" id="1000053">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Текущая иерархия номенклатуры поставщика</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:TypeId>72bcac30-053b-482a-beda-295b50992ff6</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="ОтборЦенаОтПоставщика" id="1000054">
@@ -10633,15 +10629,6 @@
 						<v8:AllowedSign>Any</v8:AllowedSign>
 					</v8:NumberQualifiers>
 				</Type>
-			</Attribute>
-			<Attribute name="ТекущаяСтрокаНоменклатурыПоставщика" id="1000060">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Текущая строка номенклатуры поставщика</v8:content>
-					</v8:item>
-				</Title>
-				<Type/>
 			</Attribute>
 			<Attribute name="СкрыватьРучныеСкидки" id="1000061">
 				<Title>
@@ -10955,17 +10942,6 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИспользоватьНоменклатуруПоставщиков" id="1000068">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Использовать номенклатуру поставщиков</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
 			<Attribute name="ВариантПоискаТоваров" id="1000069">
 				<Title>
 					<v8:item>
@@ -11007,21 +10983,6 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="СтрокаПоискаНоменклатураПоставщика" id="1000072">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Строка поиска по номенклатуре поставщика</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>0</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
-				</Type>
-			</Attribute>
 			<Attribute name="ПоискНоменклатурыНеУдачный" id="1000073">
 				<Title>
 					<v8:item>
@@ -11044,29 +11005,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ПоискНоменклатурыПоставщикаНеУдачный" id="1000075">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Поиск номенклатуры поставщика не удачный</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
 			<Attribute name="НайтиХарактеристикиПоТочномуСоответствию" id="1000076">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>По точному соответствию</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="НайтиНоменклатуруПоставщикаПоТочномуСоответствию" id="1000077">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11143,17 +11082,6 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЕстьЦеныНоменклатурыПоставщиковВБудущем" id="1000085">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Есть цены номенклатуры поставщиков в будущем</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
 			<Attribute name="ИспользоватьРасширеннуюФормуПодбораКоличестваИВариантовОбеспечения" id="1000086">
 				<Title>
 					<v8:item>
@@ -11192,7 +11120,23 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="ПеренестиВДокумент" id="1000001">
+			<Command name="УстановитьТекущийЭлементНоменклатураПоставщика" id="1000009">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Перейти к списку номенклатуры поставщика</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Перейти к списку номенклатуры поставщика</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Shortcut>Alt+5</Shortcut>
+				<CurrentRowUse>DontUse</CurrentRowUse>
+			</Command>
+			<Command name="ПеренестиВДокумент" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11207,7 +11151,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЦеныНоменклатуры" id="1000002">
+			<Command name="ЦеныНоменклатуры" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11227,7 +11171,7 @@
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодборПерейтиКСпискуНоменклатурыРасширенныйПоиск" id="1000003">
+			<Command name="ПодборПерейтиКСпискуНоменклатурыРасширенныйПоиск" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11250,7 +11194,7 @@
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ИзменитьЗапрашиватьКоличество" id="1000004">
+			<Command name="ИзменитьЗапрашиватьКоличество" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11265,7 +11209,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьТекущийЭлементНавигация" id="1000005">
+			<Command name="УстановитьТекущийЭлементНавигация" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11281,7 +11225,7 @@
 				<Shortcut>Alt+2</Shortcut>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьТекущийЭлементСтрокаПоиска" id="1000006">
+			<Command name="УстановитьТекущийЭлементСтрокаПоиска" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11297,7 +11241,7 @@
 				<Shortcut>Alt+1</Shortcut>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьТекущийЭлементКорзина" id="1000007">
+			<Command name="УстановитьТекущийЭлементКорзина" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11313,7 +11257,7 @@
 				<Shortcut>Alt+4</Shortcut>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьТекущийЭлементСписокТоваров" id="1000008">
+			<Command name="УстановитьТекущийЭлементСписокТоваров" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11329,23 +11273,7 @@
 				<Shortcut>Alt+3</Shortcut>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьТекущийЭлементНоменклатураПоставщика" id="1000009">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Перейти к списку номенклатуры поставщика</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Перейти к списку номенклатуры поставщика</v8:content>
-					</v8:item>
-				</ToolTip>
-				<Shortcut>Alt+5</Shortcut>
-				<CurrentRowUse>DontUse</CurrentRowUse>
-			</Command>
-			<Command name="Найти" id="1000010">
+			<Command name="Найти" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11365,7 +11293,7 @@
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьКарточкуТовара" id="1000011">
+			<Command name="ОткрытьКарточкуТовара" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11384,7 +11312,7 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьНовуюНоменклатуру" id="1000012">
+			<Command name="СоздатьНовуюНоменклатуру" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11399,7 +11327,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьНовуюХарактеристику" id="1000013">
+			<Command name="СоздатьНовуюХарактеристику" id="1000021">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11414,7 +11342,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ТоварыДругогоКачества" id="1000014">
+			<Command name="ТоварыДругогоКачества" id="1000022">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11436,7 +11364,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СброситьОтборыПоСвойствам" id="1000015">
+			<Command name="СброситьОтборыПоСвойствам" id="1000023">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11456,7 +11384,7 @@
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НастроитьПоиск" id="1000016">
+			<Command name="НастроитьПоиск" id="1000024">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11471,7 +11399,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодборПерейтиКСпискуНоменклатурыСтандартныйПоиск" id="1000017">
+			<Command name="ПодборПерейтиКСпискуНоменклатурыСтандартныйПоиск" id="1000025">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11491,7 +11419,7 @@
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НоменклатураСАналогичнымиСвойствами" id="1000018">
+			<Command name="НоменклатураСАналогичнымиСвойствами" id="1000026">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -11510,7 +11438,7 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ИзменитьВариантНавигации" id="1000019">
+			<Command name="ИзменитьВариантНавигации" id="1000027">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>

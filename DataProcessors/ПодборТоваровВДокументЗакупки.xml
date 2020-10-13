@@ -176,6 +176,18 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="031bfc0f-fe5b-4359-833e-fe73c456971a">
+						<InternalInfo/>
+						<Properties>
+							<Name>НоменклатураПартнера</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>b7af54d8-41b6-4049-9e03-dba13f11e51e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.НоменклатураКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<Form>Форма</Form>

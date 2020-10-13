@@ -47,7 +47,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.14</Version>
+			<Version>1.15</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -71,6 +71,8 @@
 			<CommonPicture>ЗаполнитьЦеныПоСоглашению</CommonPicture>
 			<CommonPicture>СостояниеНоменклатурыПродаваемойСовместно</CommonPicture>
 			<CommonModule>ПодборТоваровСервер</CommonModule>
+			<CommonModule>ПодборТоваровКлиент</CommonModule>
+			<CommonModule>ПодборТоваровВызовСервера</CommonModule>
 			<FunctionalOption>ИспользоватьСегментыНоменклатуры</FunctionalOption>
 			<FunctionalOption>ИспользоватьКачествоТоваров</FunctionalOption>
 			<FunctionalOption>ИспользоватьХарактеристикиНоменклатуры</FunctionalOption>
@@ -106,6 +108,7 @@
 			<Catalog>Назначения</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
+			<Catalog>НоменклатураКонтрагентов</Catalog>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
 			<Enum>СпособыФормированияСегментов</Enum>
 			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>
