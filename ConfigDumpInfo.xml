@@ -33,8 +33,6 @@
 		<Metadata name="Catalog.ЦеновыеГруппы" id="8e260bed-da5d-47f5-b0e4-280b3733661d" configVersion="ee909a153efe085a6242329f2829f6ce60c00da1"/>
 		<Metadata name="CommonModule.ПодборТоваровВызовСервера" id="300afbcf-bc2d-4790-ae18-9c1e9509ef88" configVersion="96ed1f3dcc7ed9e652eb8dc241f786b5fa115185"/>
 		<Metadata name="CommonModule.ПодборТоваровВызовСервера.Module" id="300afbcf-bc2d-4790-ae18-9c1e9509ef88.0" configVersion="cc8b6afcd87d0fc53ce05baca743003c429bae8b"/>
-		<Metadata name="CommonModule.ПодборТоваровКлиент" id="e480f711-f5e3-48f1-b78c-661bedef1b4b" configVersion="f1affb533be0efbed10bc3e8469bfdf288654964"/>
-		<Metadata name="CommonModule.ПодборТоваровКлиент.Module" id="e480f711-f5e3-48f1-b78c-661bedef1b4b.0" configVersion="382cc84d6b232e006cab90806211c8a8f315b0c2"/>
 		<Metadata name="CommonModule.ПодборТоваровСервер" id="e5ad1e84-5f91-47d3-ab18-2a6c15b9813b" configVersion="2d2dae4824c84736d54aea3177503925b34969b1"/>
 		<Metadata name="CommonModule.ПодборТоваровСервер.Module" id="e5ad1e84-5f91-47d3-ab18-2a6c15b9813b.0" configVersion="d67758f10b5ef0b70aa9917592346471550d46d6"/>
 		<Metadata name="CommonPicture.ЗаполнитьЦеныВыделенныхСтрокПоВидуЦен" id="4f6be206-d06f-49c7-9d26-c8bd2a5925c8" configVersion="94c15ad78a30f23c9a374d6337452b6924f341d8"/>
@@ -49,7 +47,7 @@
 		<Metadata name="CommonPicture.ФильтрПоВидамИСвойствамНоменклатуры" id="9de74f3b-b579-453c-b579-d3aa16bdd9bb" configVersion="dd6d5649b44638a981455ba1a4b64c3f6908c3d5"/>
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="adf0375d-de24-482c-add6-6895c70656c5" configVersion="4a2061e49303ccac5037928edd457a577af071ec"/>
 		<Metadata name="CommonPicture.ФильтрПоТоварамДругогоКачества" id="f5108b89-fca8-4eb0-b542-cb60904ecdff" configVersion="2254b37df887345f08505ded14cce42a516a652e"/>
-		<Metadata name="Configuration.ПодборТоваров" id="73ac66f4-50bc-43a7-8375-28e7834a5456" configVersion="9c7807b292827e12225104e622aecacaaf61794e"/>
+		<Metadata name="Configuration.ПодборТоваров" id="73ac66f4-50bc-43a7-8375-28e7834a5456" configVersion="956f41ca1897be255f48b928b1978026e36edae1"/>
 		<Metadata name="Constant.ИспользоватьКачествоТоваров" id="b82bb0ff-f015-4533-8329-6c93d6707283" configVersion="237d86fc16aed17294fd6985c75449d03a984525"/>
 		<Metadata name="Constant.ИспользоватьНаборы" id="933c92dd-f912-4586-b4f9-9bc323412173" configVersion="f40b4cea0551fd00336a63b695e00ce72b80adfa"/>
 		<Metadata name="Constant.ИспользоватьНоменклатуруПродаваемуюСовместно" id="9a222f07-b45e-4c3b-a137-ae30a5566a38" configVersion="9645ff802f4c7eac2cc3a75941a9283f850c1f86"/>

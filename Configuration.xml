@@ -71,7 +71,6 @@
 			<CommonPicture>ЗаполнитьЦеныПоСоглашению</CommonPicture>
 			<CommonPicture>СостояниеНоменклатурыПродаваемойСовместно</CommonPicture>
 			<CommonModule>ПодборТоваровСервер</CommonModule>
-			<CommonModule>ПодборТоваровКлиент</CommonModule>
 			<CommonModule>ПодборТоваровВызовСервера</CommonModule>
 			<FunctionalOption>ИспользоватьСегментыНоменклатуры</FunctionalOption>
 			<FunctionalOption>ИспользоватьКачествоТоваров</FunctionalOption>
