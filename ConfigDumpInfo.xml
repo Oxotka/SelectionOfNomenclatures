@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.9.1">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
 	<ConfigVersions>
 		<Metadata name="Catalog.Валюты" id="f5aafb55-0b61-4541-bb94-640a21b42ad2" configVersion="5ec11baefea1ea91c011c095c88fa7b150d82233"/>
 		<Metadata name="Catalog.ВидыНоменклатуры" id="fec6d429-f579-40a7-a916-00dcc8571dd0" configVersion="c34bdc11aaa8c39d7635e3fcce47c929fbc8de28"/>
@@ -47,7 +47,7 @@
 		<Metadata name="CommonPicture.ФильтрПоВидамИСвойствамНоменклатуры" id="9de74f3b-b579-453c-b579-d3aa16bdd9bb" configVersion="dd6d5649b44638a981455ba1a4b64c3f6908c3d5"/>
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="adf0375d-de24-482c-add6-6895c70656c5" configVersion="4a2061e49303ccac5037928edd457a577af071ec"/>
 		<Metadata name="CommonPicture.ФильтрПоТоварамДругогоКачества" id="f5108b89-fca8-4eb0-b542-cb60904ecdff" configVersion="2254b37df887345f08505ded14cce42a516a652e"/>
-		<Metadata name="Configuration.ПодборТоваров" id="73ac66f4-50bc-43a7-8375-28e7834a5456" configVersion="956f41ca1897be255f48b928b1978026e36edae1"/>
+		<Metadata name="Configuration.ПодборТоваров" id="73ac66f4-50bc-43a7-8375-28e7834a5456" configVersion="072a07265632993e022cbc107111542c79d41057"/>
 		<Metadata name="Constant.ИспользоватьКачествоТоваров" id="b82bb0ff-f015-4533-8329-6c93d6707283" configVersion="237d86fc16aed17294fd6985c75449d03a984525"/>
 		<Metadata name="Constant.ИспользоватьНаборы" id="933c92dd-f912-4586-b4f9-9bc323412173" configVersion="f40b4cea0551fd00336a63b695e00ce72b80adfa"/>
 		<Metadata name="Constant.ИспользоватьНоменклатуруПродаваемуюСовместно" id="9a222f07-b45e-4c3b-a137-ae30a5566a38" configVersion="9645ff802f4c7eac2cc3a75941a9283f850c1f86"/>
@@ -71,8 +71,8 @@
 			<Metadata name="DataProcessor.ПодборТоваровВДокументЗакупки.Attribute.ЦенаВключаетНДС" id="ee4787a7-4c59-4a70-98ad-4515f3d0c207"/>
 			<Metadata name="DataProcessor.ПодборТоваровВДокументЗакупки.TabularSection.Корзина" id="f2b59838-c698-4747-b883-002e5ec128cf"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ПодборТоваровВДокументЗакупки.Form.Форма" id="2c0baec2-3ec5-473f-9602-ab261126130a" configVersion="e069552eb2b5f76eb806e0ad4dc5b0c834c69fb8"/>
-		<Metadata name="DataProcessor.ПодборТоваровВДокументЗакупки.Form.Форма.Form" id="2c0baec2-3ec5-473f-9602-ab261126130a.0" configVersion="fd5a1da210b5f56f21d5328e603827d75cf8350c"/>
+		<Metadata name="DataProcessor.ПодборТоваровВДокументЗакупки.Form.Форма" id="2c0baec2-3ec5-473f-9602-ab261126130a" configVersion="ff98fe513b6bee3443bf8ad4c4f06d0bbcbd0192"/>
+		<Metadata name="DataProcessor.ПодборТоваровВДокументЗакупки.Form.Форма.Form" id="2c0baec2-3ec5-473f-9602-ab261126130a.0" configVersion="ad546381b264e59361b72e88f0dae4b93a55220c"/>
 		<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи" id="2bf7fd32-805d-4b1a-9837-6b3232f9ebc5" configVersion="12dc780e5d87c7c364e4a0d12ba90c9a52c9343a">
 			<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.TabularSection.Корзина.Attribute.ВидЦены" id="0460b219-c9ea-428b-a9c6-18acc6ef5bf5"/>
 			<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.TabularSection.Корзина.Attribute.СуммаРучнойСкидки" id="5fa9a926-10f5-426d-b091-0be2a61cda00"/>
@@ -92,8 +92,8 @@
 			<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.TabularSection.Корзина.Attribute.Склад" id="eed8a31c-7353-4e76-8b84-14fb3551e704"/>
 			<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.TabularSection.Корзина.Attribute.КоличествоУпаковок" id="f2ec767f-7c28-4d59-9266-b3cdf474a5e7"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.Form.Форма" id="4f787d44-b51e-4637-9c65-880e974195f3" configVersion="817e882da9955789be5ea59f20f027817f3e568a"/>
-		<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.Form.Форма.Form" id="4f787d44-b51e-4637-9c65-880e974195f3.0" configVersion="ec1bd999edd85ad2f2456e2a9ac3afaf76cff786"/>
+		<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.Form.Форма" id="4f787d44-b51e-4637-9c65-880e974195f3" configVersion="b14265d11c710bd16c3f4e9bfd995b6ae437e150"/>
+		<Metadata name="DataProcessor.ПодборТоваровВДокументПродажи.Form.Форма.Form" id="4f787d44-b51e-4637-9c65-880e974195f3.0" configVersion="0fda45b66464136a5ba6e5fd361a6a0a75b70c1f"/>
 		<Metadata name="DefinedType.ДенежнаяСуммаЛюбогоЗнака" id="a0d7cdc0-33f3-4e50-8a0a-1749aa746f3d" configVersion="f1970ff3ce561e347b0c643b6450576eed83e348"/>
 		<Metadata name="DefinedType.ДенежнаяСуммаНеотрицательная" id="13466c2a-28a1-4e08-afcb-ced93a6d540e" configVersion="7f56e2df457f0da7e16488972da4d8c9bf8de7e5"/>
 		<Metadata name="Enum.ВариантыАнализаНоменклатурыПродаваемойСовместно" id="4684f4d7-de08-4307-86d6-f177b9c3b22e" configVersion="cb20fb8923ea2bd99379572f78ee782a377b80bd"/>
