@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.17</Version>
+			<Version>1.18</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -112,6 +112,7 @@
 			<Catalog>Организации</Catalog>
 			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
 			<Catalog>НоменклатураКонтрагентов</Catalog>
+			<Catalog>СтавкиНДС</Catalog>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
 			<Enum>СпособыФормированияСегментов</Enum>
 			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>

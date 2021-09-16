@@ -109,17 +109,6 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="97993d89-b390-4969-8140-1b9c0514b2ed">
-				<InternalInfo/>
-				<Properties>
-					<Name>СтавкаНДС</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:EnumRef.СтавкиНДС</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
 			<Attribute uuid="3fa237da-4452-4881-9c4e-59e193460426">
 				<InternalInfo/>
 				<Properties>
