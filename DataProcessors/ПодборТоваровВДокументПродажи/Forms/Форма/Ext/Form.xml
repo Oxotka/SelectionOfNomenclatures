@@ -4733,17 +4733,6 @@
 				<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИспользоватьРасширеннуюФормуПодбораКоличестваИВариантовОбеспечения" id="1000086">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Использовать расширенную форму подбора количества и вариантов обеспечения</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="ПараметрыУказанияСерий" id="1000087">
 			<Title>
 				<v8:item>
@@ -10398,17 +10387,6 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отображать остатки на складах</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="ИспользоватьРасширеннуюФормуПодбораКоличестваИВариантовОбеспечения" id="1000087">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Использовать расширенную форму подбора количества и вариантов обеспечения</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
