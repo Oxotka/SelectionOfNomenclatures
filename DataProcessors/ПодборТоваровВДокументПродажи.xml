@@ -227,6 +227,18 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="3f28b2a8-73c8-461e-975f-dd1eece754ed">
+						<InternalInfo/>
+						<Properties>
+							<Name>Обособленно</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>3882974c-ee67-4020-a724-e790267ba3ca</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<Form>Форма</Form>
