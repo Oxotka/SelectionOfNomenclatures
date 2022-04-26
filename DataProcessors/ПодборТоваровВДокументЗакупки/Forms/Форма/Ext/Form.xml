@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -23,6 +23,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКоманднаяПанельФормыExtendedTooltip" id="879"/>
@@ -229,6 +230,7 @@
 			</Title>
 			<Height>12</Height>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаРазделыExtendedTooltip" id="899"/>
@@ -240,6 +242,7 @@
 							<v8:content>Страницы</v8:content>
 						</v8:item>
 					</Title>
+					<PagesRepresentation>TabsOnTop</PagesRepresentation>
 					<ExtendedTooltip name="СтраницыExtendedTooltip" id="900"/>
 					<ChildItems>
 						<Page name="СтраницаНоменклатура" id="397">
@@ -261,6 +264,7 @@
 									</Title>
 									<Height>5</Height>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНайденныеТоварыExtendedTooltip" id="902"/>
@@ -824,6 +828,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="РасширенныйПоискНоменклатураExtendedTooltip" id="950"/>
@@ -1190,6 +1195,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="РасширенныйПоискХарактеристикаExtendedTooltip" id="977"/>
@@ -1572,6 +1578,7 @@
 									</Title>
 									<Width>35</Width>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НавигацияExtendedTooltip" id="1001"/>
@@ -1584,6 +1591,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаФильтрыНоменклатурыExtendedTooltip" id="1002"/>
@@ -2196,6 +2204,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаФильтрПоЦенеExtendedTooltip" id="1024"/>
@@ -2336,6 +2345,7 @@
 									</Title>
 									<Height>5</Height>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНайденныеТоварыПартнераРасширеннаяПодсказка" id="1523"/>
@@ -2571,6 +2581,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="РасширенныйПоискНоменклатураПартнераРасширеннаяПодсказка" id="1563"/>
@@ -2887,6 +2898,7 @@
 									</Title>
 									<Width>35</Width>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НавигацияНоменклатураПартнераРасширеннаяПодсказка" id="1524"/>
@@ -2899,6 +2911,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаФильтрНоменклатурыПартнераРасширеннаяПодсказка" id="1602"/>
@@ -2925,6 +2938,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="НавигацияИерархияНоменклатурыПартнераРасширеннаяПодсказка" id="1603"/>
@@ -3005,6 +3019,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаФильтрПоЦенеПоставщикаExtendedTooltip" id="1082"/>
@@ -3079,6 +3094,7 @@
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="1368"/>
@@ -3092,6 +3108,7 @@
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПодобранныеТоварыРасширеннаяПодсказка" id="1295"/>
@@ -3105,6 +3122,7 @@
 							</Title>
 							<Height>1</Height>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаИнформацияExtendedTooltip" id="1088"/>
@@ -3146,6 +3164,7 @@
 							</Title>
 							<Height>7</Height>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ОбластьПодобранныеТоварыExtendedTooltip" id="1092"/>
@@ -5883,7 +5902,7 @@
 			</Type>
 		</Parameter>
 	</Parameters>
-	<BaseForm version="2.10">
+	<BaseForm version="2.13">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -5904,6 +5923,7 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаКоманднаяПанельФормыExtendedTooltip" id="879"/>
@@ -6110,6 +6130,7 @@
 				</Title>
 				<Height>12</Height>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаРазделыExtendedTooltip" id="899"/>
@@ -6121,6 +6142,7 @@
 								<v8:content>Страницы</v8:content>
 							</v8:item>
 						</Title>
+						<PagesRepresentation>TabsOnTop</PagesRepresentation>
 						<ExtendedTooltip name="СтраницыExtendedTooltip" id="900"/>
 						<ChildItems>
 							<Page name="СтраницаНоменклатура" id="397">
@@ -6142,6 +6164,7 @@
 										</Title>
 										<Height>5</Height>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаНайденныеТоварыExtendedTooltip" id="902"/>
@@ -6699,6 +6722,7 @@
 																	</v8:item>
 																</Title>
 																<Group>Horizontal</Group>
+																<Behavior>Usual</Behavior>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="РасширенныйПоискНоменклатураExtendedTooltip" id="950"/>
@@ -7056,6 +7080,7 @@
 																	</v8:item>
 																</Title>
 																<Group>Horizontal</Group>
+																<Behavior>Usual</Behavior>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="РасширенныйПоискХарактеристикаExtendedTooltip" id="977"/>
@@ -7432,6 +7457,7 @@
 										</Title>
 										<Width>35</Width>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="НавигацияExtendedTooltip" id="1001"/>
@@ -7444,6 +7470,7 @@
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаФильтрыНоменклатурыExtendedTooltip" id="1002"/>
@@ -8047,6 +8074,7 @@
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаФильтрПоЦенеExtendedTooltip" id="1024"/>
@@ -8169,6 +8197,7 @@
 										</Title>
 										<Height>5</Height>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаНайденныеТоварыПартнераРасширеннаяПодсказка" id="1033"/>
@@ -8404,6 +8433,7 @@
 																	</v8:item>
 																</Title>
 																<Group>Horizontal</Group>
+																<Behavior>Usual</Behavior>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="РасширенныйПоискНоменклатураПартнераExtendedTooltip" id="1053"/>
@@ -8720,6 +8750,7 @@
 										</Title>
 										<Width>35</Width>
 										<Group>Vertical</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="НавигацияНоменклатураПартнераExtendedTooltip" id="1076"/>
@@ -8732,6 +8763,7 @@
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаФильтрНоменклатурыПартнераExtendedTooltip" id="1077"/>
@@ -8758,6 +8790,7 @@
 													</v8:item>
 												</ToolTip>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="НавигацияИерархияНоменклатурыПартнераExtendedTooltip" id="1079"/>
@@ -8838,6 +8871,7 @@
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаФильтрПоЦенеПоставщикаExtendedTooltip" id="1082"/>
@@ -8912,6 +8946,7 @@
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаПодобранныеТоварыРасширеннаяПодсказка" id="1295"/>
@@ -8925,6 +8960,7 @@
 						</Title>
 						<Height>1</Height>
 						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаИнформацияExtendedTooltip" id="1088"/>
@@ -8966,6 +9002,7 @@
 						</Title>
 						<Height>7</Height>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ОбластьПодобранныеТоварыExtendedTooltip" id="1092"/>
